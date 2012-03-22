@@ -1,0 +1,293 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ictranslate.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ictranslate.ico"
+IDI_NONEXISTENT_ICON    ICON                    "res\\icon_nonexistent.ico"
+IDI_VALID_ICON          ICON                    "res\\icon_valid.ico"
+IDI_INVALID_ICON        ICON                    "res\\icon_invalid.ico"
+IDI_OVERFLUOUS_ICON     ICON                    "res\\icon_overfluous.ico"
+IDI_WARNING_ICON        ICON                    "res\\icon_warning.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New translation...\tCtrl+N", ID_FILE_NEWTRANSLATION
+        MENUITEM "&Open base translation...\tCtrl+O", ID_FILE_OPENBASETRANSLATION
+        MENUITEM "Open your translation...\tCtrl+T", ID_FILE_OPENYOURTRANSLATION
+        MENUITEM "&Save translation\tCtrl+S",   ID_FILE_SAVETRANSLATION
+        MENUITEM "S&ave translation as...",     ID_FILE_SAVETRANSLATIONAS
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Cleanup translation",        ID_EDIT_CLEANUP_TRANSLATION
+        MENUITEM SEPARATOR
+        MENUITEM "&Previous to translate\tCtrl+Up", ID_EDIT_PREVIOUS_TO_TRANSLATE
+        MENUITEM "&Next to translate\tCtrl+Down", ID_EDIT_NEXT_TO_TRANSLATE
+        MENUITEM "&Apply change",               ID_EDIT_APPLY_CHANGE
+        MENUITEM "Apply&&next to t&ranslate\tCtrl+Enter", ID_EDIT_APPLY_AND_NEXT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS 
+BEGIN
+    VK_DOWN,        ID_EDIT_NEXT_TO_TRANSLATE, VIRTKEY, CONTROL, NOINVERT
+    VK_RETURN,      ID_EDIT_APPLY_AND_NEXT, VIRTKEY, CONTROL, NOINVERT
+    "^S",           ID_FILE_SAVETRANSLATION, ASCII, NOINVERT
+    "^N",           ID_FILE_NEWTRANSLATION, ASCII,  NOINVERT
+    VK_UP,          ID_EDIT_PREVIOUS_TO_TRANSLATE, VIRTKEY, CONTROL, NOINVERT
+    "^O",           ID_FILE_OPENBASETRANSLATION, ASCII, NOINVERT
+    "^T",           ID_FILE_OPENYOURTRANSLATION, ASCII, NOINVERT
+END
+
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ictranslate"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "ictranslate, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_ICTRANSLATE_DIALOG DIALOGEX 0, 0, 547, 335
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ICTranslate"
+MENU IDR_MAIN_MENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SRC_FILENAME_EDIT,69,7,201,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SRC_AUTHOR_EDIT,69,22,201,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SRC_LANGUAGE_NAME_EDIT,69,37,201,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SRC_HELP_FILENAME_EDIT,69,52,201,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_SRC_FONT_EDIT,69,67,201,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Right-to-left reading order",IDC_SRC_RTL_CHECK,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,7,84,263,10
+    EDITTEXT        IDC_DST_FILENAME_EDIT,339,7,201,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_DST_AUTHOR_EDIT,339,22,201,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DST_LANGUAGE_NAME_EDIT,339,37,201,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DST_HELP_FILENAME_EDIT,339,52,201,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DST_FONT_EDIT,339,67,184,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "&...",IDC_CHOOSE_FONT_BUTTON,524,67,16,14
+    CONTROL         "Right-to-left reading order",IDC_DST_RTL_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,277,84,263,10
+    CONTROL         "",IDC_SRCDATA_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,114,263,151
+    CONTROL         "",IDC_DSTDATA_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,277,114,263,151
+    PUSHBUTTON      "&>\n>",IDC_COPY_BUTTON,267,271,15,37,BS_MULTILINE
+    PUSHBUTTON      "&Apply change",IDAPPLY,471,314,69,14
+    LTEXT           "Base translation:",IDC_STATIC,7,104,262,8
+    LTEXT           "Your translation:",IDC_STATIC,277,104,263,8
+    LTEXT           "Author:",IDC_STATIC,7,25,58,8
+    LTEXT           "File:",IDC_STATIC,7,10,58,8
+    LTEXT           "Language name:",IDC_STATIC,7,40,58,8
+    LTEXT           "Font:",IDC_STATIC,7,70,58,8
+    LTEXT           "Help file name:",IDC_STATIC,7,55,58,8
+    LTEXT           "Author:",IDC_STATIC,277,25,58,8
+    LTEXT           "File:",IDC_STATIC,277,10,58,8
+    LTEXT           "Language name:",IDC_STATIC,277,40,58,8
+    LTEXT           "Font:",IDC_STATIC,277,70,58,8
+    LTEXT           "Help file name:",IDC_STATIC,277,55,58,8
+    CONTROL         "",IDC_SRCDATA_RICHEDIT,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,266,257,62
+    CONTROL         "",IDC_DSTDATA_RICHEDIT,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,286,267,254,44
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ictranslate.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "ictranslate.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_ICTRANSLATE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 540
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 328
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ictranslate..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ictranslate.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

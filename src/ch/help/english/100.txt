@@ -1,0 +1,44 @@
+.topic 0x00
+No topic has been associated with this item.
+
+.topic 1
+Closes this window.
+
+.topic IDH_HOMEPAGELINK_STATIC
+Link to this program's home page.
+
+.topic IDH_HOSTLINK_STATIC
+Link to the web page of our web page sponsor.
+
+.topic IDH_CONTACT1LINK_STATIC
+My preferred mail address. Write an e-mail here if you want to report a bug, to let us know your opinion about the program or if you want to ask for something.
+
+.topic IDH_CONTACT2LINK_STATIC
+My secondary mail address. Write an e-mail here if you want to report a bug, to let us know your opinion about the program or if you want to ask for something.
+
+.topic IDH_GENFORUMPAGELINK_STATIC
+Link to the the page with a discussion forum. If you want to receive the new versions' notifications you should subscribe this forum.
+
+.topic IDH_GENFORUMSUBSCRIBELINK_STATIC
+Link to an e-mail address you should write to subscribe the 'copy handler' discussion list.
+
+.topic IDH_GENFORUMUNSUBSCRIBELINK_STATIC
+Link to an e-mail address you should write to unsubscribe the 'copy handler' discussion list.
+
+.topic IDH_GENFORUMSENDLINK_STATIC
+You should write an e-mail to this address if you want all subscribed users to receive the mail.
+
+.topic IDH_DEVFORUMPAGELINK_STATIC
+Link to the the page with a discussion forum for Copy Handler's developers. You should subscribe this discussion forum if you are writing a plugin for Copy Handler (ie. language translation). When some strings would be added (or changed) to the program I would post the mail to this forum with the change log. Also if you have any comments about the Copy Handler's source code you may write here.
+
+.topic IDH_DEVFORUMSUBSCRIBELINK_STATIC
+Link to an e-mail address you should write to subscribe the 'chdev' discussion forum.
+
+.topic IDH_DEVFORUMUNSUBSCRIBELINK_STATIC
+Link to an e-mail address you should write to unsubscribe the 'chdev' discussion forum.
+
+.topic IDH_DEVFORUMSENDLINK_STATIC
+You should write an e-mail to this address if you want all subscribed users of chdev discussion list to receive the mail.
+
+.topic IDH_THANX_EDIT
+The list of people I would like to thank for helping me creating this program.

@@ -1,0 +1,14 @@
+.topic 1
+Applies all the changes made in this dialog box and closes it.
+
+.topic 2
+Discards all the changes made in this dialog box.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_PROPERTIES_LIST
+Shows the list of program's properties you can change.
+
+.topic IDH_APPLY_BUTTON
+Applies all changes made in this dialog box.

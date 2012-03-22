@@ -1,0 +1,20 @@
+.topic 1
+Replaces the path entered in the higher one of the edit boxes to the one from the edit box below and closes this dialog box.
+
+.topic 2
+Discards all changes and closes this dialog box.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_PATHS_LIST
+The list of the default paths that could be changed to something else. If any path is selected it will appear in the edit box below.
+
+.topic IDH_SOURCE_EDIT
+Specifies the path that will be replaced with the one from the edit box below.
+
+.topic IDH_DESTINATION_EDIT
+Specifies path to which the one from above would be changed. You can enter the path manually or by the '...' button on the right.
+
+.topic IDH_BROWSE_BUTTON
+Browses for a path that will be displayed in the window on the left.

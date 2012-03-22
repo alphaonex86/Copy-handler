@@ -1,0 +1,43 @@
+.footer
+{
+	font-weight: normal;
+	font-size: x-small;
+	color: silver;
+	font-family: Arial;
+}
+.header
+{
+	font-weight: normal;
+	font-size: x-small;
+	color: silver;
+	font-family: Arial;
+}
+.headertitle
+{
+	font-size: medium;
+	color: black;
+	font-family: Arial;
+}
+.section
+{
+	font-weight: normal;
+	font-size: medium;
+	color: black;
+	font-family: Arial;
+}
+.text
+{
+	font-size: x-small;
+	color: black;
+	font-family: Arial;
+}
+PRE
+{
+	font-size: x-small;
+}
+.seealso
+{
+	font-size: x-small;
+	color: black;
+	font-family: Arial;
+}

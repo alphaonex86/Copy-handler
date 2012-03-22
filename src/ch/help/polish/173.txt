@@ -1,0 +1,20 @@
+.topic 2
+Anuluje ca³e zadanie.
+
+.topic IDH_HEADER_STATIC
+Wyœwietla informacje o b³êdzie. W miejscu docelowym, na które wskazuje œcie¿ka, nie ma wystarczaj¹cej iloœci wolnego miejsca.
+
+.topic IDH_FILES_LIST
+Wyœwietla listê plików, które s¹ kopiowane do miejsca docelowego.
+
+.topic IDH_REQUIRED_STATIC
+Okreœla wymagan¹ iloœæ wolnego miejsca, która jest potrzebna do skopiowania plików.
+
+.topic IDH_AVAILABLE_STATIC
+Okreœla iloœæ dostêpnego miejsca w miejscu docelowym.
+
+.topic IDH_RETRY_BUTTON
+Ponawia próbê kopiowania pliku.
+
+.topic IDH_IGNORE_BUTTON
+Ignoruje ten b³¹d i kontynuuje kopiowanie.

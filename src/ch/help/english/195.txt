@@ -1,0 +1,89 @@
+.topic 1
+Closes the window and saves the data.
+
+.topic 2
+Closes the window and discards the data.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_FILTER_CHECK
+Enables the inclusion mask filtering. The file names have to match one of these masks to be copied.
+
+.topic IDH_FILTER_COMBO
+Enter the needed inclusion masks here. If you want to enter more than one mask you should separate them by the '|' sign.
+
+.topic IDH_EXCLUDEMASK_CHECK
+Enables the exclusion mask filtering. The file names must *not* match none of these masks to be copied.
+
+.topic IDH_FILTEREXCLUDE_COMBO
+Enter the needed exclusion masks here. If you want to enter more than one mask you should separate them by the '|' sign.
+
+.topic IDH_SIZE_CHECK
+Enables the file sizes filtering. The file to be copied must match the settings below to be copied.
+
+.topic IDH_SIZETYPE1_COMBO
+Specifies the relation between size of the source file and the size specified on the right that needs to be meet for the file to be copied.
+
+.topic IDH_SIZE1_EDIT
+Specifies the size to which the source file size will be compared.
+
+.topic IDH_SIZE1MULTI_COMBO
+The multiplier for the value on the left.
+
+.topic IDH_SIZE2_CHECK
+Enables the second file sizes filtering. The file to be copied must match the settings above and on the right to be copied.
+
+.topic IDH_SIZETYPE2_COMBO
+Specifies the second relation between size of the source file and the size specified on the right that needs to be met for the file to be copied.
+
+.topic IDH_SIZE2_EDIT
+Specifies the size to which the source file size will be compared.
+
+.topic IDH_SIZE2MULTI_COMBO
+The multiplier for the value on the left.
+
+.topic IDH_DATE_CHECK
+Enables filtering files by its' dates and times.
+
+.topic IDH_DATETYPE_COMBO
+Type of date/time that will be processed when comparing source file's date/time with the specified one.
+
+.topic IDH_DATE1TYPE_COMBO
+Specifies the relation between date/time of the source file and the specified date and/or time that needs to be met for the file to be copied.
+
+.topic IDH_DATE1_DATETIMEPICKER
+Specifies the date that will be compared to the source file's date. Needs to be met for the file to be copied. Used only if checked.
+
+.topic IDH_TIME1_DATETIMEPICKER
+Specifies the time that will be compared to the source file's time. Needs to be met for the file to be copied. Used only if checked.
+
+.topic IDH_DATE2_CHECK
+Enables filtering files by its' dates and times (second section).
+
+.topic IDH_DATE2TYPE_COMBO
+Specifies the second relation between date/time of the source file and the specified date and/or time that needs to be met for the file to be copied.
+
+.topic IDH_DATE2_DATETIMEPICKER
+Specifies the second date that will be compared to the source file's date. Needs to be met for the file to be copied. Used only if checked.
+
+.topic IDH_TIME2_DATETIMEPICKER
+Specifies the second time that will be compared to the source file's time. Needs to be met for the file to be copied. Used only if checked.
+
+.topic IDH_ATTRIBUTES_CHECK
+Enables filterinf files by their attributes.
+
+.topic IDH_ARCHIVE_CHECK
+Allows filtering by the 'Archive' attribute. If unchecked - the attribute must not be set for a file to be copied, if checked - must be set and if grayed - it does not matter.
+
+.topic IDH_READONLY_CHECK
+Allows filtering by the 'Read only' attribute. If unchecked - the attribute must not be set for a file to be copied, if checked - must be set and if grayed - it does not matter.
+
+.topic IDH_HIDDEN_CHECK
+Allows filtering by the 'Hidden' attribute. If unchecked - the attribute must not be set for a file to be copied, if checked - must be set and if grayed - it does not matter.
+
+.topic IDH_SYSTEM_CHECK
+Allows filtering by the 'System' attribute. If unchecked - the attribute must not be set for a file to be copied, if checked - must be set and if grayed - it does not matter.
+
+.topic IDH_DIRECTORY_CHECK
+Allows filtering by the 'Directory' attribute. If unchecked - the attribute must not be set for a file to be copied, if checked - must be set and if grayed - it does not matter.

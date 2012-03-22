@@ -1,0 +1,20 @@
+.topic 2
+Cancels the whole task.
+
+.topic IDH_HEADER_STATIC
+Displays the info about an error. Contains the destination path in which there is not enough space.
+
+.topic IDH_FILES_LIST
+Displays the list of files that are to be copied to the destination location.
+
+.topic IDH_REQUIRED_STATIC
+Specifies required free space needed to copy the files.
+
+.topic IDH_AVAILABLE_STATIC
+Specifies available space in the destination location.
+
+.topic IDH_RETRY_BUTTON
+Tries again to continue copying.
+
+.topic IDH_IGNORE_BUTTON
+Ignores this error and continues copying.

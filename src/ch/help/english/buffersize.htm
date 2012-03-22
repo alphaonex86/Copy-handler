@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Buffer size dialog</title>
+</head>
+<body>
+<script>header("Buffer size dialog");</script>
+<div class="text">
+This dialog may be displayed through the <a href="options.htm">configuration dialog</a> in 'Buffer' section or through the <a href="status.htm">status dialog</a>.
+
+<ul>
+<li><b>Default</b> - default buffer size. Used when the <a href="options.htm">configuration</a> option 'Use only default buffer' (in section 'Buffer') is set, or when none of the other buffer sizes doesn't match the current situation.</li>
+<li><b>For copying inside one disk boundary</b> - Buffer is used when the source files and the destination folder lies on the same physical disk. Size of that buffer is usually bigger than the standard two-disks buffer, because if you copy data in bigger packs you do not burden your hard disk as much as when you use small buffers.</li>
+<li><b>For copying between two different disks</b> - The buffer is used when you copy data from one physical hard disk to another one.</li>
+<li><b>For copying with CD-ROM use</b> - This buffer size is used when you copy something between CD-ROM and any other storage medium.</li>
+<li><b>For copying with network use</b> - This buffer size is used when you copy something from or to the local network.</li>
+<li><b>Use only default buffer</b> - when this option is checked, the task(s) will always use the default buffer size ignoring type of source and destination storage medium.</li>
+</ul>
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="options.htm">Configuration dialog</a>, <a href="status.htm">Status dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

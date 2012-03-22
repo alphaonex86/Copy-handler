@@ -1,0 +1,68 @@
+.topic 1
+Zamyka okno i rozpoczyna nowe zadanie, które wykonuje zaplanowane operacje.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Pokazuje informacje pomocy dla tego okna.
+
+.topic IDH_FILES_LIST
+Okreœla listê plików i folderów do skopiowania lub przeniesienia do katalogu docelowego. Mo¿na zarz¹dzaæ tymi elementami dziêki czterem przyciskom znajduj¹cymi siê po prawej stronie.
+
+.topic IDH_ADDFILE_BUTTON
+Dodaje jeden lub wiêcej plików do listy z plikami/folderami (po lewej stronie) do skopiowania lub przeniesienia.
+
+.topic IDH_ADDDIR_BUTTON
+Dodaje katalog do listy z plikami/folderami (po lewej stronie) do skopiowania lub przeniesienia.
+
+.topic IDH_REMOVEFILEFOLDER_BUTTON
+Usuwa pliki i/lub foldery z listy po lewej stronie.
+
+.topic IDH_IMPORT_BUTTON
+Importuje œcie¿ki plików i folderów z pliku tekstowego. Ka¿da linia tekstu musi okreœlaæ œcie¿kê do folderu lub pliku, który ma byæ zaimportowany.
+
+.topic IDH_DESTPATH_COMBOBOXEX
+Œcie¿ka docelowa - wszystkie pliki i foldery z powy¿szej listy zostan¹ skopiowane lub przeniesione do tego miejsca.
+
+.topic IDH_DESTBROWSE_BUTTON
+Otwiera okno wyboru katalogu, gdzie bêdzie mo¿na okreœliæ œcie¿kê docelow¹.
+
+.topic IDH_OPERATION_COMBO
+Okreœla operacjê, która bêdzie wykonana na plikach i folderach z listy.
+
+.topic IDH_PRIORITY_COMBO
+Okreœla poziom priorytetu, z jakim bêdzie uruchomione zadanie. Zaleca siê u¿ywanie go z rozwag¹ przy korzystaniu z bardzo szybkich pamiêci masowych (np. ram dysków lub innych tego typu urz¹dzeñ).
+
+.topic IDH_COUNT_EDIT
+Okreœla liczbê kopii (plików Ÿród³owych), które zostan¹ utworzone w katalogu docelowym. U¿yteczne, gdy kopiowane s¹ ma³e iloœci danych na pamiêæ ³atwo podatn¹ na zniszczenie, np. na dyskietkê.
+
+.topic IDH_BUFFERSIZES_LIST
+Okreœla rozmiary bufora, który bêdzie u¿yty przy wykonywaniu zadaniu. Mo¿na go zmieniæ, klikaj¹c na przycisk po prawej stronie.
+
+.topic IDH_BUFFERSIZES_BUTTON
+Umo¿liwia zmienienie rozmiarów bufora, który bêdzie u¿yty do wykonania zaplanowanych operacji.
+
+.topic IDH_FILTERS_CHECK
+W³¹cza lub wy³¹cza stosowanie filtrowania nazw plików w zadaniu.
+
+.topic IDH_FILTERS_LIST
+Okreœla listê aktywnych filtrów, które zostan¹ u¿yte do wykonania potrzebnych operacji. Mo¿na je dodawaæ lub usuwaæ, u¿ywaj¹c przycisków po prawej stronie. Podwójne klikniêcie na elemencie spowoduje edycjê wybranego filtra.
+
+.topic IDH_ADDFILTER_BUTTON
+Dodaje nowy filtr do listy filtrów.
+
+.topic IDH_REMOVEFILTER_BUTTON
+Usuwa zaznaczony filtr z listy.
+
+.topic IDH_ADVANCED_CHECK
+W³¹cza lub wy³¹cza zaawansowane opcje.
+
+.topic IDH_IGNOREFOLDERS_CHECK
+Zaawansowana opcja kopiowania/przenoszenia. Kiedy jest aktywna, program skopiuje tylko pliki do katalogu docelowego, pomijaj¹c strukturê katalogów. Jeœli kopiowany jest katalog 'C:\WINDOWS' na 'D:\', powstan¹ wszystkie pliki z 'C:\WINDOWS' ale bez ¿adnego podkatalogu wewn¹trz w g³ównym folderze na dysku 'D:\'.
+
+.topic IDH_ONLYSTRUCTURE_CHECK
+Zaawansowana opcja kopiowania/przenoszenia. Je¿eli zostanie uaktywniona, program skopiuje tylko strukturê plików, bez ich zawartoœci. Zaleca siê u¿ywanie tego ustawnienia z rozwag¹, poniewa¿ mo¿na straciæ wszystkie kopiowane dane.
+
+.topic IDH_FORCEDIRECTORIES_CHECK
+Zaawansowana opcja kopiowania/przenoszenia. Je¿eli zostanie uaktywniona, program tworzy pe³n¹ œcie¿kê docelow¹ (zale¿n¹ od g³ównego folderu dysku Ÿród³owego) w katalogu docelowym. Np. jeœli kopiowany jest katalog 'C:\WINDOWS\SYSTEM' na 'D:\', powstanie folder 'D:\WINDOWS\SYSTEM' w katalogu docelowym, a folder 'system' bêdzie mia³ zawartoœæ 'C:\WINDOWS\SYSTEM'.

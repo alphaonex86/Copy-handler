@@ -1,0 +1,2 @@
+.topic 2
+Anuluje sekwencjê odliczania i zamyka to okno.

@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Okno statusu</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Okno statusu");</SCRIPT>
+<DIV CLASS="text"> 
+  <UL>
+    <LI><B>Lewa strona okna:<BR>
+      Lista operacji</B> - wyświetla listę zadań wraz z aktualnym stanem (zakończone, anulowane, itp.). Przy każdym zadaniu podawany jest jego stan, plik, który jest obecnie przetwarzany, folder docelowy, do którego pliki są kopiowane oraz procentowy postęp: 
+      <UL>
+        <LI><B>Przycisk '<<' </B> - zmienia widok okna z zaawansowanego na uproszczony i odwrotnie.</LI>
+        <LI><B>Przycisk 'Pauza'</B> - zatrzymuje zaznaczone zadanie. Jeżeli inne zadanie oczekuje na jego zakończenie, zostanie wtedy rozpoczęte.</LI>
+        <LI><B>Przycisk 'Wznów'</B> - wznawia pracę zaznaczonego-wstrzymanego zadania. Podobnie jeżeli zadanie jest w stanie oczekiwania (oczekuje na zakończenie innego), kliknięcie na ten przycisk spowoduje jego uruchomienie. Jeżeli akcja zostanie wykonana przy tym rodzaju wznowienia, zadanie zignoruje ustawienie w <A HREF="options.htm">opcjach</A> pozycji 'Ilość jednocześnie wykonywanych operacji' (sekcja 'Wątek kopiujący') i uruchomi zadanie równolegle.</LI>
+        <LI><B>Przycisk 'Restart'</B> - powoduje ponowne uruchomienie zaznaczonego zadania. Zadanie zostanie uruchomione od początku (z ponownym przeszukiwaniem plików do skopiowania).</LI>
+        <LI><B>Przycisk 'Anuluj'</B> - anuluje aktualnie zaznaczone zadanie.</LI>
+        <LI><B>Przycisk 'Usuń'</B> - kiedy zadanie jest ukończone lub anulowane, to polecenie spowoduje jego usunięcie z listy. Jeżeli zadanie jest uruchomione, program zapyta użytkownika, czy ma kontynuować przerwanie wykonywania operacji.</LI>
+        <LI><B>Przycisk 'Pauza/wszystkie'</B> - działa w podobny sposób jak przycisk 'Pauza', z tym, że odnosi się do wszystkich zadań.</LI>
+        <LI><B>Przycisk 'Wznów/wszystkie'</B> - działa w podobny sposób jak przycisk 'Wznów', ale nie powoduje ignorowania <A HREF="options.htm">opcji</A> 'Ilość jednocześnie wykonywanych operacji' (sekcja 'Wątek kopiujący').</LI>
+        <LI><B>Przycisk 'Anuluj/wszystkie'</B> - anuluje wszystkie zadania.</LI>
+        <LI><B>Przycisk 'Usuń/wszystkie'</B> - usuwa wszystkie anulowane i ukończone zadania z listy.</LI>
+        <LI><B>Przycisk 'Restart/wszystkie'</B> - uruchamia ponownie wszystkie zadania z listy.</LI>
+        <LI><B>Przycisk 'Przyklej'</B> - powoduje 'przyklejenie' okna statusu do prawego, dolnego rogu ekranu.</LI>
+        <LI><B>Przycisk 'Zaawansowane &gt;'</B> - Pokazuje <A HREF="advmenu.htm">menu zaawansowane</A> odnoszące się do jednego lub kilku zadań .</LI>
+        <BR>
+      </UL>
+    </LI>
+    <LI> <B>Prawa strona okna:<BR>
+      Statystyki aktualnego zaznaczenia</B> - statystyki dla zaznaczonego zadania z listy operacji: 
+      <UL>
+        <LI><B>Skojarzony plik</B> - nazwa pliku, która zawiera informacje o aktualnym zadaniu. Kiedy uruchomisz ponownie system, Copy Handler ładuje informacje o nieukończonym/przerwanym zadaniu właśnie z tego pliku. Pliki te umieszczane są w katalogu określonym w <A HREF="options.htm">ustawieniach</A>, opcja 'Folder z danymi tymczasowymi' (sekcja 'Program').</LI>
+        <LI><B>Operacja</B> - określa typ i stan zaznaczonego zadania.</LI>
+        <LI><B>Obiekt źródłowy</B> - nazwa obecnie przetwarzanego zadania (kopiowanego lub przenoszonego do miejsca docelowego).</LI>
+        <LI><B>Obiekt docelowy</B> - katalog docelowy, do którego zaznaczone zadanie kopiuje pliki i foldery.</LI>
+        <LI><B>Wielkość bufora</B> - określa rozmiary bufora używane przy obecnym zadaniu. Możesz zmienić te wartości, klikając na przycisk '...' po prawej stronie. Wyświetlone zostanie wtedy <A HREF="buffersize.htm">okno ustawień wielkości bufora</A>.</LI>
+        <LI><B>Priorytet wątku</B> - priorytet zadania, z którym zostało uruchomione. Możesz go zmienić, klikając na przycisk '&gt;' po prawej stronie i wybierając z menu potrzebną wartość.</LI>
+        <LI><B>Dodatkowe uwagi</B> - wyświetla kod i opis błędu (jeżeli taki wystąpi).</LI>
+        <LI><B>Przycisk 'Pokaż rejestr'</B> - wyświetla plik dziennika powiązany z obecnym zadaniem.</LI>
+        <LI><B>Przetworzono</B> - podaje informacje o ilości plików i folderów, które zostały przetworzone / liczbie wszystkich plików i folderów; wielkości danych, która została przetworzona / rozmiarze wszystkiego; ilości kopii utworzonych / ilości wszystkich kopii. Liczba kopii jest większa niż jeden, jeżeli określisz więcej niż jeden przebieg zadania.</LI>
+        <LI><B>Czas</B> - wyświetla ilość upłytniętego czasu (dla uruchomionego zadania) oraz szacowany  cały czas zadania aż do jego zakończenia.</LI>
+        <LI><B>Transfer</B> - wyświetla poziom transferu dla zadania (obecny i średni). Obecna prędkość kopiowania jest mierzona przez dzielenie rozmiaru pliku kopiowanego w ostatnim interwale czasu (tę wartość można określić w <A HREF="options.htm">oknie ustawień</A>, opcja 'Czas, co jaki będzie odświeżany status' (sekcja 'Okno statusu')) przez rzeczywisty, dokładny czas przebiegu kopiowanych danych. Wartości mogą być troszkę niedokładne, gdy używamy dużych rozmiarów bufora lub mamy ustawiony niski czas odświeżania interwałów. Wtedy transfer będzie się drastycznie zmieniał, 'skakał', od 0 B/s do - powiedzmy - 24MB/s (przy ustawionym 24MB buforze). Przeciętna prędkość jest mierzona przez dzielenie rozmiaru wszystkich kopiowanych danych przez całkowity czas.</LI>
+        <LI><B>Postęp</B> - pasek postępu bazujący na rozmiarze przetworzonych plików.</LI>
+      </UL>
+    </LI>
+    <LI> <B>Statystyki wszystkiego:</B> 
+      <UL>
+        <LI><B>Przetworzono</B> - bardzo podobne do powyższego pola 'Przetworzono', z tym, że to wyświetla informacje o wszystkich zadaniach z listy (nie ma znaczenia, czy zadanie zostało ukończone, anulowane, czy jest uruchomione).</LI>
+        <LI><B>Transfer</B> - wyświetla obecny transfer dla wszystkich uruchomionych zadań z listy.</LI>
+        <LI><B>Postęp</B> - pasek postępu bazujący na rozmiarze wszystkich przetworzonych plików z listy (ignoruje stan zadania - zlicza je wszystkie).</LI>
+      </UL>
+    </LI>
+  </UL>
+</DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="options.htm">Okno ustawień</A>, <A HREF="advmenu.htm">Menu zaawansowane</A>, <A HREF="replacepaths.htm">Okno zamiany ścieżek</A>, <A HREF="buffersize.htm">Okno ustawień wielkości bufora</A>. </DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

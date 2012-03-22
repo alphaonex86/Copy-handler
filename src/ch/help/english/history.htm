@@ -1,0 +1,200 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Program history/what's new</title>
+</head>
+<body>
+<script>header("Program history/what's new");</script>
+
+<div class="text">
+<ul>
+
+<li><b>1.28</b></li>
+<ul>
+<li>Fixed bug where files which name starts with a dot were not copied.</li>
+<li>Added some new translations</li>
+<li>Many internal changes in the code (changed stl support to the stlPort from <a href="http://www.stlport.com">http://www.stlport.com</a>)</li>
+</ul>
+
+<li><b>1.26</b></li>
+<ul>
+<li>corrected a displaying of the paths in the status dialog box</li>
+<li>corrected on-the-fly language change in the task list in the status dialog box</li>
+<li>corrected handling of the directory paths in configuration</li>
+<li>when a "not enough free space" dialog appears it automatically disappears (now) as soon as there is enough space to perform the operation</li>
+<li>change in program's file names</li>
+<li>changed the handling of the languages; now they are based on text files instead of dll's</li>
+<li>corrected shell extension bug (problems with the CTRL key and detecting the operation)</li>
+<li></li>
+</ul>
+
+
+<li><b>1.25</b></li>
+<ul>
+<li>added help files to the program instead of readme files</li>
+<li>corrected bug when the newly created shortcuts (in folder choosing dialog) were not being saved</li>
+<li>some small optimizations and corrections</li>
+</ul>
+
+<li><b>1.20</b></li>
+<ul>
+<li>this program has changed licensing to GNU General Public License (what means, that the full source code is available at <a href="http://www.copyhandler.prv.pl" target="_blank">http://www.copyhandler.prv.pl</a>)</li>
+<li>added language plugin support</li>
+<li>changed installer to NSIS</li>
+<li>optimized tray restart detection</li>
+<li>modified about dialog</li>
+<li>now all strings are being read from resource tables</li>
+<li>modified handling of configuration - it supports now applying, and changing language on the fly</li>
+<li>when registering or unregistering shell extension dll from program's menu fails - it displays error code</li>
+<li>added section 'Log file' which is currently unused</li>
+<li>now pasting by CH doesn't clear the clipboard</li>
+<li>some small optimizations</li>
+</ul>
+
+<li><b>1.13i</b></li>
+<ul>
+<li>Corrected error connected with detecting partitions (the same disk or not the same) on newer computers or with much of hardware inside</li>
+<li>Changed some texts - ie. in English there is One disk instead of OD</li>
+<li>Corrected detection of floppy drive/path to floppy in choosing destination folder dialog</li>
+<li>Modified some dialogs to be displayed on taskbar (ie. status window)</li>
+<li>Corrected bug connected with manually entering a path in some windows - previously the count of chars depended on size of the window</li>
+<li>Added french language to a program (thanx to Julien (Vk))</li>
+<li>Now the executable and dll are really packed with UPX, not like in 1.13g version ;)</li>
+</ul>
+
+<li><b>1.13g</b></li>
+<ul>
+<li>corrected error connected with 'Copy to' explorer menu item (and similar ones) (in previous version it doesn't do anything)</li>
+<li>added two new options connected with priority manipulation - application priority and disabling thread priority boosting</li>
+<li>corrected error connected with counting free space on disk (if size of free space on disk was equal to size of resources being copied program displayed window with info about missing disk free space)</li>
+<li>corrected error connected with files' copying which dates were from outside the range of 1970...2038 year (program crashed)</li>
+<li>added capability of changing the shortcuts' order</li>
+<li>program and dll were compressed by UPX Software</li>
+</ul>
+
+<li><b>1.13e</b></li>
+<ul>
+<li>corrected some errors in program's text - ie. missing 'special' word in context menu (in english language version)</li>
+<li>corrected a little work of experimental option 'Dragging by left mouse button'</li>
+<li>added function for importing file paths to copy from text file</li>
+<li>added function for forcing of create full source paths in destination folder</li>
+<li>the taskbar icon will automatically reappear when explorer restarts</li>
+<li>additional configuration option - choosing of default action for dragging files with left mouse button (if option 'Intercept ...' is enabled)</li>
+</ul>
+
+<li><b>1.13</b></li>
+<ul>
+<li>Corrected error - commands in explorer's 'File' menu were displayed many times - the more times 'File' menu was opened the more commands appeared</li>
+<li>Corrected annoying behaviour - saving state of finished/paused/cancelled tasks were done unnecessarily (ie. when using disk defragmenters operation was interrupted each time the program was saving temporary data) - now when going to one of those states the temporary data is stored only once.</li>
+</ul>
+
+<li><b>1.12 Final</b></li>
+<ul>
+<li>Little changes in polish version of program - to "more polish"</li>
+<li>Changed standard path for temporary files to system TEMP folder</li>
+<li>Corrected error connected with changing buffer sizes in status dialog</li>
+<li>Removed unused file Quick access data.ini - contents were moved into file copy handler.ini</li>
+<li>Corrected some stuff connected with incompatibilities within Windows systems - now program should properly work on Windows 95/98/Me/NT4/2000/XP</li>
+<li>Changed a little (actually rewritten) dialog for choosing destination folder</li>
+<li>Changed 'copy/move settings' dialog and expanded filtering capabilities</li>
+<li>Corrected shell handling - additional commands and two experimental options (works only on some systems)</li>
+<li>A few other things which aren't important enough to write about...</li>
+</ul>
+<li><b>1.11</b></li>
+<ul>
+<li>added new option - chosing progress bar style in mini status (smooth/boxed)</li>
+<li>corrected starting state of .ini file - ineffective buffer sizes settings</li>
+</ul>
+<li><b>1.10 Final</b></li>
+<ul>
+<li>corrected detecting partitions lying on one physical disk</li>
+<li>added setup program for handling installation</li>
+<li>added info about new e-mails in about box</li>
+<li>removed automatic shell extension register at program start - instead setup program will handle this</li>
+<li>corrected handling of automatic program loading with system</li>
+</ul>
+
+<li><b>1.10 beta 4</b></li>
+<ul>
+<li>corrected error connected with copying data in Windows NT/2000/XP with disabled buffering</li>
+<li>corrected speed of pausing, resuming, ... of tasks, especially at NT series of Windows (NT/2000/XP)</li> 
+<li>corrected bug connected with setting destination folder for temporary data</li>
+<li>added autodetection of buffer size and 5 different buffer sizes for 5 different types of copying; changed way to enter buffer sizes, ...</li>
+<li>corrected strange effects connected with large buffer sizes</li>
+<li>additional options in program's main menu - registration/unregistration of shell extension DLL</li>
+<li>showing status window now cause autohide of mini status</li>
+<li>when entering path to sounds and to temporary folder you can use some shortcuts (these paths doesn't end with \, so you have to add it when modifying path ie. < WINDOWS >\media; paths entered that way has to be enter uppercase - < WINDOWS > instead < windows > or < Windows >; paths entered that way contain no spaces, though it may look differently):</li>
+<ul>
+	<li>< WINDOWS > - windows directory (ie. c:\windows)</li>
+	<li>< TEMP > - directory for temporary data (ie. c:\windows\temp)</li>
+	<li>< SYSTEM > - system directory (ie. c:\windows\system)</li>
+	<li>< APPDATA > - directory for application's data (ie. c:\windows\AppData)</li>
+	<li>< DESKTOP > - directory with files that are places on desktop (ie. c:\windows\desktop)</li>
+	<li>< PERSONAL > - private directory for logged user (ie. c:\my documents)</li>
+</ul>
+<li>corrected shutdown of program (by the menu option 'exit' and by system shutdown) - now program saves its state before exit; program's shutdown was also speeded up</li>
+<li>now system shutdown allows cancelling for some time and also works under Windows NT/2000/XP; additionally, when auto system shutdown after finished is enabled and none of tasks isn't currently processed - program will not shut down the system - it'll wait for any task to start; you may also set type of shutdown (force/normal)</li>
+<li>corrected mini status from the point of view of cooperation with Windows NT/2000/XP - now, you can use buttons placed on caption bar of mini status</li>
+<li>pressing resume button on waiting task will cause that task to start, even if normally 'limiting operations' do not allow task to start</li>
+<li>if 'limit maximum operations' option is enabled - the tasks will be started in order they appear on the task list</li>
+<li>changed a little handling of .log files and errors - now, except of error number there is shown info about error, and a place in program where error occurs</li>
+<li>in status window added additional info about temporary file associated with given task</li>
+<li>a little modifications of UI (icons were taken from Windows XP - I hope nobody would be angry), optimalizations, other...</li>
+</ul>
+
+<li><b>1.03</b></li>
+<ul>
+<li>corected many errors connected with displaying text - especially when selecting large fonts in display properties (control panel), or setting some strange color and size scheme</li>
+<li>changed handling copy without buffering - previously file was copied by multiplies of buffer size. If read data size wasn't the multiply of the buffer size then program stored overfluous info to destination file, and after a moment changed size of the file to a size of source file. Now copying has a two passes - first copies files by the multiplies of buffer size, and the second the rest data (concerns only files copying with no buffering)</li>
+<li>added new option in program's main menu - shutting down the systemafter finished copying</li>
+<li>corrected handling of displaying dialog box informing about missing enough free space on disk - now, when copying was interrupted in a half and then resumed - when calculating needed free space there is being taken the copied part into consideration.</li>
+<li>corrected (a little) visual confirmation dialogs - they're now a little more 'clean', but further they're wretched</li>
+<li>corrected error - limiting count of simultaneously performed operations in some situations stops working correctly, and requires to restart program.</li>
+<li>corrected moving data inside one partition boundary - previously moving data this way caused generating an error 'File exists' if there was folder or file with the same name with this being copied</li>
+<li>corrected incorrectly showed progress in case copying data with disabled buffering (it may caused some other problems of which I haven't known).</li>
+<li>little corrections to a tab order in many dialogs
+</ul>
+
+<li><b>1.02</b></li>
+<ul>
+<li>replaced BCMenu old version with the new one (user interface change: default item is shown with bold atribute of text)</li>
+<li>now there isn't showed 0% after finished moving files (not folders) inside one partition boundary.</li>
+<li>added feature for copying files without buffering (it's usable when copying large files)</li>
+<ul>
+	<li>buffer sizes are rounded up to the nearest multiple of 64kB.</li>
+	<li>if file is being copied without buffering and has size which is not multiple of 4kB then destination file in one moment will have size greater than source file. (Attention: If in this moment copying will be interrupted, then later resumed - program will start copying from beginning, unless option of using visual confirmation dialogs is set to heavy).</li>
+	<li>there are two new options - first allows enabling/disabling of using copy wihout buffering, the secode allows to specify minimal file size, which qualify it to copy without buffering (copying small files without buffering will cause to lower copying speed)</li> 
+</ul>
+<li>corrected handling of configuration (now it shouldn't block other parts of program)</li>
+<li>corrected tab order in some windows</li>
+<li>changed arrangement of main menu in program; added new item in this menu - now 'Monitoring clipboard' could be chosen from that menu (not only from Options)</li>
+</ul>
+
+<li><b>1.01a</b></li>
+<ul>
+<li>corrected DLL cooperation with ANSI version of Windows (98/Me)</li>
+</ul>
+
+<li><b>1.01</b></li>
+<ul>
+<li>corrected situation, when missing source file (with visual confirmation dialogs turned on) caused program to do the "forbidden operation".</li>
+<li>now, the window for custom copy parameters shows the operation type (copy, move)</li>
+<li>corrected cooperation of program with UNICODE versions of Windows (NT/2000/XP) - now program (really the DLL) should work properly under that systems.</li>
+<li>if "View log" doesn't show notepad with log file then it shows info with error</li>
+<li>in choose destination directory window (with enabled clipboard monitoring) appear info on disk's free space</li>
+<li>if encountered copy error, then automatically retrying will be performed after some time (set in options) counted from that encounter, not like earlier from last retry attempt.</li>
+<li>if program state, that there is no room for the files (it's checked at the beginning of operation) then it show some info about it.</li>
+<li>corrected incorrectly showed strings for Explorer context menus.</li>
+</ul>
+</ul>
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="bugs.htm">Known bugs/issues</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

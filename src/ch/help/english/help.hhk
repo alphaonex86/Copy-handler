@@ -1,0 +1,698 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="advanced context menu">
+		<param name="Name" value="Advanced context menu">
+		<param name="Local" value="advmenu.htm">
+		<param name="Name" value="Replace paths dialog">
+		<param name="Local" value="replacepaths.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Application's priority class">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Auto &quot;copy-rest&quot; of files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Auto resume every ... [ms]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Auto resume on error">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Automatically remove finished tasks">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Autosave every ... [ms]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="buffer size dialog">
+		<param name="Name" value="Buffer size dialog">
+		<param name="Local" value="buffersize.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer size for copying between two different disks">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer size for copying from CD-ROM">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer size for copying inside one physical disk boundary">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer size for copying over a network">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="buffer sizes">
+		<param name="Name" value="Buffer size dialog">
+		<param name="Local" value="buffersize.htm">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="buffers">
+		<param name="Name" value="Buffer size dialog">
+		<param name="Local" value="buffersize.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="bugs">
+		<param name="Name" value="Known bugs/issues">
+		<param name="Local" value="bugs.htm">
+		<param name="Name" value="Bug reports">
+		<param name="Local" value="reporting.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cannot open destination file for writing">
+		<param name="Name" value="Feedback dialog - cannot open destination file for writing">
+		<param name="Local" value="feeddstfile.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cannot open source file">
+		<param name="Name" value="Feedback dialog - cannot open source file">
+		<param name="Local" value="feediwr.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Choose folder dialog">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Clipboard monitoring">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Main menu description">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="configuration dialog">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="contact">
+		<param name="Name" value="Bug reports">
+		<param name="Local" value="reporting.htm">
+		<param name="Name" value="Contact/support">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Copying/moving thread">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Count of recent paths">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Recent paths edit dialog">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Create .log files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="custom copy dialog">
+		<param name="Name" value="Custom copy dialog">
+		<param name="Local" value="customcopy.htm">
+		<param name="Name" value="Main menu description">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Default action for dragging by left mouse button">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Default buffer size">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Default thread priority">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Defined shortcuts' count">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Shortcuts edit dialog">
+		<param name="Local" value="shortcutsdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="destination file found">
+		<param name="Name" value="Feedback dialog - destination file found">
+		<param name="Local" value="feedsmallreplace.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dialog height [pixels]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dialog width [pixels]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Disable buffering for large files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Disable priority boosting">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Don't delete files before copying finishes (moving)">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="drag&amp;drop">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="explorer's context menus">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="faq">
+		<param name="Name" value="F.A.Q.">
+		<param name="Local" value="faq.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="feedback dialogs">
+		<param name="Name" value="Feedback dialog - cannot open destination file for writing">
+		<param name="Local" value="feeddstfile.htm">
+		<param name="Name" value="Feedback dialog - cannot open source file">
+		<param name="Local" value="feediwr.htm">
+		<param name="Name" value="Feedback dialog - destination file found">
+		<param name="Local" value="feedsmallreplace.htm">
+		<param name="Name" value="Feedback dialog - not enough free space">
+		<param name="Local" value="feednotenoughroom.htm">
+		<param name="Name" value="Feedback dialog - smaller destination file found">
+		<param name="Local" value="feedreplacefiles.htm">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filter dialog">
+		<param name="Name" value="Filter dialog">
+		<param name="Local" value="filterdlg.htm">
+		<param name="Name" value="Custom copy dialog">
+		<param name="Local" value="customcopy.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="folder dialog">
+		<param name="Name" value="Folder dialog">
+		<param name="Local" value="folderdlg.htm">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Main menu description">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder for temporary data">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder with plugins">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GNU General Public License">
+		<param name="Name" value="GNU General Public License">
+		<param name="Local" value="license.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hide when empty">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="history">
+		<param name="Name" value="Program history/what's new">
+		<param name="Local" value="history.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="how to use">
+		<param name="Name" value="How to use ?">
+		<param name="Local" value="using.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ignore additional shell dialogs">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="installation">
+		<param name="Name" value="Installation">
+		<param name="Local" value="installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Intercept drag&amp;drop operation by left mouse button (experimental)">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="issues">
+		<param name="Name" value="Known bugs/issues">
+		<param name="Local" value="bugs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="known bugs">
+		<param name="Name" value="Known bugs/issues">
+		<param name="Local" value="bugs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Language">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="license">
+		<param name="Name" value="GNU General Public License">
+		<param name="Local" value="license.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Limit maximum operations running simultaneously ...">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="main menu">
+		<param name="Name" value="Main menu description">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Minimum file size for which buffering should be turned off">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="mini-status window">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Miniview">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="not enough free space">
+		<param name="Name" value="Feedback dialog - not enough free space">
+		<param name="Local" value="feednotenoughroom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="options">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Playing sounds">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Program">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Protect read-only files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Read tasks size before blocking">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="recent paths edit dialog">
+		<param name="Name" value="Recent paths edit dialog">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Recently used paths">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Recent paths edit dialog">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Refresh status every ... [ms]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="replace paths dialog">
+		<param name="Name" value="Replace paths dialog">
+		<param name="Local" value="replacepaths.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="replacing source paths">
+		<param name="Name" value="Advanced context menu">
+		<param name="Local" value="advmenu.htm">
+		<param name="Name" value="Replace paths dialog">
+		<param name="Local" value="replacepaths.htm">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="reporting bugs">
+		<param name="Name" value="Bug reports">
+		<param name="Local" value="reporting.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="requirements">
+		<param name="Name" value="Program requirements">
+		<param name="Local" value="requirements.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Run program with system">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Scan clipboard every ... [ms]">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Set attributes of destination files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Set date/time of destination files">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shell">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shortcuts">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="shortcuts edit dialog">
+		<param name="Name" value="Shortcuts edit dialog">
+		<param name="Local" value="shortcutsdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shortcuts' list style">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show at program startup">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Copy' command in drag&amp;drop menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Copy to' command in context menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Copy/move special' command in drag&amp;drop menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Copy/move special to' command in context menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show details in status window">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show extended view">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Folder dialog">
+		<param name="Local" value="folderdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show file names">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show free space with shortcuts' names">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show icons with shortcuts (experimental)">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Move' command in drag&amp;drop menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Move to' command in context menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Paste' command in context menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show 'Paste special' command in context menu">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Explorer's context menus">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show single tasks">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show visual confirmation dialogs">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="shutdown dialog">
+		<param name="Name" value="Shutdown dialog">
+		<param name="Local" value="shutdowndlg.htm">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Shutdown system after copying finishes">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="smaller destination file found">
+		<param name="Name" value="Feedback dialog - smaller destination file found">
+		<param name="Local" value="feedreplacefiles.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sound on copying finished">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sound on error">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sounds">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="status dialog">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Status window">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Status dialog">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="support">
+		<param name="Name" value="Contact/support">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="thanks list">
+		<param name="Name" value="Thanks list">
+		<param name="Local" value="thanks.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Time of showing confirmation dialogs">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Type of shutdown">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Shutdown dialog">
+		<param name="Local" value="shutdowndlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="uninstallation">
+		<param name="Name" value="Installation">
+		<param name="Local" value="installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="upgrade">
+		<param name="Name" value="Installation">
+		<param name="Local" value="installation.htm">
+		<param name="Name" value="Contact/support">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Use only default buffer">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Use smooth progress bars">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Use timed confirmation dialogs">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="using">
+		<param name="Name" value="How to use ?">
+		<param name="Local" value="using.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wait ... [ms] before shutdown">
+		<param name="Name" value="Configuration dialog">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Shutdown dialog">
+		<param name="Local" value="shutdowndlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="welcome">
+		<param name="Name" value="Welcome">
+		<param name="Local" value="welcome.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="what's new">
+		<param name="Name" value="Program history/what's new">
+		<param name="Local" value="history.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="write">
+		<param name="Name" value="Bug reports">
+		<param name="Local" value="reporting.htm">
+		<param name="Name" value="Contact/support">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

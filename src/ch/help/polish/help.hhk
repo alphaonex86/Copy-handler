@@ -1,0 +1,695 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="aktualizacja">
+		<param name="Name" value="Instalacja">
+		<param name="Local" value="installation.htm">
+		<param name="Name" value="Kontakt / wsparcie">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Automatyczne &quot;dokopiowywanie&quot; plik&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Automatycznie usuwaj zako&ntilde;czone zadania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="b&sup3;&ecirc;dy">
+		<param name="Name" value="Raportowanie b³êdów">
+		<param name="Local" value="bugs.htm">
+		<param name="Local" value="reporting.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="brak wystarczaj&sup1;cej iloœci wolnego miejsca">
+		<param name="Name" value="Komunikat o b³êdzie - brak wystarczaj¹cej iloœci wolnego miejsca">
+		<param name="Local" value="feednotenoughroom.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Buffer size for copying from CD-ROM">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="buffer sizes">
+		<param name="Name" value="Okno ustawieñ wielkoœci bufora">
+		<param name="Local" value="Okno ustawieñ wielkoœci bufora">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Bufor">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="bufory">
+		<param name="Name" value="Okno ustawieñ wielkoœci bufora">
+		<param name="Local" value="Okno ustawieñ wielkoœci bufora">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="co nowego">
+		<param name="Name" value="Historia programu / Co nowego?">
+		<param name="Local" value="history.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Czas pokazywania okna potwierdzenia">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="deinstalacja">
+		<param name="Name" value="Instalacja">
+		<param name="Local" value="installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dokonuj autozapisu co ... [ms]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Domyœlna akcja dla przeci&sup1;gania lewym przyciskiem myszy">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Domyœlna wielkoœ&aelig; bufora">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Domyœlny priorytet w&sup1;tku">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="dzia&sup3;anie">
+		<param name="Name" value="Opis dzia³ania programu">
+		<param name="Local" value="using.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DŸwi&ecirc;k na wyst&sup1;pienie b&sup3;&ecirc;du">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DŸwi&ecirc;k na zako&ntilde;czenie kopiowania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DŸwi&ecirc;ki">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="faq">
+		<param name="Name" value="F.A.Q. - Czêsto Zadawane Pytania">
+		<param name="Local" value="faq.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder w kt&oacute;rym b&ecirc;d&sup1; zapisywane tymczasowe dane">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Folder w kt&oacute;rym znajduj&sup1; si&ecirc; pluginy">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="g&sup3;&oacute;wne menu">
+		<param name="Name" value="G³ówne menu programu">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="historia">
+		<param name="Name" value="Historia programu / Co nowego?">
+		<param name="Local" value="history.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ignoruj dodatkowe okna shellowe">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Iloœ&aelig; zapami&ecirc;tanych œcie&iquest;ek">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno edycji ostatnio u¿ywanych œcie¿ek">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Iloœ&aelig; zdefiniowanych skr&oacute;t&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno edycji skrótów">
+		<param name="Local" value="shortcutsdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="instalacja">
+		<param name="Name" value="Instalacja">
+		<param name="Local" value="installation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="J&ecirc;zyk">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Kasuj pliki dopiero po uko&ntilde;czeniu kopiowania (przenoszenia)">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="komunikat o b&sup3;&ecirc;dzie">
+		<param name="Name" value="Komunikat o b³êdzie - nie mo¿na otworzyæ pliku docelowego do zapisu">
+		<param name="Local" value="feeddstfile.htm">
+		<param name="Name" value="Komunikat o b³êdzie - nie mo¿na otworzyæ pliku Ÿród³owego">
+		<param name="Local" value="feediwr.htm">
+		<param name="Name" value="Komunikat o b³êdzie - plik docelowy istnieje">
+		<param name="Local" value="feedsmallreplace.htm">
+		<param name="Name" value="Komunikat o b³êdzie - brak wystarczaj¹cej iloœci wolnego miejsca">
+		<param name="Local" value="feednotenoughroom.htm">
+		<param name="Name" value="Komunikat o b³êdzie - napotkano mniejszy plik docelowy">
+		<param name="Local" value="feedreplacefiles.htm">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="kontakt">
+		<param name="Name" value="Raportowanie b³êdów">
+		<param name="Local" value="reporting.htm">
+		<param name="Name" value="Kontakt / wsparcie">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="licencja">
+		<param name="Name" value="GNU General Public License">
+		<param name="Local" value="license.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Menu kontekstowe 'drag&amp;drop' ('przeci&sup1;gnij i upuœ&aelig;')">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="menu kontekstowe eksplorera">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="menu zaawansowane">
+		<param name="Name" value="Menu zaawansowane">
+		<param name="Local" value="advmenu.htm">
+		<param name="Name" value="Okno zamiany œcie¿ek">
+		<param name="Local" value="replacepaths.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Miniview">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno mini-statusu">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Monitorowanie schowka">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="G³ówne menu programu">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="napisz">
+		<param name="Name" value="Raportowanie b³êdów">
+		<param name="Local" value="reporting.htm">
+		<param name="Name" value="Kontakt / wsparcie">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="napotkano mniejszy plik docelowy">
+		<param name="Name" value="Komunikat o b³êdzie - napotkano mniejszy plik docelowy">
+		<param name="Local" value="feedreplacefiles.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="nie mo&iquest;na otworzy&aelig; pliku docelowego do zapisu">
+		<param name="Name" value="Komunikat o b³êdzie - nie mo¿na otworzyæ pliku docelowego do zapisu">
+		<param name="Local" value="feeddstfile.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="nie mo&iquest;na otworzy&aelig; pliku Ÿr&oacute;d&sup3;owego">
+		<param name="Name" value="Komunikat o b³êdzie - nie mo¿na otworzyæ pliku Ÿród³owego">
+		<param name="Local" value="feediwr.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ochrona plik&oacute;w read-only">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Odczekaj ... [ms] przed wy&sup3;&sup1;czeniem systemu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Powiadomienie o zamykaniu systemu">
+		<param name="Local" value="shutdowndlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Odczytuj wielkoœ&aelig; zadania przed zablokowaniem">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Odœwie&iquest;aj status co ... [ms]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Odtwarzanie dŸwi&ecirc;k&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ogranicz iloœ&aelig; jednoczeœnie wykonywanych operacji do ...">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno edycji ostatnio u&iquest;ywanych œcie&iquest;ek">
+		<param name="Name" value="Okno edycji ostatnio u¿ywanych œcie¿ek">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno edycji skr&oacute;t&oacute;w">
+		<param name="Name" value="Okno edycji skrótów">
+		<param name="Local" value="shortcutsdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno kopiowania z parametrami">
+		<param name="Name" value="Okno kopiowania z parametrami">
+		<param name="Local" value="customcopy.htm">
+		<param name="Name" value="G³ówne menu programu">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno mini-statusu">
+		<param name="Name" value="Okno mini-statusu">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Okno statusu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno statusu">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno ustawie&ntilde;">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno ustawie&ntilde; filtrowania">
+		<param name="Name" value="Okno ustawieñ filtrowania">
+		<param name="Local" value="filterdlg.htm">
+		<param name="Name" value="Okno kopiowania z parametrami">
+		<param name="Local" value="customcopy.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno ustawie&ntilde; wielkoœci bufora">
+		<param name="Name" value="Okno ustawieñ wielkoœci bufora">
+		<param name="Local" value="Okno ustawieñ wielkoœci bufora">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Okno wyboru folderu docelowego - automonitorowanie schowka">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno wyboru folderu docelowego - automonitorowanie schowka">
+		<param name="Name" value="Okno wyboru folderu docelowego - automonitorowanie schowka">
+		<param name="Local" value="folderdlg.htm">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="G³ówne menu programu">
+		<param name="Local" value="mainmenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="okno zamiany œcie&iquest;ek">
+		<param name="Name" value="Okno zamiany œcie¿ek">
+		<param name="Local" value="replacepaths.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Opcja automatycznego wznawiania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="opis dzia&sup3;ania programu">
+		<param name="Name" value="Opis dzia³ania programu">
+		<param name="Local" value="using.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="options.htm">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="options.htm">
+		<param name="Name" value="GNU General Public License">
+		<param name="Local" value="license.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ostatnio u&iquest;ywane œcie&iquest;ki dost&ecirc;pu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno edycji ostatnio u¿ywanych œcie¿ek">
+		<param name="Local" value="recentdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="plik docelowy istnieje">
+		<param name="Name" value="Komunikat o b³êdzie - plik docelowy istnieje">
+		<param name="Local" value="feedsmallreplace.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="podzi&ecirc;kowania">
+		<param name="Name" value="Podziêkowania">
+		<param name="Local" value="thanks.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pokazuj nazwy plik&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pokazuj pojedyncze zadania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Mini-status window">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; ikony obok skr&oacute;t&oacute;w (eksperymentalne)">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; iloœ&aelig; wolnego miejsca wraz z nazwami skr&oacute;t&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Kopiuj do' w menu kontekstowym">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Kopiuj' w menu przeci&sup1;gania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Kopiuj/przenieœ specjalnie do' w menu kontekstowym">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Kopiuj/przenieœ specjalnie' w menu przeci&sup1;gania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Przenieœ do' w menu kontekstowym">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Przenieœ' w menu przeci&sup1;gania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Wklej specjalnie' w menu kontekstowym">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; komend&ecirc; 'Wklej' w menu kontekstowym">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; przy starcie programu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; szczeg&oacute;&sup3;y w oknie statusu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Poka&iquest; wizualne potwierdzenia">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pow&sup3;oka systemowa">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Priorytet aplikacji">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="problemy">
+		<param name="Local" value="bugs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Program">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Przechwytuj przeci&sup1;ganie lewym przyciskiem myszy (eksperymentalne)">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Menu kontekstowe Eksplorera">
+		<param name="Local" value="explorermenu.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Przeszukuj schowek co ... [ms]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="raportowanie b&sup3;&ecirc;d&oacute;w">
+		<param name="Name" value="Raportowanie b³êdów">
+		<param name="Local" value="reporting.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Rodzaj zamkni&ecirc;cia systemu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Powiadomienie o zamykaniu systemu">
+		<param name="Local" value="shutdowndlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Skr&oacute;ty">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Styl listy skr&oacute;t&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Szerokoœ&aelig; okna [pixele]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tw&oacute;rz pliki .log">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ukryj jeœli nie ma co pokaza&aelig;">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno mini-statusu">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Uruchamianie programu przy starcie systemu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ustawianie atrybut&oacute;w plik&oacute;w docelowych">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Ustawianie daty/czasu plik&oacute;w docelowych">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UU&iquest;yj p&sup3;ynnych pask&oacute;w post&ecirc;pu">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno mini-statusu">
+		<param name="Local" value="miniview.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="U&iquest;yj czasowych okien potwierdze&ntilde;">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="U&iquest;ywaj tylko domyœlnego bufora">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="W&sup1;tek kopiuj&sup1;cy">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wielkoœ&aelig; bufora do kopiowania pomi&ecirc;dzy dwoma r&oacute;&iquest;nymi dyskami">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wielkoœ&aelig; bufora do kopiowania przez sie&aelig; lokaln&sup1;">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wielkoœ&aelig; bufora do kopiowania w obr&ecirc;bie jednego dysku">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wielkoœ&aelig; plik&oacute;w dla kt&oacute;rych wy&sup3;&sup1;cza&aelig; buforowanie">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="witamy">
+		<param name="Name" value="Witamy">
+		<param name="Local" value="welcome.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="wsparcie">
+		<param name="Name" value="Kontakt / wsparcie">
+		<param name="Local" value="support.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wy&sup3;&sup1;cz &quot;podbijanie&quot; priorytetu przez system">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wy&sup3;&sup1;czaj buforowanie dla du&iquest;ych plik&oacute;w">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="wymagania">
+		<param name="Name" value="Wymagania programu">
+		<param name="Local" value="requirements.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wysokoœ&aelig; okna [pixele]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wyœwietl rozszerzony widok">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		<param name="Name" value="Okno wyboru folderu docelowego - automonitorowanie schowka">
+		<param name="Local" value="folderdlg.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Wznawiaj automatycznie co ... [ms]">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Zamknij system po zako&ntilde;czeniu kopiowania">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="zamykanie systemu">
+		<param name="Name" value="Powiadomienie o zamykaniu systemu">
+		<param name="Local" value="shutdowndlg.htm">
+		<param name="Name" value="Okno ustawieñ">
+		<param name="Local" value="options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Zmiana œcie&iquest;ek Ÿr&oacute;d&sup3;owych">
+		<param name="Name" value="Menu zaawansowane">
+		<param name="Local" value="advmenu.htm">
+		<param name="Name" value="Okno zamiany œcie¿ek">
+		<param name="Local" value="replacepaths.htm">
+		<param name="Name" value="Okno statusu">
+		<param name="Local" value="status.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="znane b&sup3;&ecirc;dy">
+		<param name="Local" value="bugs.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

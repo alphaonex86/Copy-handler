@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Filter dialog</title>
+</head>
+<body>
+<script>header("Filter dialog");</script>
+<div class="text">
+This dialog could be displayed only from the <a href="customcopy.htm">custom copy dialog</a> for adding/changing the filtering options for the task.
+<ul>
+<li><b>Include mask</b> - you may enter the mask of files that will be copied (ie. *.jpg - copies only the jpg files). If you want to specify more than one mask - separate it by '|' sign - ie. *.jpg|*.gif|*.bmp.</li>
+<li><b>Exclude mask</b> - specifies mask of the files that will not be copied. Mask is enteres in a way described in Include mask</li>
+<li><b>Filtering by size</b> - allows to specify up to two size conditions from the components that lies below. Only files that matches all the conditions are copied</li>
+<li><b>Filtering by date</b> - allows user to specify max. two conditions regarding date and time of the file. Yo may select one of three date types (last access time, last write time and creation time).</li>
+<li><b>By attributes</b> - copies only files which matches the specified attibutes. Grayed check boxes means that this attribute doesn't matter. </li>
+</ul>
+
+All the filter settings must match to the file attributes in order to copy the file.
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="customcopy.htm">Custom copy dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

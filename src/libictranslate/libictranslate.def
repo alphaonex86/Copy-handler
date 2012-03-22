@@ -1,0 +1,6 @@
+; libictranslate.def : Declares the module parameters for the DLL.
+
+LIBRARY      "libictranslate"
+
+EXPORTS
+    ; Explicit exports can go here

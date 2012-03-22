@@ -1,0 +1,38 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Okno kopiowania z parametrami</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Okno kopiowania z parametrami");</SCRIPT>
+<DIV CLASS="text">
+  <UL>
+    <LI><B>Lista plików/folderów źródłowych</B> - zawiera listę plików i folderów, które są kopiowane. Można nimi zarządzać, korzystając z przycisków po prawej stronie.</LI>
+    <LI><B>Dodaj plik(i)...</B> - zezwala użytkownikowi na dodanie jednego lub większej ilości plików do listy danych źródłowych.</LI>
+    <LI><B>Dodaj folder...</B> - zezwala użytkownikowi na dodanie katalogu do listy danych źródłowych.</LI>
+    <LI><B>Usuń</B> - Usuwa zaznaczone obiekty z listy danych źródłowych.</LI>
+    <LI><B>Importuj...</B> - zezwala użytkownikowi na import plików i folderów źródłowych z pliku. Każda linia pliku powinna zawierać jedną, pełną ścieżkę do pliku lub katalogu.</LI>
+    <LI><B>Folder docelowy </B> - zezwala użytkownikowi na podanie ścieżki docelowej, do której pliki źródłowe będą skopiowane lub przeniesione. Można wpisać ścieżkę ręcznie za pomocą klawiatury lub wskazać ją, klikając na przycisk '...' po prawej stronie.</LI>
+    <LI><B>Rodzaj operacji</B> - określa operację, która będzie wykonana na plikach źródłowych.</LI>
+    <LI><B>Priorytet</B> - określa priorytet wątku, z jakim będzie uruchomione zadanie.</LI>
+    <LI><B>Ilość kopii</B> - określa ilość kopii plików źródłowych, które powinny zostać przetworzone. Dostępne wartości są z przedziału 0~240. Użyteczne, gdy kopiowane są małe ilości danych na niepewny rodzaj pamięci, np. na dyskietkę.</LI>
+    <LI><B>Wielkości buforów</B> - określają rozmiary bufora, który będzie użyty przy kopiowaniu lub przenoszeniu danych źródłowych do miejsca docelowego.</LI>
+    <LI><B>Filtrowanie</B> - kiedy jest zaznaczone - zezwala użytkownikowi na określenie rodzajów filtrów, które będą użyte przy kopiowaniu. Przyciski po prawej stronie zezwalają użytkownikowi na dodanie lub usunięcie filtru. Przycisk '+' (Dodaj) otwiera <A HREF="filterdlg.htm">okno ustawień filtrowania</A>.</LI>
+    <LI> <B>Operacje zaawansowane</B> 
+      <UL>
+        <LI><B>Nie twórz katalogów docelowych - kopiuj pliki</B> - kiedy jest zaznaczone powoduje, że zadanie pomija strukturę katalogów i kopiuje wszystkie znalezione pliki z każdego przeszukanego folderu do folderu docelowego.</LI>
+        <LI><B>Twórz strukturę katalogów w folderze docelowym (względem katalogu głównego dysku)</B> - podczas kopiowania plików program utworzy całą ścieżkę znalezionego źródła na nośniku danych w katalogu docelowym.</LI>
+        <LI><B>Nie kopiuj/przenoś zawartości plików - tylko je twórz (puste)</B> - działa jak normalne kopiowanie/przenoszenie, ale nie kopiuje zawartości plików - docelowe elementy będą puste. Uważaj, kiedy korzystasz z tej opcji, ponieważ możesz stracić wszystkie kopiowane dane.</LI>
+      </UL>
+  </UL>
+
+</DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="explorermenu.htm">Menu kontekstowe Eksploratora</A>, <A HREF="mainmenu.htm">Okno główne programu</A>, <A HREF="filterdlg.htm">Okno ustawień filtrowania</A>.</DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

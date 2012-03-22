@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Feedback dialog - cannot open source file</title>
+</head>
+<body>
+<script>header("Feedback dialog - cannot open source file");</script>
+<div class="text">
+This dialog is displayed by the task when the working thread cannot open the source file to be copied. Dialog displays info about expected file and the found one. Also shows the encountered error.
+<ul>
+<li><b>Retry</b> - tries again to open the source file.</li>
+<li><b>Ignore</b> - ignores this error and skips the file.</li>
+<li><b>Ignore all</b> - like the above button, but also ignores the next errors of this type.</li>
+<li><b>Wait</b> - changes state of the task to error. If the <a href="options.htm">configuration</a> option 'Auto resume on error' is set - the task will be resumed in a configured time.</li>
+<li><b>Cancel</b> - cancels the task.</li>
+</ul>
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="feeddstfile.htm">Feedback dialog - cannot open destination file for writing</a>, 
+<a href="feednotenoughroom.htm">Feedback dialog - not enough free space</a>, 
+<a href="feedreplacefiles.htm">Feedback dialog - smaller destination file found</a>, 
+<a href="feedsmallreplace.htm">Feedback dialog - destination file found</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

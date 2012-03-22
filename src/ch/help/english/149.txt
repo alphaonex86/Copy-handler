@@ -1,0 +1,68 @@
+.topic 1
+Closes this window and starts a new task that would perform needed operation.
+
+.topic 2
+Closes this window and discards all changes you have made.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_FILES_LIST
+Specifies the list of files and folders to be copied or moved to the destination folder. You can manage these items by the four buttons on the right.
+
+.topic IDH_ADDFILE_BUTTON
+Adds one or more files to the list of files/folders (on the left) to be copied or moved.
+
+.topic IDH_ADDDIR_BUTTON
+Adds a directory to the list of files/folders (on the left) to be copied or moved.
+
+.topic IDH_REMOVEFILEFOLDER_BUTTON
+Removes files and/or folders from the list on the left.
+
+.topic IDH_IMPORT_BUTTON
+Imports the files and folders paths from the text file. Each line of the text file must specify the path to the folder or file to be imported.
+
+.topic IDH_DESTPATH_COMBOBOXEX
+Destination path - all the files and folders from the list above would be copied or moved to this location.
+
+.topic IDH_DESTBROWSE_BUTTON
+Opens the folder's choosing dialog in which you can specify the destination path.
+
+.topic IDH_OPERATION_COMBO
+Specifies operation that would be performed on the files and folders from the list.
+
+.topic IDH_PRIORITY_COMBO
+Specifies priority level at which the task would run. Use with caution when using very fast storage media - ie. ram disk or other memory-based device.
+
+.topic IDH_COUNT_EDIT
+Specifies the count of copies (of the source files) that would be done in the destination location. Useful when copying one thing to the unreliable medias such as floppy disks.
+
+.topic IDH_BUFFERSIZES_LIST
+Specifies the buffer sizes that will be used by the task. You can change them by clicking on the button on the right.
+
+.topic IDH_BUFFERSIZES_BUTTON
+Allows you to change the buffer sizes that will be used to perform the needed operation.
+
+.topic IDH_FILTERS_CHECK
+Enables or disables the filenames filtering for this task.
+
+.topic IDH_FILTERS_LIST
+Specifies the list of active filters that will be used to perform the needed operation. You can add and remove them using the buttons on the right. Double-clicking the item allows you to edit selected filter.
+
+.topic IDH_ADDFILTER_BUTTON
+Adds a new filter to the filter's list.
+
+.topic IDH_REMOVEFILTER_BUTTON
+Removes the selected filter from the list.
+
+.topic IDH_ADVANCED_CHECK
+Enables or disables the advanced options.
+
+.topic IDH_IGNOREFOLDERS_CHECK
+An advanced copy/move option. When selected it only copies the files to the destination location. So if you copy the 'c:\windows' folder to 'd:\' you will have all the files from 'c:\windows' and all of its subfolders in the root directory of drive 'd'.
+
+.topic IDH_ONLYSTRUCTURE_CHECK
+An advanced copy/move option. If selected then does not copy the contents of the files. So if you copy the 700MB file you will have an empty file in the destination location. Be careful when you move data because you may lose all the data being copied.
+
+.topic IDH_FORCEDIRECTORIES_CHECK
+An advanced copy/move option. If selected then creates the whole source path (relative to the root directory of the source disk drive) in the destination location. Ie. if you are copying the 'c:\windows\system' directory to 'd:\' you will get the 'd:\windows\system' directories in the destination location and the 'system' folder will contain the contents of the 'c:\windows\system'.

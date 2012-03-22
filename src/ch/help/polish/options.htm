@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Okno ustawień</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Okno ustawień");</SCRIPT>
+<DIV CLASS="text"> 
+  <UL>
+    <LI><B>Program</B> - ogólne opcje dotyczące programu:</LI>
+    <UL>
+      <LI><B>Monitoruj schowek</B> - czy schowek ma być monitorowany (tzn. czy po wprowadzeniu do schowka pewnych nazw plików automatycznie ma pokazać się <A HREF="folderdlg.htm">okno wyboru folderu docelowego</A>).</LI>
+      <LI><B>Czas, co jaki będzie przeszukiwany schowek [ms]</B> - określa interwał czasu w milisekundach, co ile będzie sprawdzana zawartość schowka.</LI>
+      <LI><B>Uruchamiaj programu wraz ze startem systemu</B> - czy program ma być uruchamiany razem z systemem operacyjnym (powoduje wpisanie odpowiednich wartości do rejestru dopiero po zamknięciu okna konfiguracji).</LI>
+      <LI><B>Zamknij system po zakończeniu kopiowania</B> - jeśli mamy zamiar kopiować coś wielkiego, to można włączyć tę opcję i po zakończeniu operacji wyświetlone zostanie <A HREF="shutdowndlg.htm">powiadomienie o zamykaniu systemu</A>, po czym Windows się wyłączy (chyba, że wystąpi błąd, albo coś dziwnego).</LI>
+      <LI><B>Czas oczekiwania przed wyłączeniem systemu [ms]</B> - określa ilość milisekund, którą program ma wyświetlać <A HREF="shutdowndlg.htm">okno z możliwością anulowania zamykania systemu</A>.</LI>
+      <LI><B>Rodzaj zamknięcia systemu</B> - określa, czy system ma być zamknięty normalnie, czy siłowo (wtedy wszystkie programy są zamykane bez zapisywania zmian).</LI>
+      <LI><B>Czas, co jaki będzie wykonywane autozapisywanie [ms]</B> - aby móc wznowić kopiowanie np. po restarcie systemu należy zapisywać, co już zostało skopiowane. Ten parametr określa ilość milisekund, co którą będą zapisywane takie informacje.</LI>
+      <LI><B>Priorytet aplikacji</B> - określa klasę priorytetu Copy Handlera. Używaj tej opcji ostrożnie - wysoki priorytet może spowodować, że system będzie działał dość wolno, zaś niski priorytet może obniżyć prędkość kopiowania.</LI>
+      <LI><B>Folder z danymi tymczasowymi</B> - folder, w którym program będzie zapisywane tymczasowe dane.</LI>
+      <LI><B>Folder z wtyczkami </B> - folder, w którym program przechowuje wtyczki</LI>
+      <LI><B>Folder z plikami pomocy</B> - folder, w którym znajdują się pliki pomocy programu.</LI>
+      <LI><B>Język</B> - określa język programu i rozszerzenia powłoki. </LI>
+      <LI><B>Folder z plikami tłumaczeń</B> - określa ścieżkę do folderu, w którym znajdują się pliki z tłumaczeniami programów.</LI>
+      <BR>
+    </UL>
+    <LI><B>Okno statusu</B> - opcje, które odnoszą się do <A HREF="status.htm">dużego okna statusu</A>:</LI>
+    <UL>
+      <LI><B>Czas, co jaki będzie odświeżany status [ms]</B> - czas określający, jak często mają być odświeżane dane w oknie statusu.</LI>
+      <LI><B>Pokaż szczegóły w oknie statusu</B> - oznacza, czy ma być pokazywana część okna statusu zawierająca szczegóły (po prawej stronie).</LI>
+      <LI><B>Automatycznie usuwaj zakończone zadania</B> - jeśli kopiowanie się zakończy, zostają po nim pewne dane (dokładnie pliki tymczasowe zawierające dane o danym zadaniu), dzięki czemu można obejrzeć, ile czasu zajęło kopiowanie, jaki był średni transfer, lub mamy możliwość restartu zadania, czyli przekopiowania wszystkiego od nowa. Jeśli zaznaczymy tę opcję, po zakończeniu kopiowania zadanie zostanie usunięte z listy zadań.</LI>
+      <BR>
+    </UL>
+    <LI><B>Miniaturowy widok</B> - opcje odnoszące się do <A HREF="miniview.htm">okna mini-statusu</A>:</LI>
+    <UL>
+      <LI><B>Pokazuj nazwy plików</B> - czy w małym oknie statusu mają być pokazywane nazwy aktualnie kopiowanych plików, czy tylko paski postępu.</LI>
+      <LI><B>Wyświetlaj pojedyncze zadania</B> - czy w małym oknie statusu mają być pokazywane wszystkie zadania, czy tylko zbiorcze, określające wspólny postęp.</LI>
+      <LI><B>Czas, co jaki będzie odświeżany status [ms]</B> - jak często ma być odświeżany mały status.</LI>
+      <LI><B>Pokaż przy starcie programu</B> - czy małe okno statusu ma być pokazane podczas uruchomienia programu.</LI>
+      <LI><B>Ukryj, jeżeli nie ma co pokazać</B> - jeśli nie ma aktualnie żadnych zadań, powoduje ukrycie małego okna statusu (jeśli później włączymy jakieś kopiowanie, okno automatycznie się pokaże).</LI>
+      <LI><B>Użyj płynnych pasków postępu</B> - pozwala na ustalenie stylu pasków postępu w mini statusie - dla płynnych pasków postępu trochę lepiej widać powolny postęp.</LI>
+      <BR>
+    </UL>
+    <LI><B>Okno wyboru folderu</B> - opcje odnoszące się do <A HREF="folderdlg.htm">okna wyboru folderu docelowego</A>:</LI>
+    <UL>
+      <LI><B>Pokaż rozszerzony widok</B> - określa, czy podczas wyświetlania okna wyboru folderu docelowego ma być pokazana lista skrótów.</LI>
+      <LI><B>Szerokość okna [piksele]</B> - szerokość okna podawana w pikselach.</LI>
+      <LI><B>Wysokość okna [piksele]</B> - wysokość okna podawana w pilkselach.</LI>
+      <LI><B>Styl listy skrótów</B> - określa styl listy skrótów w oknie wyboru folderu docelowego.</LI>
+      <LI><B>Ignoruj dodatkowe okna powłoki</B> - określa, czy w oknie wyboru folderu docelowego mają nie pojawiać się dodatkowe okna (np. 'Włóż dyskietkę', 'Dysk nie jest dostępny', itp.).</LI>
+      <BR>
+    </UL>
+    <LI><B>Powłoka systemowa</B> - opcje odnoszące się do <A HREF="explorermenu.htm">rozszerzenia powłoki systemowej</A>:</LI>
+    <UL>
+      <LI><B>Pokaż polecenie 'Kopiuj' w menu przeciągania</B> - włącza komendę Kopiuj w menu przeciągania.</LI>
+      <LI><B>Pokaż polecenie 'Przenieś' w menu przeciągania</B> - włącza komendę Przenieś w menu przeciągania.</LI>
+      <LI><B>Pokaż polecenie 'Kopiuj/przenieś specjalnie' w menu przeciągania</B> - włącza komendę 'Kopiuj/przenieś specjalnie' w menu przeciągania.</LI>
+      <LI><B>Pokaż polecenie 'Wklej' w menu kontekstowym</B> - włącza komendę Wklej w menu kontekstowym explorera.</LI>
+      <LI><B>Pokaż polecenie 'Wklej specjalnie' w menu kontekstowym</B> - włącza komendę Wklej specjalnie w menu kontekstowym explorera.</LI>
+      <LI><B>Pokaż polecenie 'Kopiuj do' w menu kontekstowym</B> - włącza komendę Kopiuj do w menu kontekstowym explorera.</LI>
+      <LI><B>Pokaż polecenie 'Przenieś do' w menu kontekstowym</B> - włącza komendę Przenieś do w menu kontekstowym explorera.</LI>
+      <LI><B>Pokaż polecenie 'Kopiuj/przenieś specjalnie do' w menu kontekstowym</B> - włącza komendę Kopiuj/przenieś specjalnie do w menu kontekstowym explorera.</LI>
+      <LI><B>Wyświetl ilość wolnego miejsca wraz z nazwami skrótów</B> - określa, czy w podmenu Kopiuj do (i pochodnych) obok nazw skrótów podawana ma być także ilość wolnego miejsca).</LI>
+      <LI><B>Wyświetl ikony obok skrótów (eksperymentalne)</B> - określa, czy w podmenu Kopiuj do (i pochodnych) mają byś rysowane ikony shellowe. Opcja eksperymentalna - rysowanie nie działa na wszystkich systemach poprawnie. Jeśli po wybraniu menu Kopiuj do (i pochodnych) zobaczysz puste menu o dziwnej wielkości - wyłącz tę opcję.</LI>
+      <LI><B>Przechwytuj przeciąganie lewym przyciskiem myszy (eksperymentalne)</B> - określa, czy przeciąganie plików lewym przyciskiem myszy ma być przechwytywane przez ten program. Opcja eksperymentalna - po pierwsze nie działa na wszystkich systemach (zwłaszcza na tych starszych). Po drugie powoduje również przechwycenie komend 'Wklej' i 'Wklej skrót' (a co za tym idzie również kombinację klawiszy [CTRL]+[V]) z menu kontekstowego explorera, z czego tę drugą traktuje identycznie do pierwszej.</LI>
+      <LI><B>Domyślna akcja przy przeciąganiu lewym przyciskiem myszy</B> - określa akcję, która zostanie wykonana podczas przeciągania plików/folderów w oknach explorera jeśli nie zostanie naciśnięty żaden klawisz modyfikujący tę operację ([CTRL], [SHIFT], [ALT]). Autodetekcja operacji jest na razie w fazie eksperymentu - "przewiduje" ona to co jest wyświetlone przy kursorze myszy - niekoniecznie taki jest stan faktyczny.</LI>
+      <BR>
+    </UL>
+    <LI><B>Wątek kopiujący</B> - opcje dotyczące kopiowania:</LI>
+    <UL>
+      <LI><B>Automatyczne dokopiuwuj pliki</B> - określa, czy jeśli zostanie napotkany plik o mniejszym rozmiarze niż kopiowany, ale o tej samej nazwie domyślnie ma być dokopiowany, czy kopiowany od nowa.</LI>
+      <LI><B>Ustawiaj atrybuty plików docelowych</B> - czy mają być ustawiane atrybuty plików docelowych.</LI>
+      <LI><B>Ustawiaj datę/czas plików docelowych</B> - j.w. tylko data/czas.</LI>
+      <LI><B>Chroń pliki tylko do odczytu</B> - jeśli przenosimy dane i następuje etap kasowania plików, to określa, czy pliki tylko do odczytu mają być kasowane (jeśli nie - otrzymamy komunikat o błędzie). Odnosi się to również do tego, czy zawartość plików docelowych, które są tylko do odczytu ma być zastępowana nową zawartością.</LI>
+      <LI><B>Ilość jednocześnie wykonywanych operacji</B> - pozwala ograniczyć ilość przeprowadzanych jednocześnie kopiowań do np. 1. Podając 0 usuwamy ograniczenia.</LI>
+      <LI><B>Odczytuj wielkość zadania przed zablokowaniem</B> - jeżeli poprzednia opcja jest włączona, to ta określi, czy wyszukiwanie plików (i obliczanie ich wielkości) ma się odbywać przed ('TAK'), czy po ('NIE') blokowaniu postępu zadania.</LI>
+      <LI><B>Pokaż wizualne potwierdzenia</B> - czy podczas napotkania na np. niekompletnie skopiowany plik ma wyświetlać okno z pytaniem o zastąpienie, dokopiowanie, itp.Trzy stopnie określają: Wyłączone - okna nie są wyświetlane, Normalne - okna są wyświetlane tylko w niezbędnych przypadkach, zaś Wszystkie powoduje pytanie o wszelkie szczegóły (prawie).</LI>
+      <LI><B>Autowybór domyślnej akcji dla okien z potwierdzeniami</B> - czy powyższe okna mają zatwierdzać domyślną opcję po określonym czasie.</LI>
+      <LI><B>Czas pokazywania okna potwierdzenia</B> - określa czas pokazywania  okien z  potwierdzeniami.</LI>
+      <LI><B>Wznawiaj automatycznie</B> - ta opcja określa, czy program powinien ponowić próbę wykonania danej operacji ponownie jeśli wystąpi błąd kopiowania .</LI>
+      <LI><B>Czas, co jaki operacja będzie automatycznie wznawiana [ms]</B> - określa, co ile program będzie próbował wznowić powyższe zadania. 
+      <LI><B>Domyślny priorytet wątku</B> - określa domyślny priorytet wątku kopiującego. Wartość ta domyślnie przypisywana jest każdemu rozpoczynanemu zadaniu.</LI>
+      <LI><B>Wyłącz podbijanie priorytetu przez system</B> - określa, czy system powinien nieco podnieść priorytet wątku, jeśli aplikacja działa na pierwszym planie.</LI>
+      <LI><B>Kasuj pliki dopiero po zakończeniu kopiowania (przenoszenia)</B> - pozwala wybrać sposób przenoszenia plików - albo są one kasowane(wszystkie) dopiero po skopiowaniu wszystkich plików, albo pojedynczo po skopiowaniu danego pliku.</LI>
+      <LI><B>Twórz pliki .log (dziennika)</B>- czy program ma tworzyć pliki dzienników dla określonych zadań (dzięki temu np. można zgłaszać do mnie błędy), lub obejrzeć z grubsza jak wyglądał proces kopiowania, czy wystąpiły jakieś błedy, jakie, itp.</LI>
+      <BR>
+    </UL>
+    <LI><B>Bufor</B> - opcje związane z <A HREF="buffersize.htm">buforami</A> używanymi w czasie pracy programu:</LI>
+    <UL>
+      <LI><B>Używaj tylko domyślnego bufora</B> - jeśli włączymy tą opcję - program automatycznie dobierze jedną z poniższych wielkości bufora (np. kopiując cokolwiek z CD-ROMu na dysk twardy zostanie użyty bufor odpowiedni dla CD-ROMu), jeśli opcja ta jest wyłączona - zawsze będzie używany bufor o domyślnej wielkości.</LI>
+      <LI><B>Domyślna wielkość bufora</B> - określa domyślną wielkość bufora. Jeśli opcja automatycznego dobierania wielkości bufora jest wyłączona - ta wielkość bufora będzie używana do wszystkich kopiowań, jeśli zaś jest włączona - bufor ten służy do kopiowania plików, które nie mieszczą się w kategoriach poniższych buforów.</LI>
+      <LI><B>Wielkość bufora kopiowania w obrębie jednego dysku</B> - określa wielkość bufora, jeśli kopiujemy dane z dysku twardego na dysk twardy, oraz jeśli miejsce źródłowe i docelowe leżą na tym samym dysku fizycznym.</LI>
+      <LI><B>Wielkość bufora kopiowania pomiędzy dwoma różnymi dyskami</B> - określa wielkość bufora dla kopiowania w obrębie dwóch różnych dysków twardych.</LI>
+      <LI><B>Wielkość bufora kopiowania z CD-ROMu</B> - wielkość bufora używana w momencie, gdy kopiujemy dane z CD-ROMu na dowolny inny nośnik.</LI>
+      <LI><B>Wielkość bufora kopiowania przez sieć lokalną</B> - wielkość bufora używana dla kopiowania z użyciem sieci.</LI>
+      <LI><B>Wyłącz buforowanie dla dużych plików</B> - pozwala na wyłączenie buforowania dla plików o określonej wielkości (i większych; kopiowanie dużych plików bez buforowania w wielu przypadkach jest szybsze od kopiowania z buforowaniem; na moim komputerze przy włączonej tej opcji kopiowanie danych (właściwie 1.36GB filmów) w obrębie jednego dysku fizycznego jest szybsze o ok. 1.2MB/s).</LI>
+      <LI><B>Minimalna w ielkość plików, dla których buforowanie ma zostać wyłączone</B>- określa minimalną wielkość pliku dla którego buforowanie ma być wyłączone (wg moich eksperymentów wartość w pobliżu 2MB jest wystarczająca, ale na innych systemach wartość ta może być inna).</LI>
+      <BR>
+    </UL>
+    <LI><B>Dźwięki</B> - określa opcje związane z odtwarzaniem dźwięków w programie: </LI>
+    <UL>
+      <LI><B>Odtwarzaj dźwięki w programie </B> - czy na pewne zdarzenia program ma odtworzyć dźwięk.</LI>
+      <LI><B>Dźwięk przy wystąpienie błędu</B> - ścieżka dostępu do pliku .wav z dźwiękiem, który powinien być odtworzony, jeśli wystąpi błąd.</LI>
+      <LI><B>Dźwięk po zakończenie kopiowania</B> - ścieżka dostępu do pliku .wav z dźwiękiem, który powinien być odtworzony po zakończeniu zadania.</LI>
+      <BR>
+    </UL>
+    <LI><B>Skróty</B> - określa opcje dotyczące <A HREF="shortcutsdlg.htm">skrótów</A> używanych w <A HREF="explorermenu.htm">menu kontekstowych Eksplorera</A> i w <A HREF="folderdlg.htm">oknie wyboru folderu docelowego</A>:</LI>
+    <UL>
+      <LI><B>Ilość zdefiniowanych skrótów</B> - określa ilość aktualnie zdefiniowanych skrótów. Aby edytować - kliknij dwukrotnie, albo naciśnij przycisk po prawej stronie.</LI>
+      <BR>
+    </UL>
+    <LI><B>Ostatnio używane ścieżki dostępu</B> - określa opcje dotyczące <A HREF="recentdlg.htm">ścieżek dostępu</A> wybranych ostatnio jako miejsce docelowe dla kopiowanych danych:</LI>
+    <UL>
+      <LI><B>Ilość zapamiętanych ścieżek</B> - określa ilość zapamiętanych ścieżek, do których było coś ostatnio kopiowane. Aby edytować - kliknij dwukrotnie lub naciśnij przycisk po prawej stronie.</LI>
+    </UL>
+  </UL>
+  <BR>
+</DIV>
+<HR>
+<DIV CLASS="seealso"> 
+  <P>Zobacz także : <A HREF="mainmenu.htm">Główne menu programu</A>, <A HREF="folderdlg.htm">Okno wyboru folderu docelowego - automonitorowanie schowka</A>, <A HREF="shutdowndlg.htm">Powiadomienie o zamykaniu systemu</A>, <A HREF="status.htm">Okno statusu</A>, <A HREF="miniview.htm">Okno mini-statusu</A>, <A HREF="folderdlg.htm">Oknie wyboru folderu docelowego</A>, <A HREF="explorermenu.htm">Menu kontekstowe Eksplorera</A>, <A HREF="feeddstfile.htm">Komunikat o błędzie - nie można otworzyć pliku docelowego do zapisu</A>, <A HREF="feediwr.htm">Komunikat o błędzie - nie można otworzyć pliku źródłowego</A>, <A HREF="feednotenoughroom.htm">Komunikat o błędzie - brak wystarczającej ilości wolnego miejsca</A>, <A HREF="feedreplacefiles.htm">Komunikat o błędzie - napotkano mniejszy plik docelowy</A>, <A HREF="feedsmallreplace.htm">Komunikat o błędzie - plik docelowy istnieje</A>, <A HREF="buffersize.htm">Okno ustawień wielkości bufora</A>, <A HREF="shortcutsdlg.htm">Okno edycji skrótów</A>, <A HREF="recentdlg.htm">Okno edycji ostatnio używanych ścieżek</A>.</P>
+</DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

@@ -1,0 +1,86 @@
+.topic IDH_STATUS_LIST
+Lista wszystkich zadañ i trochê informacji o ka¿dym z nich (obecny status, aktualna nazwa pliku Ÿród³owego, œcie¿ka docelowa i procentowy postêp). Po klikniêciu na pozycjê z listy, detale zostan¹ wyœwietlone po prawej stronie. Mo¿na manipulowaæ zadaniami w tej liœcie, u¿ywaj¹c przycisków znajduj¹cych siê poni¿ej.
+
+.topic IDH_PAUSE_BUTTON
+Zatrzymuje zaznaczone zadanie. Je¿eli inne zadanie oczekiwa³o na jego zakoñczenie, zostanie wznowione rozpoczête.
+
+.topic IDH_RESTART_BUTTON
+Powoduje ponowne uruchomienie zaznaczonego zadania. Zadanie zostanie uruchomione od pocz¹tku.
+
+.topic IDH_CANCEL_BUTTON
+Anuluje aktualnie zaznaczone zadanie.
+
+.topic IDH_DELETE_BUTTON
+Usuwa zaznaczone zadanie z listy operacji. Je¿eli zadanie jest uruchomione (nie jest w stanie anulowania ani ukoñczenia), program zapyta, czy je zakoñczyæ.
+
+.topic IDH_PAUSE_ALL_BUTTON
+Wstrzymuje wszystkie zadania z listy operacji.
+
+.topic IDH_RESUME_BUTTON
+Wznawia pracê zaznaczonego-wstrzymanego zadania. Podobnie je¿eli zadanie jest w stanie oczekiwania (oczekuje na zakoñczenie innego), klikniêcie na ten przycisk spowoduje jego uruchomienie. Je¿eli akcja zostanie wykonana przy tym rodzaju wznowienia, zadanie zignoruje ustawienie w opcjach pozycji 'Ogranicz iloœæ jednoczeœnie wykonywanych operacji' i uruchomi zadanie równolegle
+
+.topic IDH_START_ALL_BUTTON
+Rozpoczyna wszystkie zaplanowane zadania z listy operacji.
+
+.topic IDH_CANCEL_ALL_BUTTON
+Anuluje wszystkie zaplanowane zadania z listy operacji.
+
+.topic IDH_REMOVE_FINISHED_BUTTON
+Usuwa wszystkie anulowane i ukoñczone zadania z listy operacji.
+
+.topic IDH_RESTART_ALL_BUTTON
+Uruchamia ponownie wszystkie zaplanowane zadania z listy operacji.
+
+.topic IDH_ADVANCED_BUTTON
+Pokazuje menu z zaawansowanymi ustawieniami odnoœnie pojedynczego lub wiêkszej iloœci zadañ z listy operacji.
+
+.topic IDH_STICK_BUTTON
+Powoduje 'przyklejenie' okna statusu do prawego, dolnego rogu ekranu.
+
+.topic IDH_ROLL_UNROLL_BUTTON
+Zmienia widok okna z zaawansowanego na uproszczony i odwrotnie.
+
+.topic IDH_SET_BUFFERSIZE_BUTTON
+Zmienia obecny rozmiar bufora dla aktualnie zaznaczonego zadania.
+
+.topic IDH_SET_PRIORITY_BUTTON
+Zmienia priorytet aktualnie zaznaczonego zadania.
+
+.topic IDH_SHOW_LOG_BUTTON
+Pokazuje pliki .log (dziennika) powi¹zane z aktualnie zaznaczonym zadaniem.
+
+.topic IDH_ERRORS_EDIT
+Wyœwietla informacje o b³êdzie, je¿eli jakiœ zostanie znaleziony.
+
+.topic IDH_ASSOCIATEDFILES__STATIC
+Pokazuje œcie¿ki do plików, które opisuj¹ obecnie zaznaczone zadanie. Pliki .atd i .atp zapamiêtuj¹ obecny stan zadania. Plik .log zawiera dziennik z informacjami generowanymi przez zaznaczone zadanie.
+
+.topic IDH_OPERATION_STATIC
+Pokazuje typy operacji i status obecnie zaznaczonego zadania.
+
+.topic IDH_SOURCE_STATIC
+Pokazuje aktualne œcie¿ki do plików, które s¹ przetwarzane w zaznaczonym zadaniu.
+ 
+.topic IDH_DESTINATION_STATIC
+Pokazuje œcie¿kê docelow¹, do której zaznaczone zadanie kopiuje lub przenosi dane.
+
+.topic IDH_PROGRESS_STATIC
+Pokazuje aktualne statystyki postêpu zaznaczonego zadania.
+
+.topic IDH_TIME_STATIC
+Pokazuje czas, który up³yn¹³ oraz szacowany czas ukoñczenia zaznaczonego zadania.
+
+.topic IDH_TRANSFER_STATIC
+Pokazuje obecn¹ i przeciêtn¹ prêdkoœæ transferu dla zaznaczonego zadania.
+
+.topic IDH_BUFFERSIZE_STATIC
+Wyœwietla rozmiar bufora, który jest u¿ywany przy kopiowaniu obecnego pliku do docelowej lokalizacji. Inforamcja jest wyœwietlana dla obecnego zadania z listy operacji. Mo¿esz zmieniæ jego wielkoœæ, klikaj¹c na przycisk '...' po prawej stronie.
+
+.topic IDH_PRIORITY_STATIC
+Pokazuje priorytet, z jakim obecne zadanie zosta³o uruchomione. Mo¿na go zmieniæ, u¿ywaj¹c przycisku '>' po prawej stronie.
+
+.topic IDH_OVERALL_PROGRESS_STATIC
+Pokazuje informacje o postêpie dla wszystkich zadañ z listy operacji.
+
+.topic IDH_OVERALL_TRANSFER_STATIC
+Pokazuje obecn¹ prêdkoœæ transferu dla wszystkich dzia³aj¹cych zadañ z listy operacji.

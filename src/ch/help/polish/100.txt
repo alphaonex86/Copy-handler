@@ -1,0 +1,44 @@
+.topic 0x00
+¯aden temat nie zosta³ powi¹zany z t¹ pozycj¹.
+
+.topic 1
+Zamyka to okno.
+
+.topic IDH_HOMEPAGELINK_STATIC
+Odnoœnik do strony domowej programu.
+
+.topic IDH_HOSTLINK_STATIC
+Odnoœnik do strony naszego sponsora internetowego.
+
+.topic IDH_CONTACT1LINK_STATIC
+Mój preferowany adres korespondencyjny. Napisz maila, je¿eli chcesz zg³osiæ b³¹d, wyraziæ opiniê na temat programu lub jeœli chcesz o coœ zapytaæ.
+
+.topic IDH_CONTACT2LINK_STATIC
+Mój drugi adres korespondencyjny. Napisz maila, je¿eli chcesz zg³osiæ b³¹d, wyraziæ opiniê na temat programu lub jeœli chcesz o coœ zapytaæ.
+
+.topic IDH_GENFORUMPAGELINK_STATIC
+Odnoœnik do strony z forum dyskusyjnym. Je¿eli chcesz otrzymywaæ powiadomienia o nowych wersjach programu, zapisz siê na niego.
+
+.topic IDH_GENFORUMSUBSCRIBELINK_STATIC
+Odnoœnik do adresu mailowego, dziêki któremu mo¿na siê na listê dyskusyjn¹ 'copy handler'.
+
+.topic IDH_GENFORUMUNSUBSCRIBELINK_STATIC
+Odnoœnik do adresu mailowego, dziêki któremu mo¿na siê wypisaæ z listy dyskusyjnej 'copy handler'.
+
+.topic IDH_GENFORUMSENDLINK_STATIC
+Powinieneœ napisaæ maila na ten adres, je¿eli chcesz, ¿eby wszyscy zarejestrowani u¿ytkownicy dostawali pocztê.
+
+.topic IDH_DEVFORUMPAGELINK_STATIC
+Odnoœnik do strony z forum dyskusyjnym dla programistów. Powinieneœ zapisaæ siê na t¹ listê dyskusyjn¹, je¿eli piszesz wtyczki do Copy Handlera (np. t³umaczysz program). Je¿eli jakieœ stringi powinny byæ dodane (lub zmienione) w programie, wyœlê maila na forum z dziennikiem zmian. Równie¿ je¿eli masz jakieœ komentarze dot. kodu Ÿród³owego Copy Handlera, mo¿esz napisaæ tutaj.
+
+.topic IDH_DEVFORUMSUBSCRIBELINK_STATIC
+Odnoœnik do adresu mailowego, dziêki któremu mo¿na siê na listê dyskusyjn¹ 'chdev'.
+
+.topic IDH_DEVFORUMUNSUBSCRIBELINK_STATIC
+Odnoœnik do adresu mailowego, dziêki któremu mo¿na siê wypisaæ z listy dyskusyjnej 'chdev'.
+
+.topic IDH_DEVFORUMSENDLINK_STATIC
+Musisz napisaæ maila na ten adres, je¿eli chcesz, ¿eby wszyscy zarejestrowani u¿ytkownicy chdev dostawali pocztê.
+
+.topic IDH_THANX_EDIT
+Lista osób, którym chcia³bym serdecznie podziêkowaæ za pomoc przy tworzeniu tego programu.

@@ -1,0 +1,89 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=polish.chm
+Contents file=help.hhc
+Default topic=welcome.htm
+Display compile progress=No
+Full-text search=Yes
+Index file=help.hhk
+Language=0x415 Polish
+Title=Copy Handler help file
+
+
+[FILES]
+advmenu.htm
+buffersize.htm
+bugs.htm
+customcopy.htm
+explorermenu.htm
+faq.htm
+feeddstfile.htm
+feediwr.htm
+feednotenoughroom.htm
+feedreplacefiles.htm
+feedsmallreplace.htm
+filterdlg.htm
+folderdlg.htm
+history.htm
+installation.htm
+license.htm
+mainmenu.htm
+miniview.htm
+options.htm
+recentdlg.htm
+replacepaths.htm
+requirements.htm
+shortcutsdlg.htm
+shutdowndlg.htm
+status.htm
+support.htm
+thanks.htm
+using.htm
+welcome.htm
+reporting.htm
+ch.gif
+style.css
+
+[ALIAS]
+HIDD_BUFFERSIZE_DIALOG=buffersize.htm
+HIDD_CUSTOM_COPY_DIALOG=customcopy.htm
+HIDD_FEEDBACK_DSTFILE_DIALOG=feeddstfile.htm
+HIDD_FEEDBACK_IGNOREWAITRETRY_DIALOG=feediwr.htm
+HIDD_FEEDBACK_NOTENOUGHPLACE_DIALOG=feednotenoughroom.htm
+HIDD_FEEDBACK_REPLACE_FILES_DIALOG=feedreplacefiles.htm
+HIDD_FEEDBACK_SMALL_REPLACE_FILES_DIALOG=feedsmallreplace.htm
+HIDD_FILTER_DIALOG=filterdlg.htm
+HIDD_MINIVIEW_DIALOG=miniview.htm
+HIDD_OPTIONS_DIALOG=options.htm
+HIDD_RECENTEDIT_DIALOG=recentdlg.htm
+HIDD_REPLACE_PATHS_DIALOG=replacepaths.htm
+HIDD_SHORTCUTEDIT_DIALOG=shortcutsdlg.htm
+HIDD_SHUTDOWN_DIALOG=shutdowndlg.htm
+HIDD_STATUS_DIALOG=status.htm
+
+[MAP]
+#include HTMLDefines.h
+
+[TEXT POPUPS]
+HTMLDefines.h
+0.txt
+100.txt
+131.txt
+137.txt
+144.txt
+145.txt
+149.txt
+161.txt
+162.txt
+164.txt
+165.txt
+167.txt
+173.txt
+182.txt
+195.txt
+208.txt
+209.txt
+
+[INFOTYPES]

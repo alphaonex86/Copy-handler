@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Feedback dialog - destination file found</title>
+</head>
+<body>
+<script>header("Feedback dialog - destination file found");</script>
+<div class="text">
+This dialog is displayed when the working thread finds that there is a file in the destination location that is greater or equal in size to file being copied. If the files are identical - you should ignore. But if they differs you should recopy.
+
+<ul>
+<li><b>Recopy</b> - recopies the whole file from the beginning</li>
+<li><b>Recopy all</b> - like the above, but does the 'Recopy' for all subsequent situations, where the destination file is greater or equal in size to source one.</li>
+<li><b>Ignore</b> - ignores this info, and skips the file.</li>
+<li><b>Ignore all</b> - like the above button, but also ignores the next infos of this type.</li>
+<li><b>Cancel</b> - cancels the task.</li>
+</ul>
+</div>
+<hr>
+<div class="seealso">
+See also: 
+<a href="feeddstfile.htm">Feedback dialog - cannot open destination file for writing</a>, 
+<a href="feediwr.htm">Feedback dialog - cannot open source file</a>, 
+<a href="feednotenoughroom.htm">Feedback dialog - not enough free space</a>, 
+<a href="feedreplacefiles.htm">Feedback dialog - smaller destination file found</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

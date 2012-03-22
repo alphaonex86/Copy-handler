@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Explorer's context menus</title>
+</head>
+<body>
+<script>header("Explorer's context menus");</script>
+<div class="text">
+When using shell integration some items (commands) are added to explorer context menus. There are two types of explorer menus which are modified by the Copy Handler:
+<ul>
+<li>
+<b>Drag&drop context menu</b> - displayed when you drag some files and/or folders from one place to another by right mouse button.
+<ul>
+<li><b>(CH) Copy here</b> - copies the dragged files to the place where the files were dropped</li>
+<li><b>(CH) Move here</b> - moves the dragged files to the place where the files were dropped</li>
+<li><b>(CH) Copy/move special...</b> - opens the <a href="customcopy.htm">custom copy dialog</a> where you can adjust some settings regarding the drag&drop operation.</li>
+</ul>
+</li>
+<li>
+<b>Standard context menu</b> - Displayed when you click on any file or folder (or folder background).
+<ul>
+<li><b>(CH) Paste</b> - enabled only when menu was opened by r-clicking on the folder or folder's background and when in clipboard there are some files or folders. Works the same way the normal Windows paste command, but the operation is processed by Copy Handler instead of Windows.</li>
+<li><b>(CH) Paste special...</b> - enabled only when menu was opened by r-clicking on the folder or folder's background and when in clipboard there are some files or folders. Works a bit similar to the previous option, but displays <a href="customcopy.htm">custom copy dialog</a> where user can adjust some settings before operation begins.</li>
+<li><b>(CH) Copy to</b> - expandable menu. Enabled only when menu was opened by r-clicking on file or folder (not folder background) and when there is at least one shortcut defined in <a href="options.htm">configuration</a> section 'Shortcuts'. Copies the selected files to the location where the selected shortcut points.</li>
+<li><b>(CH) Move to</b> - command almost identical to the above one, but instead of copying it moves files and foldeers.</li>
+<li><b>(CH) Copy/move special to...</b> - works similarly to the 'copy to' command, but displays the
+<a href="customcopy.htm">custom copy dialog</a> where user can adjust some settings before operation starts.</li>
+</ul>
+</li>
+</ul>
+
+Each command in explorer's context menus may be enabled or disabled in <a href="options.htm">configuration dialog</a> in section 'Shell'.
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="options.htm">Configuration dialog</a>, <a href="customcopy.htm">Custom copy dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

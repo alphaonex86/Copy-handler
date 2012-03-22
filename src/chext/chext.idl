@@ -1,0 +1,96 @@
+/***************************************************************************
+*   Copyright (C) 2001-2008 by Józef Starosczyk                           *
+*   ixen@copyhandler.com                                                  *
+*                                                                         *
+*   This program is free software; you can redistribute it and/or modify  *
+*   it under the terms of the GNU Library General Public License          *
+*   (version 2) as published by the Free Software Foundation;             *
+*                                                                         *
+*   This program is distributed in the hope that it will be useful,       *
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*   GNU General Public License for more details.                          *
+*                                                                         *
+*   You should have received a copy of the GNU Library General Public     *
+*   License along with this program; if not, write to the                 *
+*   Free Software Foundation, Inc.,                                       *
+*   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+***************************************************************************/
+// chext.idl : IDL source for chext.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (chext.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+import "shobjidl.idl";
+
+[
+	v1_enum,
+	uuid(54F8BFDD-6685-4792-94BD-40DF00099F9B),
+	helpstring("Shell extension flags")
+]
+enum EShellExtFlags
+{
+	eShellExt_None = 0,
+	eShellExt_Enabled = 1
+};
+
+[
+	object,
+	uuid(317E503A-9D2F-4f42-995E-D314CB9D89B0),
+	dual,
+	helpstring("IShellExtControl Interface"),
+	pointer_default(unique)
+]
+interface IShellExtControl : IDispatch
+{
+	// Shell extension version (numeric and readable)
+	[id(1),helpstring("Retrieves the extension version information")]
+		HRESULT GetVersion([out]LONG* plVersion, [out]BSTR* pbstrVersion);
+
+	// Flag setting/retrieving
+	[id(2),helpstring("Sets the flags for shell extension")]
+		HRESULT SetFlags(LONG lFlags, LONG lMask);
+	[id(3),helpstring("Retrieves the shell extension flags")]
+		HRESULT GetFlags(LONG* plFlags);
+};
+
+[
+	uuid(68FAFC14-8EB8-4DA1-90EB-6B3D22010505),
+	version(1.0),
+	helpstring("chext 1.0 Type Library")
+]
+library CHEXTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(E7A4C2DA-F3AF-4145-AC19-E3B215306A54),
+		helpstring("MenuExt Class")
+	]
+	coclass MenuExt
+	{
+		[default] interface IContextMenu3;
+		interface IShellExtControl;
+	};
+	[
+		uuid(B46F8244-86E6-43CF-B8AB-8C3A89928A48),
+		helpstring("DropMenuExt Class")
+	]
+	coclass DropMenuExt
+	{
+		[default] interface IContextMenu3;
+		interface IShellExtControl;
+	};
+	[
+		uuid(3D855ACA-8274-4f1f-94E9-6BEF4FC2A2AF),
+		helpstring("CShellExtControl Class")
+	]
+	coclass CShellExtControl
+	{
+		[default] interface IShellExtControl;
+	};
+};

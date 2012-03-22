@@ -1,0 +1,136 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Configuration dialog</title>
+</head>
+<body>
+<script>header("Configuration dialog");</script>
+<div class="text">
+
+<ul>
+<li><b>Program</b> - general options concerning the program</li>
+<ul>
+<li><b>Clipboard monitoring</b> - specifies whether clipboard should be monitored for new data (if it's enabled then after copying files to clipboard there should appear <a href="folderdlg.htm">window to choose destination folder</a>)</li>
+<li><b>Scan clipboard every ... [ms]</b> - specify time interval in miliseconds at which the clipboard will be checked (look above)</li>
+<li><b>Run program with system</b> - specify whether the program should start with system or not (enabling it will cause some entries to be added to the registry)</li>
+<li><b>Shutdown system after copying finishes</b> - if we are going to copy something huge, we can turn this on, and after copying finishes the system will shut down (unless there will be error encountered, or something strange happens)</li>
+<li><b>Wait ... [ms] befor shutdown</b> - specifies amount of time for showing shutdown window with cancel possibility</li>
+<li><b>Type of shutdown</b> - specifies, if system should be shutdown normally or by force</li>
+<li><b>Autosave every ... [ms]</b> - to be able to resume copying after ie. system restert, data describing what has been copied should be written to disk. This option specify interval at which it is done.</li>
+<li><b>Application's priority class</b> - specifies the Copy Handler application priority class - use it with caution, because with high priorities the program can cause system to respond very slowly and with the idle - copying data can be very slow.</li>
+<li><b>Folder for temporary data</b> - folder for temporary data (look above)</li>
+<li><b>Folder with plugins</b> - specifies folder containing plugins for this program (currently unused)</li>
+<li><b>Directory with help files</b> - a path to a folder that contains the help files for this program</li>
+<li><b>Language</b> - specify language for the program and the shell extension DLL</li>
+<li><b>Directory with language files</b> - specifies the path to a directory where the language files are located</li>
+</ul>
+
+<li><b>Status window</b> - options for the status window</li>
+<ul>
+<li><b>Refresh status every ... [ms]</b> - interval that specify how often data will be refreshed in the status window</li>
+<li><b>Show details in status window</b> - specify, if the right side of status window should be visible (containing details)</li>
+<li><b>Automatically remove finished tasks</b> - if copying finishes, some temporary files remain in memory and on disk, thanks to which you can see how many time copying occupied, what was the average transfer, or you have ie. the possibility to restart the task. If we enable this option, then the temporary files will be almost immediately deleted.</li>
+</ul>
+
+<li><b>Miniview</b> - options for mini status window</li>
+<ul>
+<li><b>Show file names</b> - specifies if in the miniview file names of files actually copied should appear or only the progress bars.</li>
+<li><b>Show single tasks</b> - specifies if the miniview should display all tasks or only one, common progress.</li>
+<li><b>Refresh status every ... [ms]</b> - how often miniview should be refreshed</li>
+<li><b>Show at program startup</b> - if miniview should be shown at program startup</li>
+<li><b>Hide when empty</b> - when no tasks are processed it causes miniview to hide (if later same task will beegin processing - miniview will be automatically shown)</li>
+<li><b>Use smooth progress bars</b> - allows user to choose between two styles of progress bars inside miniview: boxed and smooth</li>
+</ul>
+
+<li><b>Choose folder dialog</b> - options associated with folder choosing dialog</li>
+<ul>
+<li><b>Show extended view</b> - specifies if shortcuts' list should be visible when showing folder dialog.</li>
+<li><b>Dialog width [pixels]</b> - dialog box width in pixels.</li>
+<li><b>Dialog height [pixels]</b> - dialog box height in pixels.</li>
+<li><b>Shortcuts' list style</b> - specifies the style of the shortcuts' list.</li>
+<li><b>Ignore additional shell dialogs</b> - specifies if folder dialog should ignore additional system dialogs (ie. Insert disk, Disk ... not available, ...).</li>
+</ul>
+
+<li><b>Shell</b> - options associated with explorer and shell</li>
+<ul>
+<li><b>Show 'Copy' command in drag&drop menu</b> - enables Copy command in drag&drop menu.</li>
+<li><b>Show 'Move' command in drag&drop menu</b> - enables Move command in drag&drop menu.</li>
+<li><b>Show 'Copy/move special' command in drag&drop menu</b> - enables Copy/move special in drag&drop menu.</li>
+<li><b>Show 'Paste' command in context menu</b> - enables Paste command in explorer's context menu.</li>
+<li><b>Show 'Paste special' command in context menu</b> - enables Paste special command in explorer's context menu.</li>
+<li><b>Show 'Copy to' command in context menu</b> - enables Copy to command in explorer's context menu.</li>
+<li><b>Show 'Move to' command in context menu</b> - enables Move to command in explorer's context menu.</li>
+<li><b>Show 'Copy/move special to' command in context menu</b> - enables Copy/move special to command in explorer's context menu.</li>
+<li><b>Show free space with shortcuts' names</b> - specifies if in the submenus associated with Copy to command (and similar) there should be displayed available free space.</li>
+<li><b>Show icons with shortcuts (experimental)</b> - specifies, if in the submenus associated with Copy to command (and similar) there should be displayed shell icons for shortcuts. Experimental option - drawing doesn't work properly on some older systems. If you see some strange submenu (when you select Copy to command or similar one) you should disable this option.</li>
+<li><b>Intercept drag&drop operation by left mouse button (experimental)</b> - specifies, if drag&drop operations in explorer (by left mouse button) should be intercepted by this program. Experimental option - first - it doesn't work on some systems (especially the older ones). Second - it causes commands 'Paste' and 'Paste shortcut' (and what goes with it - also Ctrl+V key combination) from explorer's context menu to be intercepted too (program treats the second one just as the first one).</li>
+<li><b>Default action for dragging by left mouse button</b> - specifies action that will be performed when dragging files/folders in explorers' windows (if none of the modifying keys (Ctrl, Shift, Alt) will be pressed). Autodetection is now in experimental phase - it "predicts" what is the indicator at mouse cursor - not necessarily correctly.</li>
+</ul>
+
+<li><b>Copying/moving thread</b> - options for copying/moving</li>
+<ul>
+<li><b>Auto "copy-rest" of files</b> - specify, if the larger source file should overwrite the smaller destination, or if the destination files should be filled up by the source file.</li>
+<li><b>Set attributes of destination files</b> - should attributes for destination files be set ?</li>
+<li><b>Set date/time of destionation files</b> - like above, but date/time</li>
+<li><b>Protect read-only files</b> - when moving data (at the last phase - deleting files) it specify, if read-only files should be deleted (if not - we got error). It also tells if the destination read-only files should be overwritten.</li>
+<li><b>Limit maximum operations running simultaneously to ...</b> - it allows to limit maximum count of operations pending at once. When we specify 0 - we remove limitation.</li>
+<li><b>Read tasks size before blocking</b> - if we enable above option, then this option specify if searching for files (and counting its size) should be done before (Yes) or after (No) blocking progress of task</li>
+<li><b>Show visual confirmation dialogs</b> - specify if when copying ie. not completely copied file there should be displayed a window with question of overwriting, copying rest, ... .Three grades specify: disabled - the windows are not shown, Normal - windows are shown only in indispensable cases, and Heavy (I haven't found better name :) ) causes asking about everything (almost).</li>
+<li><b>Use timed confirmation dialogs</b> - if above dialogs should auto-confirm default option after some time.</li>
+<li><b>Time of showing confirmation dialogs</b> - specify time for above window.</li>
+<li><b>Auto resume on error</b> - if there was an error encountered - this option specify if the task should be resumed after some time.</li>
+<li><b>Auto resume every ... [ms]</b> - specify interval for above option.</li>
+<li><b>Default thread priority</b> - specify default priority for copying thread. This value will be assigned to every new task.</li>
+<li><b>Disable priority boosting</b> - specifies, if system should boost thread priority if application works in foreground</li>
+<li><b>Don't delete files before copying finishes (moving)</b> - it allows to choose how files are moved - either they are deleted (all) after copying all, or one by one (after copying every single file).</li>
+<li><b>Create .log files</b> - if program should create log files for every task performed(thanks to it you could report some errors), or look how the copying was performed, or if there was errors, what errors, ...</li>
+</ul>
+
+<li><b>Buffer</b> - options connected with buffers</li>
+<ul>
+<li><b>Use only default buffer</b> - if we enable this option - program will use only the default buffer size. In other case program will try to find the proper buffer size by checking the storage medias on which the source and destination files are stored.</li>
+<li><b>Default buffer size</b> - specifies the default buffer size. If 'Use only default buffer' option is turned on - this buffer size will be used for all copyings, if it's turned on - this buffer serves for copying files, which are not contained in one of below categories</li>
+<li><b>Buffer size for copying inside one physical disk boundary</b> - specifies buffer size for copying data inside one physical disk boundary (when the source files and the destination folder lies on the same physical hard disk).</li>
+<li><b>Buffer size for copying between two different disks</b> - specifies buffer size for copying data between two different physical hard disks.</li>
+<li><b>Buffer size for copying from CD-ROM</b> - buffer size for copying data from CD-ROM to any other place</li>
+<li><b>Buffer size for copying over a network</b> - buffer size used, when copying data from or to a local network</li>
+<li><b>Disable buffering for large files</b> - allows to turn off buffering for files with specified size(below) and greater (copying large files without buffering in many cases is faster than copying with buffering).</li>
+<li><b>Minimum file size for which buffering should be disabled</b> - specifies minimum file size for which buffering should be disabled (according to my experiments this value on my computer should be about 2MB, but on another systems it may be other).</li>
+</ul>
+
+<li><b>Sounds</b> - specify sound options for program</li>
+<ul>
+<li><b>Playing sounds</b> - should program play sounds for some events ?</li>
+<li><b>Sound on error</b> - path to .wav file (with sound), which should be played, when error occurs.</li>
+<li><b>Sound on copying finished</b> - path to .wav file (with sound), which should be played, after task finishes.</li>
+</ul>
+
+<li><b>Shortcuts</b> - specifies options associated with shortcuts used in explorer's context menus and in <a href="folderdlg.htm">folder choosing dialog</a></li>
+<ul>
+<li><b>Defined shortcuts' count</b> - specifies count of currently defined shortcuts. To edit - double click or press the button on the right.</li>
+</ul>
+
+<li><b>Recently used paths</b> - specifies options associated with paths chosed recently as a destination for copy/move operations</li>
+<ul>
+<li><b>Count of recent paths</b> - specifies count of paths that are currently remembered. To edit - double click or press the button on the right.</li>
+</ul>
+</ul>
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="mainmenu.htm">Program's main menu</a>, <a href="folderdlg.htm">Folder dialog</a>,
+<a href="shutdowndlg.htm">Shutdown dialog</a>, <a href="status.htm">Status dialog</a>, <a href="miniview.htm">Mini status dialog</a>,
+<a href="explorermenu.htm">Explorer's context menus</a>, <a href="feeddstfile.htm">Feedback dialog - cannot open destination file for writing</a>, 
+<a href="feediwr.htm">Feedback dialog - cannot open source file</a>, 
+<a href="feednotenoughroom.htm">Feedback dialog - not enough free space</a>, 
+<a href="feedreplacefiles.htm">Feedback dialog - smaller destination file found</a>, 
+<a href="feedsmallreplace.htm">Feedback dialog - destination file found</a>,
+<a href="buffersize.htm">Buffer size dialog</a>, <a href="shortcutsdlg.htm">Shortcuts editing dialog</a>,
+<a href="recentdlg.htm">Recent paths editing dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

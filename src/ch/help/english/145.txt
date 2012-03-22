@@ -1,0 +1,2 @@
+.topic IDH_PROGRESS_LIST
+Shows the status of currently active tasks. The view depends on the options' set in the configuration dialog in section 'Miniview'.

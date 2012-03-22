@@ -1,0 +1,20 @@
+.topic 1
+Zamienia œcie¿kê podan¹ powy¿ej w oknie edycji na t¹ z okna edycji poni¿ej i zamyka okno.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla informacje pomocy dla tego okna.
+
+.topic IDH_PATHS_LIST
+Lista domyœlnych œcie¿ek, które mog¹ byæ zamienione na inne. Je¿eli jakaœ œcie¿ka jest zaznaczona, pojawi siê w oknie edycji poni¿ej.
+
+.topic IDH_SOURCE_EDIT
+Okreœla œcie¿kê, która bêdzie zamieniona na t¹ z okna edycji poni¿ej.
+
+.topic IDH_DESTINATION_EDIT
+Okreœla œcie¿kê, na któr¹ jedna z powy¿szych zostanie zamieniona. Mo¿na wpisywaæ œcie¿kê rêcznie z klawiatury lub wskazaæ j¹, klikaj¹c na przycisk '...' po prawej stronie.
+
+.topic IDH_BROWSE_BUTTON
+Przegl¹da w poszukiwaniu œcie¿ki, która bêdzie wyœwietlona w oknie po lewej stronie.

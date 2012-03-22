@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Custom copy dialog</title>
+</head>
+<body>
+<script>header("Custom copy dialog");</script>
+<div class="text">
+
+<ul>
+<li><b>Source files/folders</b> - contains list of files and folders that are to be copied. You can manage these items by the buttons on the right.</li>
+<li><b>Add file(s)... button</b> - allows user to add one or more files to the source list</li>
+<li><b>Add folder</b> - allows user to add a folder to a source list</li>
+<li><b>Delete</b> - deletes selected items from source list.</li>
+<li><b>Import...</b> - allows user to import source files and folders from the file. Each line of the file should contain one full file or folder path.</li>
+<li><b>Destination folder</b> - allows user to enter destination path into which the source files will be copied or moved. You can change it manually be entering path from keyboard or by clicking the '...' button on the right.</li>
+<li><b>Operation type</b> - specifies operation that will be performed on source files</li>
+<li><b>Priority</b> - specifies thread priority at which the working thread will work.</li>
+<li><b>Count of copies</b> - specifies count of copies of the source files that should be performed. Possible values are from range 0..~240. This is useful when copying something small to the failure-prone storage medium (ie. floppy disk).</li>
+<li><b>Buffer sizes</b> - specifies sizes of the buffer that will be used to copy or move the source data into destination location</li>
+<li><b>Filtering</b> - when checked - allows user to specify filters to be used when copying. Buttons at right side allow user to add or remove a filter. Add button opens the <a href="filterdlg.htm">filter dialog</a>.</li>
+<li>
+<b>Advanced options</b>
+<ul>
+<li><b>Do not create destination directories - copy files loosely to destination folder</b> - when selected it causes task not to create destination directories and to copy all found files in every searched folder to the destination folder, but without creating the folders that are usually created.</li>
+<li><b>Create directory structure in the destination folder (relatively to root directory)</b> - when copying files program will create the whole path found on source media in the destination directory.</li>
+<li><b>Do not copy/move the contents of files - only create it (empty)</b> - acts as a normal copyin/moving, but does not copy the contents of files. The destination files will be empty. Be careful when moving data that way.</li>
+</ul>
+</ul>
+
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="explorermenu.htm">Explorer's context menus</a>, <a href="mainmenu.htm">Program's main menu</a>, <a href="filterdlg.htm">Filter dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>

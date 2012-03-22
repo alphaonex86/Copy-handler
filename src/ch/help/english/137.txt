@@ -1,0 +1,41 @@
+.topic 1
+Closes the window and stores the changed settings.
+
+.topic 2
+Closes this window and discards all changes.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_DEFAULTSIZE_EDIT
+Buffer size that would be used to copy or move data when 'Use only default buffer' checkbox is checked or any other buffer size cannot be applied.
+
+.topic IDH_DEFAULTMULTIPLIER_COMBO
+Specifies the size units in which the value on the left is specified.
+
+.topic IDH_ONEDISKSIZE_EDIT
+Buffer size that would be used to copy data between two places that lies on the same physical hard disk. The larger values in this buffer size could significantly improve copying performance. Too large values could lower the performance. One of the buffer sizes is chosen automatically unless the checkbox 'Use only default buffer' is checked.
+
+.topic IDH_ONEDISKMULTIPLIER_COMBO
+Specifies the size units in which the value on the left is specified.
+
+.topic IDH_TWODISKSSIZE_EDIT
+Buffer size that would be used to copy data between two different physical hard disks. This value shouldn't be too large because of possible performance degradation. One of the buffer sizes is chosen automatically unless the checkbox 'Use only default buffer' is checked.
+
+.topic IDH_TWODISKSMULTIPLIER_COMBO
+Specifies the size units in which the value on the left is specified.
+
+.topic IDH_CDROMSIZE_EDIT
+Buffer size that would be used to copy data from CD-ROM to any other storage medium. The value shouldn't be too large because the CD-ROM is rather slow device (comparing to a newer hard disks). One of the buffer sizes is chosen automatically unless the checkbox 'Use only default buffer' is checked.
+
+.topic IDH_CDROMMULTIPLIER_COMBO
+Specifies the size units in which the value on the left is specified.
+
+.topic IDH_LANSIZE_EDIT
+Buffer size that would be used to copy data from or to local network. The value should depend on the network performance - ie. on 10Mbps networks it should be lower than on 1Gbps networks. One of the buffer sizes is chosen automatically unless the checkbox 'Use only default buffer' is checked.
+
+.topic IDH_LANMULTIPLIER_COMBO
+Specifies the size units in which the value on the left is specified.
+
+.topic IDH_ONLYDEFAULT_CHECK
+Specifies if the task(s) should use only the default buffer size to copy/move data or should auto-detect the needed buffer size by analysing the source and destination storage medium.

@@ -1,0 +1,35 @@
+.topic 1
+Zamyka okno i zapamiêtuje zmienione ustawienia.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla informacje pomocy dla tego okna.
+
+.topic IDH_SHORTCUT_LIST
+Lista obecnie zdefiniowanych skrótów. Mo¿na je edytowaæ, u¿ywaj¹c poni¿szych elementów.
+
+.topic IDH_UP_BUTTON
+Przenosi zaznaczony skrót (skróty) w górê o jedn¹ pozycjê.
+
+.topic IDH_DOWN_BUTTON
+Przenosi zaznaczony skrót (skróty) w dó³ o jedn¹ pozycjê.
+
+.topic IDH_NAME_EDIT
+Okreœla nazwê dla skrótu.
+
+.topic IDH_PATH_COMBOBOXEX
+Okreœla œcie¿kê skrótu. Mo¿na wpisaæ œcie¿kê rêcznie z klawiatury lub wskazaæ j¹, klikaj¹c na przycisk '...' po prawej stronie.
+
+.topic IDH_BROWSE_BUTTON
+Przegl¹da w poszukiwaniu œcie¿ki, która bêdzie wyœwietlona w oknie po lewej stronie.
+
+.topic IDH_ADD_BUTTON
+Dodaje skrót zdefiniowany przez edycjê powy¿szego pola kombi do listy skrótów.
+
+.topic IDH_CHANGE_BUTTON
+Zmienia zaznaczony skrót w liœcie na ten zdefiniowany przez edycjê i powy¿sze pole kombi.
+
+.topic IDH_DELETE_BUTTON
+Usuwa zaznaczony skrót z listy.

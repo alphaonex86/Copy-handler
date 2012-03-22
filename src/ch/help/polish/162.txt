@@ -1,0 +1,41 @@
+.topic 2
+Anuluje ca³e zadanie.
+
+.topic IDH_MESSAGE_EDIT
+Okreœla opis b³êdu - powód, przez który plik nie móg³ zostaæ otwarty.
+
+.topic IDH_FILENAME_EDIT
+Okreœla nazwê oczekiwanego pliku.
+
+.topic IDH_FILESIZE_EDIT
+Okreœla rozmiar oczekiwanego pliku.
+
+.topic IDH_CREATETIME_EDIT
+Okreœla czas/datê utworzenia oczekiwanego pliku.
+
+.topic IDH_MODIFY_TIME_EDIT
+Okreœla ostatni czas/datê modyfikacji oczekiwanego pliku.
+
+.topic IDH_DEST_FILENAME_EDIT
+Okreœla nazwê pliku, który zosta³ znaleziony.
+
+.topic IDH_DEST_FILESIZE_EDIT
+Okreœla rozmiar pliku, który zosta³ znaleziony.
+
+.topic IDH_DEST_CREATETIME_EDIT
+Okreœla czas/datê utworzenia pliku, który zosta³ znaleziony.
+
+.topic IDH_DEST_MODIFYTIME_EDIT
+Okreœla ostatni czas/datê modyfikacji pliku, który zosta³ znaleziony.
+
+.topic IDH_RETRY_BUTTON
+Ponawia próbê otwarcia pliku.
+
+.topic IDH_IGNORE_BUTTON
+Ignoruje b³¹d i pomija plik.
+
+.topic IDH_IGNORE_ALL_BUTTON
+Ignoruje b³¹d i pomija kopiowany plik. Je¿eli w przysz³oœci zadanie napotka na podobny b³¹d - automatycznie go zignoruje.
+
+.topic IDH_WAIT_BUTTON
+Zmienia stan zadania, gdy napotka b³¹d. Je¿eli opcja 'Wznawiaj automatycznie' jest w³¹czona - zadanie bêdzie przywrócone po ustalonym czasie oczekiwania.

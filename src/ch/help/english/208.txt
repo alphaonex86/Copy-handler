@@ -1,0 +1,35 @@
+.topic 1
+Saves all the changes made in this dialog box and closes it.
+
+.topic 2
+Discards all changes made in this dialog box.
+
+.topic IDH_HELP_BUTTON
+Displays help information for this dialog box.
+
+.topic IDH_SHORTCUT_LIST
+List of currently defined shortcuts. You can edit them by using the elements below.
+
+.topic IDH_UP_BUTTON
+Moves the selected shortcut(s) up by one position.
+
+.topic IDH_DOWN_BUTTON
+Moves the selected shortcut(s) down by one position.
+
+.topic IDH_NAME_EDIT
+Specifies name of the shortcut.
+
+.topic IDH_PATH_COMBOBOXEX
+Specifies path of the shortcut. You can enter the path manually or by using the '...' button on the right.
+
+.topic IDH_BROWSE_BUTTON
+Browses for a path that will be displayed in the window on the left.
+
+.topic IDH_ADD_BUTTON
+Adds the shortcut defined by the edit and combo box above to the shortcut's list.
+
+.topic IDH_CHANGE_BUTTON
+Changes the selected shortcut in the list with the one defined by the edit and combo box above.
+
+.topic IDH_DELETE_BUTTON
+Deletes selected shortcut from the list.

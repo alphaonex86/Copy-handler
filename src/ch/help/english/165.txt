@@ -1,0 +1,38 @@
+.topic 2
+Cancels the whole task.
+
+.topic IDH_FILENAME_EDIT
+Name of the source file.
+
+.topic IDH_FILESIZE_EDIT
+Size of the source file.
+
+.topic IDH_CREATETIME_EDIT
+Creation date/time of the source file.
+
+.topic IDH_MODIFY_TIME_EDIT
+Last mofification date/time of the source file.
+
+.topic IDH_DEST_FILENAME_EDIT
+Name of the destination file.
+
+.topic IDH_DEST_FILESIZE_EDIT
+Size of the destination file.
+
+.topic IDH_DEST_CREATETIME_EDIT
+Creation date/time of the destination file.
+
+.topic IDH_DEST_MODIFYTIME_EDIT
+Last modification date/time of the destination file.
+
+.topic IDH_RECOPY_ALL_BUTTON
+Copies file from the beginning. Also if the task will encounter any similar situations in the future - it will automatically recopy the file.
+
+.topic IDH_RECOPY_BUTTON
+Copies file from the beginning.
+
+.topic IDH_IGNORE_BUTTON
+Ignores this error and skips the file.
+
+.topic IDH_IGNORE_ALL_BUTTON
+Ignores this error and skips copying the file. Also if the task will encounter any similar errors in the future - it will automatically ignore the error.

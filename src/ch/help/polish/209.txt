@@ -1,0 +1,26 @@
+.topic 1
+Zamyka okno i zapamiêtuje zmienione ustawienia.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla inforamcje pomocy dla tego okna.
+
+.topic IDH_RECENT_LIST
+Lista ostatnio u¿ywanych œcie¿ek. Mo¿na nimi zarz¹dzaæ dziêki poni¿szym elementom.
+
+.topic IDH_PATH_EDIT
+Wyœwietla œcie¿ki obecnie zaznaczonej listy lub ca³kem nowej - okreœlane przez u¿ytkownika. Mo¿na wpisaæ œcie¿kê rêcznie z klawiatury lub wskazaæ j¹, klikaj¹c na przycisk '...' po prawej stronie.
+
+.topic IDH_BROWSE_BUTTON
+Przegl¹da w poszukiwaniu œcie¿ki, która bêdzie wyœwietlona w oknie po lewej stronie.
+
+.topic IDH_ADD_BUTTON
+Dodaje podan¹ œcie¿kê do listy.
+
+.topic IDH_CHANGE_BUTTON
+Zamienia obecnie zaznaczon¹ listê z podan¹ œcie¿k¹.
+
+.topic IDH_DELETE_BUTTON
+Usuwa obecne zaznaczenie z listy.

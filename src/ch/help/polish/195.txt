@@ -1,0 +1,89 @@
+.topic 1
+Zamyka okno i zapamiêtuje zmienione ustawienia.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla informacje pomocy dla tego okna.
+
+.topic IDH_FILTER_CHECK
+Umo¿liwia filtrowanie wzglêdem zgodnoœci nazw z mask¹. Aby pliki zosta³y skopiowane, ich nazwy musz¹ odpowiadaæ jednej z tych masek.
+
+.topic IDH_FILTER_COMBO
+Miejsce wprowadzania wymaganej maski filtruj¹c¹ (zgodnoœæ nazwy z mask¹). Je¿eli wymagana jest wiêcej ni¿ jedna maska, nale¿y je odseparowaæ od siebie, u¿ywaj¹c znaku '|'.
+
+.topic IDH_EXCLUDEMASK_CHECK
+Umo¿liwia filtrowanie wzglêdem niezgodnoœci nazw z mask¹. Nazwy plików *nie mog¹* zawieraæ ¿adnych z tych masek, aby zosta³y skopiowane.
+
+.topic IDH_FILTEREXCLUDE_COMBO
+Miejsce wprowadzania wymaganej maski filtruj¹c¹ (niezgodnoœæ nazwy z mask¹). Je¿eli wymagana jest wiêcej ni¿ jedna maska, nale¿y je odseparowaæ od siebie, u¿ywaj¹c znaku '|'.
+
+.topic IDH_SIZE_CHECK
+Umo¿liwia filtrowanie wzglêdem rozmiaru plików. Nazwy plików musz¹ zgadzaæ siê z ustawieniami poni¿ej, aby zosta³y skopiowane.
+
+.topic IDH_SIZETYPE1_COMBO
+Okreœla relacjê miêdzy rozmiarem pliku Ÿród³owego, a rozmiarem okreœlonym po prawej stronie. Wymaga zgodnoœci, aby plik zosta³ skopiowany.
+
+.topic IDH_SIZE1_EDIT
+Okreœla rozmiar, do jakiego plik Ÿród³owy bêdzie porównywany.
+
+.topic IDH_SIZE1MULTI_COMBO
+Mno¿nik dla wartoœci po lewej stronie.
+
+.topic IDH_SIZE2_CHECK
+Umo¿liwia filtrowanie plików wzglêdem drugiego rozmiaru. Nazwy plików musz¹ zgadzaæ siê z ustawieniami powy¿ej, aby zosta³y skopiowane.
+
+.topic IDH_SIZETYPE2_COMBO
+Okreœla relacje miêdzy rozmiarem pliku Ÿród³owego, a drugim rozmiarem okreœlonym po prawej stronie. Wymaga zgodnoœci, aby plik zosta³ skopiowany.
+
+.topic IDH_SIZE2_EDIT
+Okreœla rozmiar, do którego plik Ÿród³owy bêdzie porównywany.
+
+.topic IDH_SIZE2MULTI_COMBO
+Mno¿nik dla wartoœci po lewej stronie.
+
+.topic IDH_DATE_CHECK
+Umo¿liwia filtrowanie plików wzglêdem ich dat i czasów.
+
+.topic IDH_DATETYPE_COMBO
+Rodzaj daty/czasu, która bêdzie przetworzona przy porównywaniu daty/czasu pliku Ÿród³owego z wyszczególnionym.
+
+.topic IDH_DATE1TYPE_COMBO
+Okreœla relacje miêdzy dat¹/czasem pliku Ÿród³owego, a wyszczególnion¹ dat¹ i/lub czasem. Wymaga zgodnoœci, aby plik zosta³ skopiowany.
+
+.topic IDH_DATE1_DATETIMEPICKER
+Okreœla datê, która bêdzie porównywana do daty pliku Ÿród³owego. Wymaga zgodnoœci, aby plik zosta³ skopiowany. U¿ywane tylko wtedy, gdy zaznaczone.
+
+.topic IDH_TIME1_DATETIMEPICKER
+Okreœla datê, która bêdzie porównywana do daty pliku Ÿród³owego. Wymaga zgodnoœci, aby plik zosta³ skopiowany. U¿ywane tylko wtedy, gdy zaznaczone.
+
+.topic IDH_DATE2_CHECK
+Umo¿liwia filtrowanie plików wzglêdem ich dat i czasów (sekcja druga).
+
+.topic IDH_DATE2TYPE_COMBO
+Okreœla drug¹ relacjê miêdzy dat¹/czasem pliku Ÿród³owego a okreœlon¹ dat¹ i/lub czasem. Wymaga zgodnoœci, aby plik zosta³ skopiowany.
+
+.topic IDH_DATE2_DATETIMEPICKER
+Okreœla drug¹ datê, która bêdzie porównywana do daty pliku Ÿród³owego. Wymaga zgodnoœci, aby plik zosta³ skopiowany. U¿ywane tylko wtedy, gdy zaznaczone.
+
+.topic IDH_TIME2_DATETIMEPICKER
+Okreœla drugi czas, który bêdzie porównywany do czasu pliku Ÿród³owego. Wymaga zgodnoœci, aby plik zosta³ skopiowany. U¿ywane tylko wtedy, gdy zaznaczone.
+
+.topic IDH_ATTRIBUTES_CHECK
+Umo¿liwia filtrowanie plików wzglêdem ich atrybutów.
+
+.topic IDH_ARCHIVE_CHECK
+Zezwala na filtrowanie wzglêdem atrybutu 'Archiwalny'. Je¿eli odznaczone - plik nie mo¿e mieæ ustawionego tego atrybutu, aby zosta³ skopiowany; je¿eli zaznaczone - musi byæ ustawiony; je¿eli jest szarawe - nie ma to znaczenia.
+
+.topic IDH_READONLY_CHECK
+Zezwala na filtrowanie wzglêdem atrybutu 'Tylko do odczytu'. Je¿eli odznaczone - plik nie mo¿e mieæ ustawionego tego atrybutu, aby zosta³ skopiowany; je¿eli zaznaczone - musi byæ ustawiony; je¿eli jest szarawe - nie ma to znaczenia.
+
+.topic IDH_HIDDEN_CHECK
+Zezwala na filtrowanie wzglêdem atrybutu 'Ukryty'. Je¿eli odznaczone - plik nie mo¿e mieæ ustawionego tego atrybutu, aby zosta³ skopiowany; je¿eli zaznaczone - musi byæ ustawiony; je¿eli jest szarawe - nie ma to znaczenia.
+
+.topic IDH_SYSTEM_CHECK
+Zezwala na filtrowanie wzglêdem atrybutu 'Systemowy'. Je¿eli odznaczone - plik nie mo¿e mieæ ustawionego tego atrybutu, aby zosta³ skopiowany; je¿eli zaznaczone - musi byæ ustawiony; je¿eli jest szarawe - nie ma to znaczenia.
+
+.topic IDH_DIRECTORY_CHECK
+Zezwala na filtrowanie wzglêdem atrybutu 'Katalog'. Je¿eli odznaczone - plik nie mo¿e mieæ ustawionego tego atrybutu, aby zosta³ skopiowany; je¿eli zaznaczone - musi byæ ustawiony; je¿eli jest szarawe - nie ma to znaczenia.

@@ -1,0 +1,213 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Historia programu / Co nowego?</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Historia programu / Co nowego?");</SCRIPT>
+<DIV CLASS="text"> 
+  <UL>
+
+<li><b>1.28</b></li>
+<ul>
+<li>poprawiono problem z kopiowaniem plików, których nazwy rozpoczynały się kropką</li>
+<li>dodano kilka nowych tłumaczeń</li>
+<li>wiele zmian wewnętrznych w kodzie (np. zmieniono obsługę stl na stlPort z <a href="http://www.stlport.com">http://www.stlport.com</a>)</li>
+</ul>
+
+    <LI><B>1.26</B></LI>
+    <UL>
+      <LI>poprawiono wyświetlanie ścieżek w oknie statusu,</LI>
+      <LI>poprawiono zmianę języka 'w locie' w liście zadań w oknie statusu,</LI>
+      <LI>poprawiono obsługę ścieżek katalogów w konfiguracji,</LI>
+      <LI>okno &quot;Brak wystarczającej ilości wolnego miejsca&quot; zostanie teraz automatycznie zamknięte, gdy tylko  zwolni się miejsce na wykonanie operacji,</LI>
+      <LI>zmieniono nazwy plików programu,</LI>
+      <LI>zmieniono obsługę języków - teraz są one oparte na plikach tekstowych zamiast bibliotek,</LI>
+      <LI>poprawiono błąd obsługi powłoki (problem z obługą wykrywania operacji przy wciśniętym klawiszu [CTRL]).</LI>
+    </UL>
+   </UL>
+   <UL>	
+    <LI><B>1.25</B></LI>
+    <UL>
+      <LI>dodano system pomocy do programu,</LI>
+      <LI>poprawiono błąd, kiedy nowo utworzone skróty (okno wyboru folderu) nie były zapisywane,</LI>
+      <LI>inne drobne optymalizacje i poprawki.</LI>
+     </UL>
+   </UL>
+   <UL>
+    <LI><B>1.20</B></LI>
+    <UL>
+      <LI>zmienił się sposób licencjonowania programu. Teraz program zgodny jest z licencją GNU General Public License (co oznacza, że pełny kod programu jest dostępny na <A HREF="http://www.copyhandler.prv.pl" TARGET="_blank">http://www.copyhandler.prv.pl</A>),</LI>
+      <LI>dodano wsparcie dla plugina językowego,</LI>
+      <LI>zmieniono program instalacyjny na NSIS,</LI>
+      <LI>zoptymalizowano wykrywanie restartu tray'a,</LI>
+      <LI>zmodyfikowano okno 'O programie',</LI>
+      <LI>obecnie wszystkie stringi są odczytywane z tablic zasobów,</LI>
+      <LI>zmodyfikowano obsługę okna konfiguracji - obsługuje zastosowywanie zmian (przycisk 'Zastosuj'), dodano również zmianę języka 'w locie',</LI>
+      <LI>gdy operacja włączenia lub wyłączenia integracji z powłoką systemową nie powiedzie się, program wyświetli komunikat o błędzie,</LI>
+      <LI>dodano sekcję 'Plik Log' (chwilowo nieużywana),</LI>
+      <LI>wklejanie z użyciem CH nie powoduje już opróżniania schowka,</LI>
+      <LI>kilka mniejszych optymalizacji...</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.13i</B></LI>
+    <UL>
+      <LI>poprawiono błąd wykrywania partycji (ten sam dysk, czy inny) na nowszych komputerach lub z większą ilością urządzeń,</LI>
+      <LI>dokonano lekkich zmian w tekście - np. w angielskim zamiast 'OD' jest 'One disk',</LI>
+      <LI>poprawiono wykrywanie obecności stacji dysków / ścieżki dostępu do niej w oknie wyboru folderu docelowego,</LI>
+      <LI>zmodyfikowano kilka okien dialogowych (np. okno statusu) tak, aby wyświetlało się w pasku zadań,</LI>
+      <LI>poprawiono błąd związany z wprowadzaniem ścieżek dostępu w niektórych oknach - poprzednio ilość tekstu zależała od aktualnej wielkości okna,</LI>
+      <LI>dodano język francuski do programu (dzięki Julienowi (Vk)),</LI>
+      <LI>teraz rzeczywiście plik wykonywalny i biblioteka DLL są spakowane UPX'em, nie jak w wersji 1.13g ;)</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.13g</B></LI>
+    <UL>
+      <LI>poprawiono błąd związany z funkcją 'Kopiuj do' i pochodnymi w menu kontekstowym Eksplorera (w poprzedniej wersji nie wykonywała zamierzonego działania),</LI>
+      <LI>dodano dwie dodatkowe opcje związane z regulacją priorytetu - priorytet aplikacji i wyłączanie podbijania priorytetu wątku kopiującego</LI>
+      <LI>poprawiono błąd związany z obliczaniem wolnego miejsca na dysku (jeśli ilość miejsca na dysku była równa wielkości zasobów do skopiowania program wyświetlał okno informujące o braku miejsca),</LI>
+      <LI>poprawiono błąd związany z kopiowaniem plików, których data utworzenia/modyfikacji/zapisu zawierały się poza zakresem roku 1970~2038 (program wykonywał nieprawidłową operację),</LI>
+      <LI>dodano możliwość ustalania kolejności skrótów,</LI>
+      <LI>program i biblioteka DLL zostały skompresowane oprogramowaniem UPX.</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.13e</B></LI>
+    <UL>
+      <LI>poprawiono kilka kolejnych literówek - np. brak wyrazu 'special' w menu kontekstowym w wersji anglojęzycznej,</LI>
+      <LI>poprawiono nieco działanie eksperymentalnej opcji przeciągania lewym przyciskiem myszy,</LI>
+      <LI>dodano możliwość importu ścieżek do kopiowania z pliku tekstowego,</LI>
+      <LI>dodano możliwość forsownego tworzenia pełnych ścieżek źródłowych w miejscu docelowym,</LI>
+      <LI>ikona programu w tray'u automatycznie pokaże się po restarcie Eksplorera,</LI>
+      <LI>dodatkowa opcja w konfiguracji - wybór domyślnej akcji dla przeciągania plików lewym przyciskiem myszy (jeśli jest włączona opcja przechwytywania).</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.13</B></LI>
+  <UL>
+      <LI>poprawiono błąd związany z wielokrotnym wyświetlaniem komend w menu 'Plik' Eksplorera (im więcej razy otwarto menu, tym więcej pojawiało się komend),</LI>
+      <LI>poprawiono denerwujące zachowanie - zapisywanie stanu operacji zakończonych/spauzowanych/anulowanych było wykonywane niepotrzebnie, jako że żadne dane dotyczące tych operacji nie były modyfikowane. (np. używając defragmentatora dysków - operacja była przerywana podczas każdego niepotrzebnego zapisu danych) - teraz przechodząc do jednego z wymienionych stanów dane zapisywane są tylko raz.</LI>
+  </UL>
+  </UL>
+  <UL>
+    <LI><B>1.12 Final</B></LI>
+    <UL>
+      <LI>lekkie zmiany w tekście - na "bardziej polskie",</LI>
+      <LI>zmieniono standardową ścieżkę dla danych tymczasowych na katalog TEMP,</LI>
+      <LI>usunięto błąd związany z ustawianiem wielkości buforów w oknie statusu,</LI>
+      <LI>wywalono niepotrzebny plik 'Quick access data.ini' - zawartość została wkomponowana do pliku 'Copy Handler.ini',</LI>
+      <LI>poprawiono kilka drobiazgów związanych z niekompatybilnością systemów - teraz program powinien bez przeszkód działać na systemach Windows 95/98/Me/NT4/2000/XP,</LI>
+      <LI>trochę zmieniono (właściwie przepisano od nowa) okno dialogowe wyboru folderu docelowego,</LI>
+      <LI>zmieniono nieco okno dialogowe ustawień kopiowania oraz rozszerzono możliwości filtrowania plików,</LI>
+      <LI>poprawiono trochę obsługę shella - dodatkowe komendy i dwie opcje eksperymentalne (działają tylko na niektórych systemach),</LI>
+      <LI>kilka innych drobiazgów, o których nie warto pisać...</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.11</B></LI>
+    <UL>
+      <LI>dodano nową opcję - wybór stylu pasków postępu w mini statusie (płynne/skokowe),</LI>
+      <LI>poprawiono początkowy stan pliku INI - nieefektywne ustawienie wielkości buforów.</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.10 Final</B></LI>
+    <UL>
+      <LI>poprawiono wykrywanie partycji leżących na jednym dysku fizycznym,</LI>
+      <LI>dodano program instalujący,</LI>
+      <LI>do okna 'o programie' dodano informację o nowym e-mail'u,</LI>
+      <LI>usunięto automatyczne rejestrowanie rozszerzenia powłoki systemowej podczas startu programu - teraz zajmie się tym instalator,</LI>
+      <LI>poprawiono nieco obsługę automatycznego uruchomienia programu wraz z systemem.</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.10 beta 4</B></LI>
+    <UL>
+      <LI>poprawiono błąd związany z kopiowaniem danych w systemach Windows NT/2000/XP z wyłączonym buforowaniem,</LI>
+      <LI>poprawiono szybkość pauzowania, wznawiania, itp. zadań, zwłaszcza pod seriami NT (NT/2000/XP) Windowsa,</LI>
+      <LI>poprawiono błąd związany z ustalaniem folderu docelowego dla tymczasowych danych,</LI>
+      <LI>dołożono obsługę autodetekcji bufora oraz 5 różnego rodzaju buforów odpowiednich do rodzaju kopiowania; zmieniono w związku z tym sposób wpisywania wielkości buforów, itp.,</LI>
+      <LI>poprawiono występujące dziwne efekty dla dużych wielkości buforów,</LI>
+      <LI>dodatkowe opcje w głównym menu programu - rejestracja/derejestracja rozszerzenia powłoki systemowej (shella),</LI>
+      <LI>włączanie okna statusu powoduje teraz automatyczne ukrycie ministatusu,</LI>
+      <LI>przy podawaniu ścieżki dostępu do dźwięków, oraz do folderu tymczasowego można stosować teraz skróty (określone ścieżki nie kończą się \, więc trzeba go dopisać podczas modyfikacji ścieżki np. < WINDOWS >\media; ścieżki podane w ten sposób muszą byś wpisywane wielkimi literami - < WINDOWS >, a nie < windows > lub < Windows >; ścieżki wpisywane w ten sposób nie zawierają spacji, choć tu może to wyglądać inaczej):</LI>
+      <UL>
+        <LI>< WINDOWS > - katalog windows (np. c:\windows),</LI>
+        <LI>< TEMP > - katalog na pliki tymczasowe (np. c:\windows\temp),</LI>
+        <LI>< SYSTEM > - katalog systemowy (np. c:\windows\system),</LI>
+        <LI>< APPDATA > - katalog na dane aplikacji (np. c:\windows\Dane aplikacji),</LI>
+        <LI>< DESKTOP > - katalog w którym trzymana jest zawartość pulpitu (np. C:\WINDOWS\PULPIT),</LI>
+        <LI>< PERSONAL > - katalog prywatny zalogowanego użytkownika (np. C:\MOJE DOKUMENTY),</LI>
+      </UL>
+      <LI>poprawiono wyłączanie programu (poprzez opcję menu oraz poprzez zamknięcie systemu) - teraz program zapisuje stan kopiowań przez wyjściem; przyspieszono też wyłączanie programu,</LI>
+      <LI>teraz wyłączanie systemu pozwala przez określony czas na anulowanie, oraz działa pod Windows NT/2000/XP; dodatkowo, jeśli zaznaczymy opcję automatycznego wyłączenia systemu po zakończeniu kopiowania a żadne zadanie nie jest aktualnie przetwarzane program nie będzie się starał wyłączyć systemu - poczeka na rozpoczęcie i zakończenie jakiegoś zadania; można również ustalić rodzaj wyłączenia (force/zwykłe),</LI>
+      <LI>poprawiono mini status pod kątem współpracy z Windows NT/2000/XP - teraz można korzystać z przycisków umieszczonych na pasku tytułu,</LI>
+      <LI>naciśnięcie przycisku wznowienia na oczekującym zadaniu spowoduje, że zadanie to będzie wznowione bez względu na ograniczenie ilości jednocześnie wykonywanych zadań,</LI>
+      <LI>jeśli zostanie ograniczona ilość jednocześnie wykonywanych zadań, to zadania oczekujące będą załączać się w kolejności w jakiej zostały wpisane na listę,</LI>
+      <LI>zmieniono nieco obsługę plików LOG oraz błędów - teraz oprócz numeru błędu jest wyświetlany komunikat o błędzie oraz miejsce programu, w którym nastąpił ów błąd,</LI>
+      <LI>w oknie statusu dołożono dodatkową informację o tymczasowych plikach skojarzonych z zaznaczonym zadaniam,</LI>
+      <LI>drobne modyfikacje UI (ikony wzięte z Windowsa XP - mam nadzieję, że nikt się nie pogniewa), optymalizacje, inne...</LI>
+    </UL>
+  </UL>
+  <UL>
+    <LI><B>1.03</B></LI>
+  <UL>
+      <LI>poprawiono wiele błędów związanych z wyświetlaniem tekstu - zwłaszcza przy ustawieniu większej czcionki we właściwościach wyświetlania, lub ustawieniu dziwnego schematu kolorów lub wielkości elementów wizualnych,</LI>
+      <LI>zmieniono nieco obsługę kopiowania plików z wyłączonym buforowaniem - poprzednio plik kopiowany był wielokrotnościami wielkości bufora. Jeśli odczytana ilość danych nie była wielokrotnością wielkości bufora - program zapisywał nadmiar informacji do pliku, a po chwili zmieniał wielkość pliku na oczekiwaną. Teraz kopiowanie takie odbywa się w dwóch przejściach - pierwsze kopiuje wielokrotności wielkości bufora, zaś drugie pozostałą resztkę (dot. tylko kopiowania plików bez buforowania),</LI>
+      <LI>dołożono dodatkową opcję w menu - wyłączanie systemu po zakończeniu kopiowania,</LI>
+      <LI>poprawiono obsługę wyświetlania okna dialogowego informującego o ilości wolnego miejsca na dysku - teraz, jeśli kopiowanie zostanie przerwane w połowie a następnie wznowione, to podczas obliczania potrzebnego miejsca skopiowana część zostanie uwzględniona,</LI>
+      <LI>poprawiono nieco okna wizualnych potwierdzeń - są nieco bardziej przejrzyste (niestety, dalej są beznadziejne),</LI>
+      <LI>poprawiono błąd - ograniczanie ilości jednocześnie wykonywanych operacji przestawało działać w pewnych sytuacjach - wymagało to restartu programu,</LI>
+      <LI>poprawiono obsługę przenoszenia danych w obrębie jednej partycji - poprzednio przenoszenie danych w ten sposób powodowało generowanie błędu 'Plik już istnieje' jeśli istniał plik lub folder o nazwie takiej jak kopiowana,</LI>
+      <LI>poprawiono błędne pokazywanie postępu w przypadku kopiowania danych z wyłączonym buforowaniem (być może powodowało to jeszcze inne konflikty o których nie wiem),</LI>
+      <LI>drobne poprawki dot. kolejności w jakiej przechodzi się między kontrolkami za pomocą klawisza [TAB].</LI>
+  </UL>
+  </UL>
+  <UL>
+    <LI><B>1.02</B></LI>
+  <UL>
+      <LI>zamieniono starą wersję BCMenu na nową (wizualna zmiana: domyślna opcja jest pokazana pogrubioną czcionką),</LI>
+      <LI>teraz nie pokazuje się już 0% po zakończeniu przenoszenia plików (nie folderów) w obrębie jednej partycji,</LI>
+      <LI>dodano obsługę kopiowania plików bez buforowania (przydaje się podczas kopiowania dużych plików),</LI>
+    <UL>
+        <LI>wielkość bufora do kopiowania jest zaokrąglana do najbliższej wielokrotności 64kB,</LI>
+        <LI>jeśli plik jest kopiowany bez buforowania i ma wielkość, która nie jest wielokrotnością 4kB to plik wyjściowy w pewnym momencie będzie miał wielkość większą niż plik źródłowy. (Uwaga: Jeśli w tym momencie kopiowanie zostanie przerwane, zaś później wznowione - program zacznie kopiowanie od początku, chyba że opcja używania wizualnych okien potwierdzeń jest ustawiona na ostre),</LI>
+        <LI>pojwaiły się dwie nowe opcje - jedna pozwala włączyć/wyłączyć obsługę buforowania kopiowanych plików, zaś druga pozwala określić minimalną wielkość pliku, która kwalifikuje go do kopiowania bez buforowania (kopiowanie małych plików bez buforowania spowoduje mocne obniżenie prędkości kopiowania),</LI>
+    </UL>
+      <LI>poprawiono nieco obsługę konfiguracji (nie powinna teraz tak mocno przyblokowywać innych części programu),</LI>
+      <LI>poprawiono kolejność przechodzenia między kontrolkami w niektórych oknach,</LI>
+      <LI>zmieniono nieco układ menu głównego w programie; dołożono dodatkową opcję - teraz można wybrać monitorowanie schowka również z tego menu (a nie tylko z opcji).</LI>
+  </UL>
+  </UL>
+  <UL>
+    <LI><B>1.01a</B></LI>
+  <UL>
+      <LI>poprawiono współpracę DLL'ki z wersjami ANSI starszych systemów Windows (98/Me).</LI>
+  </UL>
+  </UL>
+  <UL>
+    <LI><B>1.01</B></LI>
+    <UL>
+      <LI>poprawiono sytuację, gdy brak pliku źródłowego przy włączonych oknach potwierdzeń powodował "wysypanie się" programu,</LI>
+      <LI>teraz okno ręcznego wprowadzania danych o kopiowaniu wyświetla wreszcie rodzaj operacji (kopiowanie, przenoszenie),</LI>
+      <LI>poprawiono współpracę programu z UNICODE'owymi wersjami Windows (NT/2000/XP) - teraz program (właściwie biblioteka DLL) powinien działać pod tymi systemami bez zarzutu,</LI>
+      <LI>jeśli "Pokaż rejestr" nie wyświetli notatnika z plikiem log to pokaże odpowiedni komunikat o błędzie,</LI>
+      <LI>teraz w oknie wyboru folderu docelowego (przy włączonym monitorowaniu schowka) pojawia się informacja o ilości wolnego miejsca na dysku,</LI>
+      <LI>jeśli wystąpi błąd kopiowania, to automatyczne wznowienie odbędzie się po określonym czasie od wystąpienia błędu, a nie jak dotychczas od ostatniej próby wznowienia,</LI>
+      <LI>jeśli podczas kopiowania danych program stwierdzi, że na dysku docelowym nie ma wystarczającej ilości miejsca to pokaże odpowiedni komunikat,</LI>
+      <LI>poprawiono nieprawidłowo pokazywany opis komendy z menu kontekstowego Shell'a.</LI>
+    </UL>
+    <P>&nbsp;</P>
+  </UL>
+</DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="bugs.htm">Znane błędy / problemy</A>.</DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

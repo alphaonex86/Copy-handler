@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT language="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Komunikat o błędzie - napotkano mniejszy plik docelowy</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Komunikat o błędzie - napotkano mniejszy plik docelowy");</SCRIPT>
+<DIV CLASS="text"> Zadanie wyświetla to okno, gdy wątek przetwarzający znajdzie w miejscu docelowym plik o mniejszej wielkości niż kopiowany.<BR>Możliwe przyczyny: 
+  <UL>
+    <LI>w miejscu docelowym znajduje się starsza wersja pliku - w tym przypadku powinno sie skopiować plik od nowa,</LI>    
+    <LI>w miejscu docelowym znajduje się część kopiowanego pliku, gdyż nie został on poprawnie skopiowany do końca - w tym przypadku powinno się dokopiować resztę.</LI>
+</UL>
+<BR>
+  Dopuszczalne operacje: 
+  <UL>
+    <LI><B>Dokopiuj</B> - kopiuje resztę pliku.</LI>
+    <LI><B>Dokopiuj wszystkie</B> - jak powyżej, z tym, że w przypadku znalezienia następnych plików o wielkości mniejszej niż pliku źródłowego, zostanie automatycznie wykonana operacja dokopiowania.</LI>
+    <LI><B>Kopiuj od nowa</B> - kopiuje cały plik od początku.</LI>
+    <LI><B>Kopiuj od nowa wszystkie</B> - jak powyżej, z tym, że w przypadku znalezienia następnych plików o wielkości mniejszej niż pliku źródłowego, zostanie automatycznie wykonana operacja kopiowania od początku.</LI>
+    <LI><B>Ignoruj</B> - ignoruje informację i pomija plik.</LI>
+    <LI><B>Ignoruj wszystkie</B> - analogicznie jak poprzedni przycisk, ale w tym wypadku zadanie będzie pomijało wszystkie podobne informacje tego typu (jeżeli wystąpią).</LI>
+    <LI><B>Anuluj</B> - anuluje zadanie.</LI>
+  </UL>
+</DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="feeddstfile.htm">Komunikat o błędzie - nie można otworzyć pliku docelowego do zapisu</A>, <A HREF="feediwr.htm">Komunikat o błędzie - nie można otworzyć pliku źródłowego</A>, <A HREF="feednotenoughroom.htm">Komunikat o błędzie - brak wystarczającej ilości wolnego miejsca</A>, <A HREF="feedsmallreplace.htm">Komunikat o błędzie - plik docelowy istnieje</A>.</DIV>
+
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

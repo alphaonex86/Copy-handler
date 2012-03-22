@@ -1,0 +1,41 @@
+.topic 1
+Zamyka okno i zapamiêtuje zmienione ustawienia.
+
+.topic 2
+Zamyka okno i anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla inforamcje pomocy dla tego okna.
+
+.topic IDH_DEFAULTSIZE_EDIT
+Rozmiar bufora, jaki powinien byæ u¿yty przy kopiowaniu lub przenoszeniu danych, gdy opcja 'U¿ywaj tylko domyœlnego bufora' jest w³¹czona lub gdy ¿aden inny rozmiar bufora nie pasuje do obecnej operacji.
+
+.topic IDH_DEFAULTMULTIPLIER_COMBO
+Ustawia jednostkê wielkoœci, w której wyra¿one s¹ wartoœci po lewej stronie.
+
+.topic IDH_ONEDISKSIZE_EDIT
+Rozmiar bufora, jaki powienien byæ u¿yty przy kopiowaniu danych pomiêdzy dwoma miejscami le¿¹cymi na tym samym fizycznym dysku twardym. Du¿e wielkoœci bufora mog¹ znacz¹co poprawiæ wydajnoœæ kopiowania, jednak zbyt wielkie spowoduj¹ jej obni¿enie. Wartoœci te s¹ wybierane automatycznie, dopóki zaznaczone jest pole 'U¿ywaj tylko domyœlnego bufora'.
+
+.topic IDH_ONEDISKMULTIPLIER_COMBO
+Okreœla jednostkê wielkoœci, w której wyra¿one s¹ wartoœci po lewej stronie.
+
+.topic IDH_TWODISKSSIZE_EDIT
+Rozmiar bufora, jaki powinien byæ u¿yty przy kopiowaniu danych pomiêdzy dwoma oddzielnymi fizycznymi dyskami twardymi. Wartoœci nie powinny byæ zbyt du¿e, poniewa¿ wystêpuje prawdopodobieñstwo obni¿enia wydajnoœci. Wartoœci te s¹ wybierane automatycznie, dopóki zaznaczone jest pole 'U¿ywaj tylko domyœlnego bufora'.
+
+.topic IDH_TWODISKSMULTIPLIER_COMBO
+Okreœla jednostkê wielkoœci, w której wyra¿one s¹ wartoœci po lewej stronie.
+
+.topic IDH_CDROMSIZE_EDIT
+Rozmiar bufora, jaki powinien byæ u¿yty przy kopiowaniu danych z napêdu CD-ROM na inny noœnik pamiêci. Wartoœci nie powinny byæ zbyt du¿e, poniewa¿ napêdy CD-ROM s¹ raczej wolnymi urz¹dzeniami (w porównaniu z nowszymi dyskami twardymi). Wartoœci te s¹ wybierane automatycznie, dopóki zaznaczone jest pole 'U¿ywaj tylko domyœlnego bufora'.
+
+.topic IDH_CDROMMULTIPLIER_COMBO
+Okreœla jednostkê wielkoœci, w której wyra¿one s¹ wartoœci po lewej stronie.
+
+.topic IDH_LANSIZE_EDIT
+Rozmiar bufora, jaki powinien byæ u¿yty przy kopiowaniu danych do lub z sieci lokalnej. Wartoœci powinny byæ uzale¿nione od wydajnoœci sieci - np. na 10Mbps ³¹czu powinny byæ mniejsze ni¿ na ³¹czu 1Gbps. Wartoœci te s¹ wybierane automatycznie, dopóki zaznaczone jest pole 'U¿ywaj tylko domyœlnego bufora'.
+
+.topic IDH_LANMULTIPLIER_COMBO
+Okreœla jednostkê wielkoœci, w której wyra¿one s¹ wartoœci po lewej stronie.
+
+.topic IDH_ONLYDEFAULT_CHECK
+Okreœla, czy zadanie (zadania) powinny u¿ywaæ tylko domyœlnych wielkoœci buforów do kopiowania/przenoszenia danych czy te¿ powinny automatycznie wykrywaæ potrzebny rozmiar bufora, analizuj¹c noœniki Ÿród³owe i docelowe.

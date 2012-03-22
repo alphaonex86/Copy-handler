@@ -1,0 +1,14 @@
+1. Commit new translation from forum to svn repository
+2. Build packages with release - installer, zip, sources, symbols (scripted: make_release.bat)
+3. Post-build checks (is everything ok? does it install?)
+4. Upload files to the sourceforge.net (scripted: upload_release.bat)
+5. Prepare human readable changelog
+6. Create new site story with changelog (en + pl).
+7. Add new sf.net release, set release notes and changelog links.
+8. Add files to the newly created release, set file types/processors.
+9. Send notifications to users monitoring the copyhandler package.
+10. Create sf.net news entry.
+11. Change entries in ch.com download pages (change version names).
+12. Create news on site about new version.
+13. Create new chver.ini for automatic notifications.
+14. Add new artifact group with new release name (sf.net).

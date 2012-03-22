@@ -1,0 +1,14 @@
+.topic 1
+Zapamiêtuje zmienione ustawienia i zamyka okno.
+
+.topic 2
+Anuluje wszystkie wprowadzone zmiany.
+
+.topic IDH_HELP_BUTTON
+Wyœwietla informacje pomocy dla tego okna.
+
+.topic IDH_PROPERTIES_LIST
+Pokazuje listê w³aœciwoœci programu, które mo¿na zmieniæ.
+
+.topic IDH_APPLY_BUTTON
+Zastosowuje wszystkie zmiany wprowadzone w tym oknie.

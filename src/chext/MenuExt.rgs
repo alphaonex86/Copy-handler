@@ -1,0 +1,74 @@
+HKCR
+{
+	chext.MenuExt.1 = s 'MenuExt Class'
+	{
+		CLSID = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+	}
+	chext.MenuExt = s 'MenuExt Class'
+	{
+		CLSID = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+		CurVer = s 'chext.MenuExt.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {E7A4C2DA-F3AF-4145-AC19-E3B215306A54} = s 'MenuExt Class'
+		{
+			ProgID = s 'chext.MenuExt.1'
+			VersionIndependentProgID = s 'chext.MenuExt'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{68FAFC14-8EB8-4DA1-90EB-6B3D22010505}'
+		}
+	}
+
+	NoRemove Directory
+    {
+      NoRemove Shellex
+      {
+        NoRemove ContextMenuHandlers
+        {
+          chext = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+        }
+      }
+    }
+
+	NoRemove Directory
+    {
+      NoRemove Background
+	  {
+		NoRemove Shellex
+		{
+			NoRemove ContextMenuHandlers
+			{
+				chext = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+			}
+		}
+	  }	
+    }
+
+	NoRemove Folder
+    {
+      NoRemove Shellex
+      {
+        NoRemove ContextMenuHandlers
+        {
+          chext = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+        }
+      }
+    }
+
+	NoRemove *
+    {
+      NoRemove Shellex
+      {
+        NoRemove ContextMenuHandlers
+        {
+          chext = s '{E7A4C2DA-F3AF-4145-AC19-E3B215306A54}'
+        }
+      }
+    }
+
+}

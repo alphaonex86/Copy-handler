@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT language="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Menu kontekstowe Eksplorera</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Menu kontekstowe Eksplorera");</SCRIPT>
+<DIV CLASS="text"> Kiedy używane jest rozszerzenie powłoki systemowej, niektóre obiekty (polecenia) są dodawane do menu kontekstowego Eksploratora. Występują dwa typy menu, które są modyfikowane przez Copy Handlera: 
+  <UL>
+    <LI> <B>Menu kontekstowe 'drag&drop' ('przeciągnij i upuść')</B> - jest ono wyświetlane, gdy pliki i/lub foldery są przeciągane z jednego miejsca do drugiego z użyciem prawego przycisku myszy. 
+      <UL>
+        <LI><B>(CH) Kopiuj tutaj</B> - kopiuje przeciągane pliki do miejsca, w którym zostały upuszczone.</LI>
+        <LI><B>(CH) Przenieś tutaj </B> - przenosi przeciągane pliki do miejsca, w którym zostały upuszczone.</LI>
+        <LI><B>(CH) Kopiu/przenieś specjalne...</B> - otwiera <A HREF="customcopy.htm">okno kopiowania z parametrami</A>, gdzie można dostosować niektóre ustawienia odnośnie operacji 'przeciągnij i upuść'.</LI>
+      </UL>
+    </LI>
+    <BR>
+    <LI> <B>Standardowe menu kontekstowe</B> - wyświetlane po kliknięciu na jakiś plik lub folder (lub jego tło). 
+      <UL>
+        <LI><B>(CH) Wklej</B> - włączane tylko wtedy, gdy menu zostało otwarte prawym przyciskiem myszy na katalogu lub jego tle i w schowku znajdują się pliki lub foldery. Działa w taki sam sposób jak normalne windowsowe polecenie wklejania, ale operacja jest wykonywana z użyciem Copy Handlera.</LI>
+        <LI><B>(CH) Wklej specjalne...</B> - włączane tylko wtedy, gdy menu zostało otwarte prawym przyciskiem myszy na katalogu lub jego tle i w schowku znajdują się pliki lub foldery. Działa w troszkę podobny sposób do poprzedniej opcji, wyświetlając dodatkowo <A HREF="customcopy.htm">okno kopiowania z parametrami</A>, gdzie można dostosować niektóre ustawienia, zanim operacja zostanie rozpoczęta.</LI>
+        <LI><B>(CH) Kopiuj do</B> - menu rozszerzalne. Włączane tylko wtedy, gdy menu zostało otwarte prawym przyciskiem myszy na pliku lub katalogu (ale nie na jego tle) i kiedy istnieje co najmniej jeden zdefiniowany skrót w <A HREF="options.htm">opcjach</A> (sekcja 'Skróty'). Polecenie kopiuje zaznaczone pliki do miejsca, na które wskazuje wybrany skrót.</LI>
+        <LI><B>(CH) Przenieś do</B> - polecenie prawie identyczne z poprzednim, z tym, że w przeciwieństwie do niego przenosi pliki lub foldery.</LI>
+        <LI><B>(CH) Kopiuj/przenieś specjalne do...</B> - działa podobnie do polecenia 'Kopiuj do', wyświetlając dodatkowo <A HREF="customcopy.htm">okno kopiowania z parametrami</A>, gdzie można dostosować niektóre ustawienia, zanim operacja zostanie rozpoczęta.</LI>
+      </UL>
+    </LI>
+  </UL>
+  Każde polecenie z menu kontekstowego Eksplorera może zostać włączone lub wyłączone w <A HREF="options.htm">oknie ustawień</A> (sekcja 'Powłoka systemowa'). </DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="options.htm">Okno ustawień</A>, <A HREF="customcopy.htm">Okno kopiowania z parametrami</A>.</DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

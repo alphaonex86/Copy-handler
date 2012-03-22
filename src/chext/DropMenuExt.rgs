@@ -1,0 +1,63 @@
+HKCR
+{
+	chext.DropMenuExt.1 = s 'DropMenuExt Class'
+	{
+		CLSID = s '{B46F8244-86E6-43CF-B8AB-8C3A89928A48}'
+	}
+	chext.DropMenuExt = s 'DropMenuExt Class'
+	{
+		CLSID = s '{B46F8244-86E6-43CF-B8AB-8C3A89928A48}'
+		CurVer = s 'chext.DropMenuExt.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {B46F8244-86E6-43CF-B8AB-8C3A89928A48} = s 'DropMenuExt Class'
+		{
+			ProgID = s 'chext.DropMenuExt.1'
+			VersionIndependentProgID = s 'chext.DropMenuExt'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{68FAFC14-8EB8-4DA1-90EB-6B3D22010505}'
+			ForceRemove shellex
+			{
+				ForceRemove MayChangeDefaultMenu
+			}
+		}
+	}
+
+	NoRemove Directory
+    {
+      NoRemove Shellex
+      {
+		NoRemove DragDropHandlers
+		{
+			chext = s '{B46F8244-86E6-43CF-B8AB-8C3A89928A48}'
+		}
+	  }
+	}
+
+	NoRemove Drive
+    {
+		NoRemove Shellex
+		{
+			NoRemove DragDropHandlers
+			{
+				chext = s '{B46F8244-86E6-43CF-B8AB-8C3A89928A48}'
+			}
+		}
+	}
+
+	NoRemove Folder
+	{
+		NoRemove Shellex
+		{
+			NoRemove DragDropHandlers
+			{
+				chext = s '{B46F8244-86E6-43CF-B8AB-8C3A89928A48}'
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.topic 2
+Cancels the whole task.
+
+.topic IDH_FILENAME_EDIT
+Specifies the name of the file that could not be opened.
+
+.topic IDH_MESSAGE_EDIT
+Specifies the error description - the reason for which the file could not be opened.
+
+.topic IDH_RETRY_BUTTON
+Retries the opening operation.
+
+.topic IDH_IGNORE_BUTTON
+Ignores the error and skips copying the file.
+
+.topic IDH_IGNORE_ALL_BUTTON
+Ignores the error and skips copying the file. Also if the task will encounter any similar errors in the future - it will automatically ignore the error.
+
+.topic IDH_WAIT_BUTTON
+Changes state of the task to an error. If the configuration option 'Auto resume on error' is set - the task will be resumed in a configured time.

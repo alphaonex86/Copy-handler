@@ -1,0 +1,41 @@
+.topic 2
+Cancels the whole task.
+
+.topic IDH_MESSAGE_EDIT
+Specifies the error description - the reason for which the file could not be opened.
+
+.topic IDH_FILENAME_EDIT
+Specifies the name of the expected file.
+
+.topic IDH_FILESIZE_EDIT
+Specifies the size of the expected file.
+
+.topic IDH_CREATETIME_EDIT
+Specifies the creation date/time of the expected file.
+
+.topic IDH_MODIFY_TIME_EDIT
+Specifies the last modification date/time of the expected file.
+
+.topic IDH_DEST_FILENAME_EDIT
+Specifies the name of the file that has been found.
+
+.topic IDH_DEST_FILESIZE_EDIT
+Specifies the size of the file that has been found.
+
+.topic IDH_DEST_CREATETIME_EDIT
+Specifies the creation date/time of the file that has been found.
+
+.topic IDH_DEST_MODIFYTIME_EDIT
+Specifies the last modification date/time of the file that has been found.
+
+.topic IDH_RETRY_BUTTON
+Tries again to open the file.
+
+.topic IDH_IGNORE_BUTTON
+Ignores this error and skips the file.
+
+.topic IDH_IGNORE_ALL_BUTTON
+Ignores this error and skips copying the file. Also if the task will encounter any similar errors in the future - it will automatically ignore the error.
+
+.topic IDH_WAIT_BUTTON
+Changes state of the task to an error. If the configuration option 'Auto resume on error' is set - the task will be resumed in a configured time.

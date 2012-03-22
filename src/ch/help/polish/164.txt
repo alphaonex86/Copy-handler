@@ -1,0 +1,44 @@
+.topic 2
+Anuluje ca³e zadanie.
+
+.topic IDH_FILENAME_EDIT
+Nazwa pliku Ÿród³owego.
+
+.topic IDH_FILESIZE_EDIT
+Rozmiar pliku Ÿród³owego.
+
+.topic IDH_CREATETIME_EDIT
+Data/czas utworzenia pliku Ÿród³owego.
+
+.topic IDH_MODIFY_TIME_EDIT
+Data/czas ostatniej modyfikacji pliku Ÿród³owego.
+
+.topic IDH_DEST_FILENAME_EDIT
+Nazwa pliku docelowego.
+
+.topic IDH_DEST_FILESIZE_EDIT
+Rozmiar pliku docelowego.
+
+.topic IDH_DEST_CREATETIME_EDIT
+Data/czas utworzenia pliku docelowego.
+
+.topic IDH_DEST_MODIFYTIME_EDIT
+Data/czas ostatniej modyfikacji pliku docelowego.
+
+.topic IDH_COPY_REST_ALL_BUTTON
+Dokopiowuje resztê pliku (tylko do³¹cza brakuj¹c¹ czêœæ). Je¿eli w przysz³oœci zadanie napotka na podobn¹ sytuacjê - automatycznie dokopiuje resztê pliku.
+
+.topic IDH_COPY_REST_BUTTON
+Dokopiowuje resztê pliku (tylko do³¹cza brakuj¹c¹ czêœæ).
+
+.topic IDH_RECOPY_ALL_BUTTON
+Kopiuje plik od pocz¹tku. Je¿eli w przysz³oœci zadanie napotka na podobn¹ sytuacjê - automatycznie ponowi kopiowanie pliku.
+
+.topic IDH_RECOPY_BUTTON
+Kopiuje plik od pocz¹tku.
+
+.topic IDH_IGNORE_BUTTON
+Ignoruje ten b³¹d i pomija plik.
+
+.topic IDH_IGNORE_ALL_BUTTON
+Ignoruje ten b³¹d i pomija kopiowany plik. Je¿eli w przysz³oœci zadanie napotka na podobn¹ sytuacjê - automatycznie zignoruje b³¹d.

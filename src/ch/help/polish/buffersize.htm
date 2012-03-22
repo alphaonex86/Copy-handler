@@ -1,0 +1,26 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; charset=windows-1250">
+<META NAME="author" CONTENT="sal_er">
+<META NAME="e-mail" CONTENT="sal_er@go2.pl">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="headfoot.js"></SCRIPT>
+<TITLE>Okno ustawień wielkości bufora</TITLE>
+</HEAD>
+<BODY>
+<SCRIPT>header("Okno ustawień wielkości bufora");</SCRIPT>
+<DIV CLASS="text"> To okno może zostać wyświetlone z <A HREF="options.htm">okna ustawień</A> (sekcja 'Bufor') lub z <A HREF="status.htm">okna statusu</A>. 
+  <UL>
+    <LI><B>Domyślny</B> - domyślny rozmiar bufora. Używane, kiedy włączona jest opcja 'Używaj tylko domyślnego bufora' w <A HREF="options.htm">opcjach konfiguracji</A> (sekcja 'Bufor'), lub gdy żaden inny rozmiar bufora nie pasuje do obecnej operacji. </LI>
+    <LI><B>Dla kopiowania w obrębie jednego dysku</B> - bufor ten używany jest, gdy pliki źródłowe i folder docelowy leżą na tym samym fizycznym dysku twardym. Rozmiar bufora jest zazwyczaj większy niż standardowy bufor do kopiowania pomiędzy dwoma dyskami, ponieważ jeżeli kopiowane są dane większymi porcjami, dysk nie jest tak bardzo obciążany, jak ma to miejsce przy małym buforze.</LI>
+    <LI><B>Dla kopiowania pomiędzy dwoma dyskami </B> - bufor ten jest używany, gdy dane są kopiowane z jednego dysku fizycznego na drugi.</LI>
+    <LI><B>Dla kopiowania z użyciem CD-ROMu</B> - bufor ten jest używany, gdy kopiowane są dane z napędu CD-ROM na inny nośnik pamięci.</LI>
+    <LI><B>Dla kopiowania z użyciem sieci</B> - bufor ten jest używany, gdy kopiowane są dane do lub z sieci lokalnej.</LI>
+    <LI><B>Użyj tylko domyślnego bufora</B> - jeżeli ta opcja jest zaznaczona, zadanie (zadania) będą zawsze używały domyślnej wielkości bufora, ignorując rodzaj źródła i miejsce docelowe nośnika danych.</LI>
+  </UL>
+</DIV>
+<HR>
+<DIV CLASS="seealso"> Zobacz także: <A HREF="options.htm">Okno ustawień</A>, <A HREF="status.htm">Okno statusu</A>.</DIV>
+<SCRIPT>footer();</SCRIPT>
+</BODY>
+</HTML>

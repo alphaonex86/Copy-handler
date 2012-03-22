@@ -1,0 +1,2 @@
+.topic IDH_PROGRESS_LIST
+Pokazuje status obecnie aktywnych zadañ. Wygl¹d jest uzale¿niony od ustawieñ okna konfiguracyjnego, sekcja 'Miniaturowy widok'.

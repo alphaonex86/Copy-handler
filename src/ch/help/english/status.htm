@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta name="author" content="Ixen Gerthannes">
+<LINK REL="stylesheet" HREF="style.css" TYPE="text/css">
+<script language="JavaScript" src="headfoot.js"></script>
+<title>Status dialog</title>
+</head>
+<body>
+<script>header("Status Dialog");</script>
+<div class="text">
+
+<ul>
+<li>
+<b>Left side of of the window</b>
+<ul>
+<li><b>Operations list window</b> - displays list of tasks with different status (finished, cancelled, ...). For each task there is given status of it, current filename being processed, destination folder to which files are stored and percentage progress of a task. </li>
+<li><b>Pause button</b> - pauses selected task. If another task is waiting for this one to be finished it now starts.</li>
+<li><b>Resume button</b> - resumes work of the selected, paused task. Also if task is in wait state (waiting for another one to finish) this button causes it to start. When used on 'wait state' task it ignores <a href="options.htm">configuration</a> option 'Limit maximum operations running simultaneously' ('Copying/moving thread' section).</li>
+<li><b>Restart button</b> - causes selected task to restart. Causes task to run from the beginning (with searching for files).</li>
+<li><b>Cancel button</b> - cancels the currently selected task.</li>
+<li><b>Remove button</b> - when the task is finished or cancelled this command removes task from the list. If task is running program asks if user want to cancel current task.</li>
+<li><b>Pause/all button</b> - work like Pause button, but for all of the tasks.</li>
+<li><b>Resume/all button</b> - work like Resume button, but does not ignore the <a href="options.htm">configuration</a> option 'Limit maximum operations running simultaneously' ('Copying/moving thread' section).</li>
+<li><b>Cancel/all button</b> - cancels all the tasks.</li>
+<li><b>Remove/all button</b> - removes all the cancelled and finished tasks from the list.</li>
+<li><b>Restart/all button</b> - restarts all the tasks from the list.</li>
+<li><b>Stick button</b> - causes the status dialog to be positioned in right-bottom corner of the screen.</li>
+<li><b>'<<' '>>' button</b> - changes the dialog view to simple/advanced.</li>
+<li><b>Advanced button</b> - Shows <a href="advmenu.htm">menu with advanced options</a> regarding one or more tasks from the list.</li>
+</ul>
+</li>
+
+<li>
+<b>Current selection statistics</b> - statistics for the task selected in Operations list window.
+<ul>
+<li><b>Associated file</b> - filename that contains info about current task. When you restart the system, Copy Handler loads task info from this file. Files are placed in a location specified by <a href="options.htm">configuration</a> option 'Folder for temporary data' (in 'Program' section).</li>
+<li><b>Operation</b> - specifies type and status of the selected task.</li>
+<li><b>Source object</b> - current filename that is being processed (copied or moved into destination location).</li>
+<li><b>Destination object</b> - destination folder into which the selected task copies the files and folders.</li>
+<li><b>Buffer size</b> - specifies the buffer size which is currently being used for the copying. You may change the size of the buffers by clicking on '...' button on the right. It will bring up the <a href="buffersize.htm">buffer size dialog</a>.</li>
+<li><b>Thread priority</b> - task priority at which the thread is running. You can change it by clicking the '>' button on the right and choosing from the menu needed priority.</li>
+<li><b>Comments</b> - displays error descriptions if any occurred.</li>
+<li><b>View log button</b> - shows log file contents associated with the current task.</li>
+<li><b>Processed</b> - gives info on how many files and folders has been processed/count of all files and folders, size of data that has been processed/count of all data and passes that has been made/count of all passes. There are more than 1 pass when you specify more than one copy to make.</li>
+<li><b>Time</b> - displays elapsed time (of this tasks' working), the total estimated time that the operation would take, and the estimated time left.</li>
+<li><b>Transfer</b> - shows current transfer rate for this task (current and average). The current speed of copying is measured by dividing the size of data that has been copied in the last interval of time (it is about value specified in <a href="options.htm">configuration</a> option 'Refresh status every ... [ms]' in 'Status dialog' section) by the real, precise time that passed when copying the data. The data may be a bit inaccurate when using large buffers. Program reads one buffer at a time, so it may happen that when using large buffers or a small refresh intervals the transfer will drastically change from 0 B/s to i.e. 24MB/s (for 24MB buffer). Average speed is measured by dividing size of all the copied data by the overall time.</li>
+<li><b>Progress</b> - file-size based progress bar.</li>
+</ul>
+</li>
+
+<li>
+<b>Global statistics</b>
+<ul>
+<li><b>Processed</b> - very similar to 'Processed' from above, but it displays info about all the tasks in a list (it doesn't matter if it's finished, cancelled, or running).</li>
+<li><b>Transfer</b> - displays current transfer for all running tasks in a list</li>
+<li><b>Progress</b> - size-based progress bar for all the tasks in a list (ignores state of a task. Counts all of them).</li>
+</ul>
+</li>
+</div>
+<hr>
+<div class="seealso">
+See also: <a href="options.htm">Configuration dialog</a>, <a href="advmenu.htm">Advanced context menu</a>, <a href="replacepaths.htm">Replace paths dialog</a>, <a href="buffersize.htm">Buffer size dialog</a>
+</div>
+<script>footer();</script>
+</body>
+</html>
