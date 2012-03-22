@@ -1,0 +1,3 @@
+* Intergrate/use the catchcopy project
+* Improve the performance
+* Resolv the performance bug at: http://ultracopier.first-world.info/articles/security-speed-ultracopier-supercopier-teracopy-copyhandler.html (+35% of worse case of performance lost)
