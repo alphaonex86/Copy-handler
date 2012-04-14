@@ -145,15 +145,15 @@ public:
 
 	// m_clipboard
 	void AddClipboardData(CClipboardEntry* pEntry);
-	CClipboardEntry* GetClipboardData(int nIndex);
+	CClipboardEntry* GetClipboardData(const int &nIndex);
 	int		GetClipboardDataSize();
-	int		ReplaceClipboardStrings(CString strOld, CString strNew);
+	int		ReplaceClipboardStrings(CString strOld,const CString &strNew);
 
 	// m_files
-	int FilesAddDir(const CString strDirName, const CFiltersArray* pFilters, int iSrcIndex,
-		const bool bRecurse, const bool bIncludeDirs);
-	void FilesAdd(CFileInfo fi);
-	CFileInfo FilesGetAt(int nIndex);
+	int FilesAddDir(const CString &strDirName, const CFiltersArray* pFilters,const int &iSrcIndex,
+		const bool &bRecurse, const bool &bIncludeDirs);
+	void FilesAdd(const CFileInfo &fi);
+	CFileInfo FilesGetAt(const int &nIndex);
 	CFileInfo& FilesGetAtCurrentIndex();
 	void FilesRemoveAll();
 	size_t FilesGetSize();
@@ -161,16 +161,16 @@ public:
 	// m_nCurrentIndex
 	void IncreaseCurrentIndex();
 	int  GetCurrentIndex();
-	void SetCurrentIndex(int nIndex);
+	void SetCurrentIndex(const int &nIndex);
 
 	// m_strDestPath
-	void SetDestPath(LPCTSTR lpszPath);
+	void SetDestPath(const LPCTSTR &lpszPath);
 	const CDestPath& GetDestPath();
 	int GetDestDriveNumber();
 
 	// m_nStatus
-	void SetStatus(UINT nStatus, UINT nMask);
-	UINT GetStatus(UINT nMask=0xffffffff);
+	void SetStatus(const UINT &nStatus,const UINT &nMask);
+	UINT GetStatus(const UINT &nMask=0xffffffff);
 
 	// m_nBufferSize
 	void SetBufferSizes(const BUFFERSIZES* bsSizes);
@@ -180,25 +180,25 @@ public:
 	// m_pThread
 	// m_nPriority
 	int  GetPriority();
-	void SetPriority(int nPriority);
+	void SetPriority(const int &nPriority);
 
 	// m_nProcessed
-	void	IncreaseProcessedSize(__int64 nSize);
-	void	SetProcessedSize(__int64 nSize);
+	void	IncreaseProcessedSize(const __int64 &nSize);
+	void	SetProcessedSize(const __int64 &nSize);
 	__int64 GetProcessedSize();
 
 	// m_nAll
-	void	SetAllSize(__int64 nSize);
+	void	SetAllSize(const __int64 &nSize);
 	__int64 GetAllSize();
 	void	CalcAllSize();
 
 	// m_pnTasksProcessed
-	void	IncreaseProcessedTasksSize(__int64 nSize);
-	void	DecreaseProcessedTasksSize(__int64 nSize);
+	void	IncreaseProcessedTasksSize(const __int64 &nSize);
+	void	DecreaseProcessedTasksSize(const __int64 &nSize);
 
 	// m_pnTasksAll
-	void	IncreaseAllTasksSize(__int64 nSize);
-	void	DecreaseAllTasksSize(__int64 nSize);
+	void	IncreaseAllTasksSize(const __int64 &nSize);
+	void	DecreaseAllTasksSize(const __int64 &nSize);
 
 	// m_bKill
 	void SetKillFlag(bool bKill=true);
@@ -228,9 +228,9 @@ public:
 	void GetSnapshot(TASK_DISPLAY_DATA *pData);
 	void GetMiniSnapshot(TASK_MINI_DISPLAY_DATA *pData);
 
-	void DeleteProgress(LPCTSTR lpszDirectory);
+	void DeleteProgress(const LPCTSTR &lpszDirectory);
 
-	void SetOsErrorCode(DWORD dwError, LPCTSTR lpszErrDesc);
+	void SetOsErrorCode(const DWORD &dwError,const LPCTSTR &lpszErrDesc);
 	void CalcProcessedSize();
 
 	void DecreaseOperationsPending(UINT uiBy=1);
@@ -243,14 +243,14 @@ public:
 	void SetFilters(const CFiltersArray* pFilters);
 	const CFiltersArray* GetFilters();
 
-	void SetCopies(unsigned char ucCopies);
+	void SetCopies(const unsigned char &ucCopies);
 	unsigned char GetCopies();
-	void SetCurrentCopy(unsigned char ucCopy);
+	void SetCurrentCopy(const unsigned char &ucCopy);
 	unsigned char GetCurrentCopy();
 
 	CClipboardArray* GetClipboard() { return &m_clipboard; };
 
-	void SetLastProcessedIndex(int iIndex);
+	void SetLastProcessedIndex(const int &iIndex);
 	int GetLastProcessedIndex();
 
 	//	CString GetLogName();
@@ -274,8 +274,8 @@ protected:
 	static void CustomCopyFile(CUSTOM_COPY_PARAMS* pData);
 	static void DeleteFiles(CTask* pTask);
 	static void RecurseDirectories(CTask* pTask);
-	static bool SetFileDirectoryTime(LPCTSTR lpszName, CFileInfo* pSrcInfo);
-	static bool TimeToFileTime(const COleDateTime& time, LPFILETIME pFileTime);
+	static bool SetFileDirectoryTime(const LPCTSTR &lpszName, CFileInfo* pSrcInfo);
+	static bool TimeToFileTime(const COleDateTime& time,const LPFILETIME &pFileTime);
 
 public:
 	//	CLogFile m_log;
@@ -349,9 +349,9 @@ protected:
 class CProcessingException
 {
 public:
-	CProcessingException(int iType, CTask* pTask) { m_iType=iType; m_pTask=pTask; m_dwError=0; };
-	CProcessingException(int iType, CTask* pTask, UINT uiFmtID, DWORD dwError, ...);
-	CProcessingException(int iType, CTask* pTask, DWORD dwError, const tchar_t* pszDesc);
+	CProcessingException(const int &iType, CTask* pTask) { m_iType=iType; m_pTask=pTask; m_dwError=0; };
+	CProcessingException(const int &iType, CTask* pTask, UINT uiFmtID, DWORD dwError, ...);
+	CProcessingException(const int &iType, CTask* pTask, DWORD dwError, const tchar_t* pszDesc);
 
 	// Implementation
 public:
@@ -377,13 +377,13 @@ public:
 
 	int GetSize( );
 	int GetUpperBound( );
-	void SetSize( int nNewSize, int nGrowBy = -1 );
+	void SetSize(const int &nNewSize,const int &nGrowBy = -1 );
 
-	CTask* GetAt( int nIndex );
+	CTask* GetAt( const int &nIndex );
 	//	void SetAt( int nIndex, CTask* newElement );
 	int Add( CTask* newElement );
 
-	void RemoveAt( int nIndex, int nCount = 1 );
+	void RemoveAt( const int &nIndex, const int &nCount = 1 );
 	void RemoveAll();
 	void RemoveAllFinished();
 	void RemoveFinished(CTask** pSelTask);

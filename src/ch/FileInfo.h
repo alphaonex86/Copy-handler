@@ -25,7 +25,7 @@
 #include "DestPath.h"
 
 void FindFreeSubstituteName(CString strSrcPath, CString strDstPath, CString* pstrResult);
-extern void GetDriveData(LPCTSTR lpszPath, int *piDrvNum, UINT *puiDrvType);
+extern void GetDriveData(const LPCTSTR &lpszPath, int *piDrvNum, UINT *puiDrvType);
 
 // CFileInfo flags
 // flag stating that file has been processed (used to determine if file can be deleted at the end of copying)     
@@ -102,11 +102,11 @@ public:
 	// static member
 	static bool Exist(CString strPath);	// check for file or folder existence
 	
-	void Create(const WIN32_FIND_DATA* pwfd, LPCTSTR pszFilePath, int iSrcIndex);
-	bool Create(CString strFilePath, int iSrcIndex);
+	void Create(const WIN32_FIND_DATA* pwfd, const LPCTSTR &pszFilePath,const int &iSrcIndex);
+	bool Create(const CString &strFilePath,const int &iSrcIndex);
 	
 	ULONGLONG GetLength64() const { return m_uhFileSize; }
-	void SetLength64(ULONGLONG uhSize) { m_uhFileSize=uhSize; }
+	void SetLength64(const ULONGLONG &uhSize) { m_uhFileSize=uhSize; }
 
 	// disk - path and disk number (-1 if none - ie. net disk)
 	CString GetFileDrive(void) const;		// returns string with src disk
@@ -121,7 +121,7 @@ public:
 	
 	const CString& GetFilePath(void) const { return m_strFilePath; }	// returns path with m_strFilePath (probably not full)
 	CString GetFullFilePath() const;		/** @cmember returns C:\WINDOWS\WIN.INI for C:\WINDOWS\WIN.INI */
-	void SetFilePath(LPCTSTR lpszPath) { m_strFilePath=lpszPath; };
+	void SetFilePath(const LPCTSTR &lpszPath) { m_strFilePath=lpszPath; };
 	
 	/* Get File times info (equivalent to CFindFile members) */
 	const COleDateTime& GetCreationTime() const { return m_timCreation; };
@@ -144,9 +144,9 @@ public:
 
 	// operations
 	void SetClipboard(CClipboardArray *pClipboard) { m_pClipboard=pClipboard; };
-	CString GetDestinationPath(CString strPath, unsigned char ucCopyNumber, int iFlags);
+	CString GetDestinationPath(CString strPath,const unsigned char &ucCopyNumber,const int &iFlags);
 
-	void SetSrcIndex(int iIndex) { m_iSrcIndex=iIndex; };
+	void SetSrcIndex(const int &iIndex) { m_iSrcIndex=iIndex; };
 	int GetSrcIndex() const { return m_iSrcIndex; };
 
 	bool GetMove() { if (m_iSrcIndex != -1) return m_pClipboard->GetAt(m_iSrcIndex)->GetMove(); else return true; };
@@ -189,14 +189,14 @@ public:
 	void AddDir(CString strDirName, const CFiltersArray* pFilters, int iSrcIndex,
 		const bool bRecurse, const bool bIncludeDirs, const volatile bool* pbAbort=NULL);
 	
-	void AddFile(CString strFilePath, int iSrcIndex);
+	void AddFile(CString strFilePath,const int &iSrcIndex);
 	
 	void AddFileInfo(const CFileInfo& rFileInfo);
 
 	void AppendArray(const CFileInfoArray& arrFiles);
 
 	size_t GetSize() const;
-	CFileInfo& GetAt(size_t stIndex);
+	CFileInfo& GetAt(const size_t &stIndex);
 
 	void Clear();
 

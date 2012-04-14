@@ -24,7 +24,7 @@
 #define new DEBUG_NEW
 #endif
 
-void GetDriveData(LPCTSTR lpszPath, int* piDrvNum, UINT* puiDrvType)
+void GetDriveData(const LPCTSTR &lpszPath, int* piDrvNum, UINT* puiDrvType)
 {
 	TCHAR drv[_MAX_DRIVE+1];
 	
@@ -64,7 +64,7 @@ void GetDriveData(LPCTSTR lpszPath, int* piDrvNum, UINT* puiDrvType)
 	}
 }
 
-void CDestPath::SetPath(LPCTSTR lpszPath)
+void CDestPath::SetPath(const LPCTSTR &lpszPath)
 {
 	m_strPath=lpszPath;
 

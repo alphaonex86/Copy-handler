@@ -304,7 +304,7 @@ bool CFileInfo::Exist(CString strPath)
 		return false;
 }
 
-void CFileInfo::Create(const WIN32_FIND_DATA* pwfd, LPCTSTR pszFilePath, int iSrcIndex)
+void CFileInfo::Create(const WIN32_FIND_DATA* pwfd, const LPCTSTR &pszFilePath,const int &iSrcIndex)
 {
 	BOOST_ASSERT(iSrcIndex == -1 || m_pClipboard);
 	if(iSrcIndex != -1 && !m_pClipboard)
@@ -326,7 +326,7 @@ void CFileInfo::Create(const WIN32_FIND_DATA* pwfd, LPCTSTR pszFilePath, int iSr
 	m_uiFlags = 0;
 }
 
-bool CFileInfo::Create(CString strFilePath, int iSrcIndex)
+bool CFileInfo::Create(const CString &strFilePath,const int &iSrcIndex)
 {
 	WIN32_FIND_DATA wfd;
 	HANDLE hFind;
@@ -495,7 +495,7 @@ bool CFileInfo::operator==(const CFileInfo& rInfo)
 		&& rInfo.m_timLastWrite == m_timLastWrite && rInfo.m_uhFileSize == m_uhFileSize);
 }
 
-CString CFileInfo::GetDestinationPath(CString strPath, unsigned char ucCopyNumber, int iFlags)
+CString CFileInfo::GetDestinationPath(CString strPath,const unsigned char &ucCopyNumber,const int &iFlags)
 {
 	// add '\\'
 	if (strPath.Right(1) != _T("\\"))
@@ -612,7 +612,7 @@ void CFileInfoArray::AddDir(CString strDirName, const CFiltersArray* pFilters, i
 	}
 }
 
-void CFileInfoArray::AddFile(CString strFilePath, int iSrcIndex)
+void CFileInfoArray::AddFile(CString strFilePath,const int &iSrcIndex)
 {
    CFileInfo finf;
 
@@ -639,7 +639,7 @@ size_t CFileInfoArray::GetSize() const
 	return m_vFiles.size();
 }
 
-CFileInfo& CFileInfoArray::GetAt(size_t stIndex)
+CFileInfo& CFileInfoArray::GetAt(const size_t &stIndex)
 {
 	return m_vFiles.at(stIndex);
 }

@@ -29,7 +29,7 @@
 ///////////////////////////////////////////////////////////////////////
 // CProcessingException
 
-CProcessingException::CProcessingException(int iType, CTask* pTask, UINT uiFmtID, DWORD dwError, ...)
+CProcessingException::CProcessingException(const int &iType, CTask* pTask, UINT uiFmtID, DWORD dwError, ...)
 {
 	// std values
 	m_iType=iType;
@@ -47,7 +47,7 @@ CProcessingException::CProcessingException(int iType, CTask* pTask, UINT uiFmtID
 	va_end(marker);
 }
 
-CProcessingException::CProcessingException(int iType, CTask* pTask, DWORD dwError, const tchar_t* pszDesc)
+CProcessingException::CProcessingException(const int &iType, CTask* pTask, DWORD dwError, const tchar_t* pszDesc)
 {
 	// std values
 	m_iType=iType;
@@ -116,7 +116,7 @@ void CTask::AddClipboardData(CClipboardEntry* pEntry)
 	m_cs.Unlock();
 }
 
-CClipboardEntry* CTask::GetClipboardData(int nIndex)
+CClipboardEntry* CTask::GetClipboardData(const int &nIndex)
 {
 	m_cs.Lock();
 	CClipboardEntry* pEntry=m_clipboard.GetAt(nIndex);
@@ -134,7 +134,7 @@ int CTask::GetClipboardDataSize()
 	return rv;
 }
 
-int CTask::ReplaceClipboardStrings(CString strOld, CString strNew)
+int CTask::ReplaceClipboardStrings(CString strOld,const CString &strNew)
 {
 	// small chars to make comparing case insensitive
 	strOld.MakeLower();
@@ -164,8 +164,8 @@ int CTask::ReplaceClipboardStrings(CString strOld, CString strNew)
 }
 
 // m_files
-int CTask::FilesAddDir(const CString strDirName, const CFiltersArray* pFilters, int iSrcIndex,
-					   const bool bRecurse, const bool bIncludeDirs)
+int CTask::FilesAddDir(const CString &strDirName, const CFiltersArray* pFilters,const int &iSrcIndex,
+					   const bool &bRecurse, const bool &bIncludeDirs)
 {
 	// this uses much of memory, but resolves problem critical section hungs and m_bKill
 	CFileInfoArray fa(m_clipboard);
@@ -181,7 +181,7 @@ int CTask::FilesAddDir(const CString strDirName, const CFiltersArray* pFilters, 
 	return 0;
 }
 
-void CTask::FilesAdd(CFileInfo fi)
+void CTask::FilesAdd(const CFileInfo &fi)
 {
 	m_cs.Lock();
 	if (fi.IsDirectory() || m_afFilters.Match(fi))
@@ -189,7 +189,7 @@ void CTask::FilesAdd(CFileInfo fi)
 	m_cs.Unlock();
 }	
 
-CFileInfo CTask::FilesGetAt(int nIndex)
+CFileInfo CTask::FilesGetAt(const int &nIndex)
 {
 	m_cs.Lock();
 	CFileInfo info=m_files.GetAt(nIndex);
@@ -239,7 +239,7 @@ int CTask::GetCurrentIndex()
 	return nIndex;
 }
 
-void CTask::SetCurrentIndex(int nIndex)
+void CTask::SetCurrentIndex(const int &nIndex)
 {
 	m_cs.Lock();
 	m_nCurrentIndex=nIndex;
@@ -247,7 +247,7 @@ void CTask::SetCurrentIndex(int nIndex)
 }
 
 // m_strDestPath - adds '\\'
-void CTask::SetDestPath(LPCTSTR lpszPath)
+void CTask::SetDestPath(const LPCTSTR &lpszPath)
 {
 	m_dpDestPath.SetPath(lpszPath);
 }
@@ -264,7 +264,7 @@ int CTask::GetDestDriveNumber()
 }
 
 // m_nStatus
-void CTask::SetStatus(UINT nStatus, UINT nMask)
+void CTask::SetStatus(const UINT &nStatus,const UINT &nMask)
 {
 	m_cs.Lock();
 	m_nStatus &= ~nMask;
@@ -272,7 +272,7 @@ void CTask::SetStatus(UINT nStatus, UINT nMask)
 	m_cs.Unlock();
 }
 
-UINT CTask::GetStatus(UINT nMask)
+UINT CTask::GetStatus(const UINT &nMask)
 {
 	m_cs.Lock();
 	UINT nStatus=m_nStatus;
@@ -321,7 +321,7 @@ int CTask::GetPriority()
 	return nPriority;
 }
 
-void CTask::SetPriority(int nPriority)
+void CTask::SetPriority(const int &nPriority)
 {
 	m_cs.Lock();
 	m_nPriority=nPriority;
@@ -337,14 +337,14 @@ void CTask::SetPriority(int nPriority)
 }
 
 // m_nProcessed
-void CTask::IncreaseProcessedSize(__int64 nSize)
+void CTask::IncreaseProcessedSize(const __int64 &nSize)
 {
 	m_cs.Lock();
 	m_nProcessed+=nSize;
 	m_cs.Unlock();
 }
 
-void CTask::SetProcessedSize(__int64 nSize)
+void CTask::SetProcessedSize(const __int64 &nSize)
 {
 	m_cs.Lock();
 	m_nProcessed=nSize;
@@ -361,7 +361,7 @@ __int64 CTask::GetProcessedSize()
 }
 
 // m_nAll
-void CTask::SetAllSize(__int64 nSize)
+void CTask::SetAllSize(const __int64 &nSize)
 {
 	m_cs.Lock();
 	m_nAll=nSize;
@@ -414,7 +414,7 @@ void CTask::CalcProcessedSize()
 }
 
 // m_pnTasksProcessed
-void CTask::IncreaseProcessedTasksSize(__int64 nSize)
+void CTask::IncreaseProcessedTasksSize(const __int64 &nSize)
 {
 	//	m_cs.Lock();
 	m_pcs->Lock();
@@ -423,7 +423,7 @@ void CTask::IncreaseProcessedTasksSize(__int64 nSize)
 	//	m_cs.Unlock();
 }
 
-void CTask::DecreaseProcessedTasksSize(__int64 nSize)
+void CTask::DecreaseProcessedTasksSize(const __int64 &nSize)
 {
 	//	m_cs.Lock();
 	m_pcs->Lock();
@@ -433,7 +433,7 @@ void CTask::DecreaseProcessedTasksSize(__int64 nSize)
 }
 
 // m_pnTasksAll
-void CTask::IncreaseAllTasksSize(__int64 nSize)
+void CTask::IncreaseAllTasksSize(const __int64 &nSize)
 {
 	//	m_cs.Lock();
 	m_pcs->Lock();
@@ -442,7 +442,7 @@ void CTask::IncreaseAllTasksSize(__int64 nSize)
 	//	m_cs.Unlock();
 }
 
-void CTask::DecreaseAllTasksSize(__int64 nSize)
+void CTask::DecreaseAllTasksSize(const __int64 &nSize)
 {
 	//	m_cs.Lock();
 	m_pcs->Lock();
@@ -924,7 +924,7 @@ void CTask::GetSnapshot(TASK_DISPLAY_DATA *pData)
 	m_cs.Unlock();
 }
 
-void CTask::DeleteProgress(LPCTSTR lpszDirectory)
+void CTask::DeleteProgress(const LPCTSTR &lpszDirectory)
 {
 	m_cs.Lock();
 	DeleteFile(lpszDirectory+m_strUniqueName+_T(".atd"));
@@ -933,7 +933,7 @@ void CTask::DeleteProgress(LPCTSTR lpszDirectory)
 	m_cs.Unlock();
 }
 
-void CTask::SetOsErrorCode(DWORD dwError, LPCTSTR lpszErrDesc)
+void CTask::SetOsErrorCode(const DWORD &dwError,const LPCTSTR &lpszErrDesc)
 {
 	m_cs.Lock();
 	m_lOsError=dwError;
@@ -1012,7 +1012,7 @@ bool CTask::CanBegin()
 	return bRet;
 }
 
-void CTask::SetCopies(unsigned char ucCopies)
+void CTask::SetCopies(const unsigned char &ucCopies)
 {
 	m_cs.Lock();
 	m_ucCopies=ucCopies;
@@ -1029,7 +1029,7 @@ unsigned char CTask::GetCopies()
 	return ucCopies;
 }
 
-void CTask::SetCurrentCopy(unsigned char ucCopy)
+void CTask::SetCurrentCopy(const unsigned char &ucCopy)
 {
 	m_cs.Lock();
 	m_ucCurrentCopy=ucCopy;
@@ -1045,7 +1045,7 @@ unsigned char CTask::GetCurrentCopy()
 	return ucCopy;
 }
 
-void CTask::SetLastProcessedIndex(int iIndex)
+void CTask::SetLastProcessedIndex(const int &iIndex)
 {
 	m_cs.Lock();
 	m_iLastProcessedIndex=iIndex;
@@ -1186,14 +1186,14 @@ int CTaskArray::GetUpperBound( )
 	return upper-1;
 }
 
-void CTaskArray::SetSize( int nNewSize, int nGrowBy )
+void CTaskArray::SetSize(const int &nNewSize,const int &nGrowBy )
 {
 	m_cs.Lock();
 	(static_cast<CArray<CTask*, CTask*>*>(this))->SetSize(nNewSize, nGrowBy);
 	m_cs.Unlock();
 }
 
-CTask* CTaskArray::GetAt( int nIndex )
+CTask* CTaskArray::GetAt( const int &nIndex )
 {
 	ASSERT(nIndex >= 0 && nIndex < m_nSize);
 	m_cs.Lock();
@@ -1231,7 +1231,7 @@ int CTaskArray::Add( CTask* newElement )
 	return pos;
 }
 
-void CTaskArray::RemoveAt(int nIndex, int nCount)
+void CTaskArray::RemoveAt(const int &nIndex,const int &nCount)
 {
 	m_cs.Lock();
 	for (int i=nIndex;i<nIndex+nCount;i++)
@@ -1525,7 +1525,7 @@ void CTaskArray::SetTasksDir(const tchar_t* pszPath)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // case insensitive replacement
-bool CTask::TimeToFileTime(const COleDateTime& time, LPFILETIME pFileTime)
+bool CTask::TimeToFileTime(const COleDateTime& time,const LPFILETIME &pFileTime)
 {
 	SYSTEMTIME sysTime;
 	sysTime.wYear = (WORD)time.GetYear();
@@ -1548,7 +1548,7 @@ bool CTask::TimeToFileTime(const COleDateTime& time, LPFILETIME pFileTime)
 	return true;
 }
 
-bool CTask::SetFileDirectoryTime(LPCTSTR lpszName, CFileInfo* pSrcInfo)
+bool CTask::SetFileDirectoryTime(const LPCTSTR &lpszName, CFileInfo* pSrcInfo)
 {
 	FILETIME creation, lastAccess, lastWrite;
 

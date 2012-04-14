@@ -25,7 +25,7 @@ class CDestPath
 {
 public:
 	CDestPath() { m_iDriveNumber=-1; m_uiDriveType=static_cast<UINT>(-1); };
-	void SetPath(LPCTSTR lpszPath);
+	void SetPath(const LPCTSTR &lpszPath);
 	const CString& GetPath() const { return m_strPath; };
 
 	int GetDriveNumber() const { return m_iDriveNumber; };
